@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SF Accountability Ledger</title>
+  <meta name="description" content="Whether San Francisco meets the homelessness, behavioral health and drug policy reporting deadlines written into its own laws." />
+  <meta property="og:title" content="SF Accountability Ledger" />
+  <meta property="og:description" content="The city's own deadlines, its own dates, and whether the document exists. Every absence claim publishes its search log." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="figure" id="hero-figure">–</div>
+      <div class="caption" id="hero-caption">Loading…</div>
+    </section>
+
+    <p class="note" id="intro">
+      San Francisco writes reporting deadlines into its own ordinances. This tracks whether the
+      documents actually appear. Every row cites the law that creates the duty, and every claim that
+      something is missing publishes the list of places we looked and when.
+    </p>
+
+    <table class="ledger" id="ledger">
+      <thead>
+        <tr><th>Obligation</th><th>Owed by</th><th>Due</th><th>Status</th><th>Findability</th><th style="text-align:right">Overdue</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="legend note" id="legend"></div>
+    <div class="footnote" id="foot"></div>
+  </main>
+  <script type="module" src="/src/ledger.js"></script>
+</body>
+</html>

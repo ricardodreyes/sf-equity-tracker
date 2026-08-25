@@ -1,0 +1,126 @@
+{
+ "test": "SF Admin Code Sec. 124.2(b) Fair Share Rule, applied at supervisorial district level",
+ "is_proxy": true,
+ "proxy_caveat": "The ordinance's Fair Share Rule is defined on Analysis Neighborhoods, not districts. No neighborhood-level unsheltered table has ever been published, which is why this is a proxy.",
+ "bed_source": "HSH Temporary Shelter Programs report, 2026-04-13",
+ "bed_coverage": {
+  "mapped": 3020,
+  "citywide_hic_2026": 5148,
+  "note": "These are the 3,020 beds we can place at a specific address. The 2026 Housing Inventory Count reports 5,148 shelter and transitional beds citywide, so roughly 41% of the city's beds are not represented and every share below is approximate."
+ },
+ "unsheltered_source": "2024 San Francisco Point-in-Time Count Report, Figure 02, 'Complete Homeless Point-in-Time Count Population by District and Shelter Status, 2022-2024'",
+ "unsheltered_source_url": "https://api.sf.gov/documents/31917/2024_San_Francisco_Point-in-Time_Count_Report_8_13_24.pdf",
+ "excluded": {
+  "confidential_scattered_site": 203,
+  "why": "Published as a single citywide line with no district attribution, and confidential locations are excluded from this project by policy."
+ },
+ "totals": {
+  "beds": 3020,
+  "unsheltered": 4354
+ },
+ "districts": [
+  {
+   "district": "1",
+   "beds": 0,
+   "bed_share": 0.0,
+   "unsheltered": 130,
+   "unsheltered_share": 3.0,
+   "over_served": false,
+   "ratio": 0.0
+  },
+  {
+   "district": "2",
+   "beds": 54,
+   "bed_share": 1.8,
+   "unsheltered": 127,
+   "unsheltered_share": 2.9,
+   "over_served": false,
+   "ratio": 0.62
+  },
+  {
+   "district": "3",
+   "beds": 707,
+   "bed_share": 23.4,
+   "unsheltered": 255,
+   "unsheltered_share": 5.9,
+   "over_served": true,
+   "ratio": 3.97
+  },
+  {
+   "district": "4",
+   "beds": 0,
+   "bed_share": 0.0,
+   "unsheltered": 193,
+   "unsheltered_share": 4.4,
+   "over_served": false,
+   "ratio": 0.0
+  },
+  {
+   "district": "5",
+   "beds": 283,
+   "bed_share": 9.4,
+   "unsheltered": 975,
+   "unsheltered_share": 22.4,
+   "over_served": false,
+   "ratio": 0.42
+  },
+  {
+   "district": "6",
+   "beds": 1079,
+   "bed_share": 35.7,
+   "unsheltered": 766,
+   "unsheltered_share": 17.6,
+   "over_served": true,
+   "ratio": 2.03
+  },
+  {
+   "district": "7",
+   "beds": 0,
+   "bed_share": 0.0,
+   "unsheltered": 157,
+   "unsheltered_share": 3.6,
+   "over_served": false,
+   "ratio": 0.0
+  },
+  {
+   "district": "8",
+   "beds": 10,
+   "bed_share": 0.3,
+   "unsheltered": 142,
+   "unsheltered_share": 3.3,
+   "over_served": false,
+   "ratio": 0.09
+  },
+  {
+   "district": "9",
+   "beds": 344,
+   "bed_share": 11.4,
+   "unsheltered": 580,
+   "unsheltered_share": 13.3,
+   "over_served": false,
+   "ratio": 0.86
+  },
+  {
+   "district": "10",
+   "beds": 543,
+   "bed_share": 18.0,
+   "unsheltered": 1010,
+   "unsheltered_share": 23.2,
+   "over_served": false,
+   "ratio": 0.78
+  },
+  {
+   "district": "11",
+   "beds": 0,
+   "bed_share": 0.0,
+   "unsheltered": 19,
+   "unsheltered_share": 0.4,
+   "over_served": false,
+   "ratio": 0.0
+  }
+ ],
+ "over_served": [
+  "3",
+  "6"
+ ]
+}

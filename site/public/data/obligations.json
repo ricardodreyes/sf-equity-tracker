@@ -1,0 +1,667 @@
+{
+ "generated_note": "Hand-curated. Every row verified against primary sources. See research/deadline-findings.md.",
+ "obligations": [
+  {
+   "id": "ch124-shelter-equity-analysis",
+   "title": "Shelter Equity Analysis",
+   "topic": "homelessness",
+   "what": "For each Neighborhood: the number of unsheltered persons, that Neighborhood's share of the City's unsheltered persons, the total shelter and transitional housing beds located there, and its share of citywide beds.",
+   "law": {
+    "citation": "SF Admin Code Sec. 124.2(a)",
+    "ordinance": "Ordinance 172-25 (Board File 250487)",
+    "quote": "Within 15 days of the Operative Date, HSH and the Planning Department shall prepare a Shelter Equity Analysis based on data from the 2024 PIT Count.",
+    "ordinance_url": "https://sfbos.org/sites/default/files/o0172-25.pdf",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-72544"
+   },
+   "owed_by": [
+    "Department of Homelessness and Supportive Housing",
+    "Planning Department"
+   ],
+   "due": "2026-01-16",
+   "due_basis": "15 days after the Operative Date of 2026-01-01",
+   "due_certainty": "firm",
+   "cadence": "biennial, refreshed within 60 days of each Point-in-Time Count release",
+   "status": "missing",
+   "discoverability": "absent",
+   "why_it_matters": "Sec. 124.2(b)'s Fair Share Rule blocks new City-funded facilities in any Neighborhood whose share of beds exceeds its share of unsheltered persons. Without this analysis the rule has no published input, so nobody outside the City can check whether a siting decision complies.",
+   "checked": [
+    {
+     "method": "Enumerated the entire sf.gov CMS document store and filtered every title and description",
+     "url": "https://api.sf.gov/api/v2/documents/?order=-id&limit=1000",
+     "result": "0 of 58,905 documents match",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Enumerated every page of type sf.Report",
+     "url": "https://api.sf.gov/api/v2/pages/?type=sf.Report&limit=1000",
+     "result": "0 of 5,547 pages match",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Paginated CMS ids 43443 to 62484, covering 2025-08-14 through 2026-08-24, which brackets the deadline",
+     "url": "https://api.sf.gov/api/v2/documents/",
+     "result": "18,000 records, no match",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Keyword search, both endpoints, 7 phrasings",
+     "url": "https://api.sf.gov/api/v2/documents/?search=shelter+equity+analysis",
+     "result": "total_count 0",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Planning Department site and Planning Commission agenda archive, which are outside the sf.gov CMS",
+     "url": "https://sfplanning.org",
+     "result": "not found",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "HSH Additional Reporting and Compliance collection, the page where HSH lists filings against their mandating authority",
+     "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
+     "result": "no Chapter 124 entry",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [
+    {
+     "title": "Home by the Bay: Equity Addendum, Equity Analysis Executive Summary",
+     "url": "https://media.api.sf.gov/documents/Equity_Analysis_-_Executive_Summary.pdf",
+     "why_not": "A racial and demographic disparity analysis of homelessness system outcomes across nine metrics. Chapter 124 requires a geographic analysis by Neighborhood. It was also created 2025-11-20, before the 2026-01-01 operative date, so it cannot discharge a duty that had not yet attached."
+    },
+    {
+     "title": "Shelter Monitoring Committee emergency report, March 2026",
+     "url": "https://api.sf.gov/documents/60248/Equity_Report_-_March_2026.pdf",
+     "why_not": "Authored by the Shelter Monitoring Committee, not by HSH and the Planning Department as the section requires, and it contains no per-Neighborhood bed or unsheltered table. Notable in its own right: it warned of unaddressed inequities and data gaps, and the Committee was abolished by Ordinance 99-26 three months later."
+    },
+    {
+     "title": "Controller's Assessment of the San Francisco Shelter System, December 2024",
+     "url": "https://media.api.sf.gov/documents/CON_Shelter_Assessment_Report.pdf",
+     "why_not": "Contains a section headed Shelter System Demographics and Equity Analysis at page 30, but it is a Controller product from before the ordinance, not the HSH and Planning deliverable, and it has no Neighborhood share table."
+    }
+   ],
+   "open_lead": "KQED reported on 2025-11-11 that a Budget and Legislative Analyst analysis showed neighborhood-level service versus need discrepancies using the figures this section calls for. If that product is public, the City had the analysis before the deadline.",
+   "watch_terms": [
+    "shelter equity",
+    "equitable distribution",
+    "covered facilit"
+   ],
+   "we_built_instead": {
+    "label": "We built as much of it as public data allows",
+    "href": "/evidence.html"
+   },
+   "requests": [],
+   "request": {
+    "targets": [
+     {
+      "agency": "HSH",
+      "portal": "https://sanfrancisco.nextrequest.com"
+     },
+     {
+      "agency": "Planning Department",
+      "portal": "mailto:CPC-RecordRequest@sfgov.org",
+      "note": "Planning is off portal and takes requests by email only"
+     }
+    ],
+    "subject": "Immediate Disclosure Request: Shelter Equity Analysis, Admin Code 124.2(a)",
+    "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the Shelter Equity Analysis prepared under San Francisco Administrative Code section 124.2(a), added by Ordinance 172-25, together with any draft, memorandum, spreadsheet or dataset prepared in connection with it. Section 124.2(a) required HSH and the Planning Department to prepare this analysis within 15 days of the January 1, 2026 operative date, using 2024 Point-in-Time Count data, showing for each Neighborhood the number of unsheltered persons, that Neighborhood's share of citywide unsheltered persons, the total shelter and transitional housing beds located there, and its share of citywide beds.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
+   }
+  },
+  {
+   "id": "street-teams-report",
+   "title": "Street Teams annual report",
+   "topic": "homelessness",
+   "what": "Report to the Board on the efficiency and effectiveness of the City's street teams: goals, metrics, milestones, team structure and staffing, shelter types offered and rejection rates by type, capacity constraints, data-sharing obstructions, and response to the 2023 Budget and Legislative Analyst audit.",
+   "law": {
+    "citation": "SF Admin Code Sec. 20.11-2",
+    "ordinance": "Ordinance 251-24 (Board File 240805), effective 2024-12-08",
+    "quote": "Starting in 2025, reports shall be due annually on the last Friday of September.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-57760"
+   },
+   "owed_by": [
+    "Department of Emergency Management",
+    "HSH",
+    "DPH",
+    "Fire Department"
+   ],
+   "due": "2025-09-26",
+   "due_basis": "The last Friday of September 2025, the first year the duty applied",
+   "due_certainty": "firm",
+   "cadence": "annual",
+   "status": "missing",
+   "discoverability": "absent",
+   "why_it_matters": "Sec. 20.11-2(e) separately requires DEM to post each report on its own website within 10 calendar days of submitting it. Absence from DEM's site is therefore not just our failure to find it, it is a second, independent breach.",
+   "checked": [
+    {
+     "method": "Department of Emergency Management website, full document listing",
+     "url": "https://www.sf.gov/departments--emergency-management",
+     "result": "exactly one PDF on the entire site, a 2021 security camera policy",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "sf.gov CMS enumeration and search for street teams reporting",
+     "url": "https://api.sf.gov/api/v2/documents/?search=street+teams",
+     "result": "no report responsive to Sec. 20.11-2",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [
+    {
+     "title": "Street Response Teams report, FY23-24, published October 2024",
+     "url": "https://www.sf.gov/departments--emergency-management",
+     "why_not": "A voluntary predecessor published before Ordinance 251-24 took effect on 2024-12-08. It cannot satisfy a duty that did not yet exist, and no equivalent was published in the 2025 cycle."
+    }
+   ],
+   "watch_terms": [
+    "street team",
+    "street response team"
+   ],
+   "requests": [],
+   "request": {
+    "targets": [
+     {
+      "agency": "Department of Emergency Management",
+      "portal": "https://sanfrancisco.nextrequest.com"
+     }
+    ],
+    "subject": "Immediate Disclosure Request: Street Teams report, Admin Code 20.11-2",
+    "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the Street Teams report required by San Francisco Administrative Code section 20.11-2, due on the last Friday of September 2025, together with any draft or transmittal correspondence. I also request records sufficient to show whether the report was posted on the Department's website as section 20.11-2(e) requires within 10 calendar days of submission.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
+   }
+  },
+  {
+   "id": "rapid-rehousing-report",
+   "title": "Rapid Rehousing implementation hearing and report",
+   "topic": "homelessness",
+   "what": "A hearing on implementation of the Rapid Rehousing Programs plus an issued report covering households served, average subsidy, and outcomes.",
+   "law": {
+    "citation": "SF Admin Code Sec. 20.21-4",
+    "ordinance": "Ordinance 289-24 (Board File 241038)",
+    "quote": "Report and hearing due by December 1.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin"
+   },
+   "owed_by": [
+    "Homelessness Oversight Commission",
+    "HSH"
+   ],
+   "due": "2025-12-01",
+   "due_basis": "December 1 deadline set by Sec. 20.21-4",
+   "due_certainty": "firm",
+   "cadence": "annual",
+   "status": "missing",
+   "discoverability": "absent",
+   "why_it_matters": "This is the only duty the Homelessness Oversight Commission owes on a clock. Charter Sec. 4.133, which created the Commission, sets no reporting cadence at all.",
+   "checked": [
+    {
+     "method": "Read the agenda of every Homelessness Oversight Commission meeting from January 2025 through August 2026",
+     "url": "https://www.sf.gov/homelessness-oversight-commission",
+     "result": "no Rapid Rehousing implementation hearing on any agenda in the span; only routine contract approvals",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Meeting cancellations checked against the deadline window",
+     "url": "https://www.sf.gov/homelessness-oversight-commission",
+     "result": "the Commission cancelled its October 2, November 6, December 4 and January 1 meetings, which spans the December 1 deadline",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "no_near_miss_reason": "No document or hearing of any kind resembling this deliverable was located, so there is nothing to list as considered and rejected.",
+   "watch_terms": [
+    "rapid re-?housing"
+   ],
+   "requests": [],
+   "request": {
+    "targets": [
+     {
+      "agency": "HSH",
+      "portal": "https://sanfrancisco.nextrequest.com"
+     }
+    ],
+    "subject": "Immediate Disclosure Request: Rapid Rehousing report, Admin Code 20.21-4",
+    "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the Rapid Rehousing implementation report required by San Francisco Administrative Code section 20.21-4, due December 1, 2025, covering households served, average subsidy and outcomes, together with any records showing whether the accompanying implementation hearing was scheduled, noticed, held, or cancelled.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
+   }
+  },
+  {
+   "id": "cgj-at-scale-60day",
+   "title": "Civil Grand Jury responses, 60 day (At Scale, At Risk)",
+   "topic": "homelessness",
+   "what": "Written responses to the 2025-26 Civil Grand Jury report on homelessness data and oversight. The Mayor must comment on all five findings and thirteen recommendations; the City Attorney on Finding 4 and Recommendation 4.1. Responses were also requested from the Homelessness Oversight Commission, HSH, the Controller and the Office of Contract Administration.",
+   "law": {
+    "citation": "Cal. Penal Code Sec. 933(c) and 933.05",
+    "ordinance": "SF Civil Grand Jury 2025-2026, At Scale, At Risk, published 2026-06-23",
+    "quote": "The elected county officer or agency head shall comment within 60 days to the presiding judge of the superior court.",
+    "code_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=933.05",
+    "report_url": "https://media.api.sf.gov/documents/2026_CGJ_Rpt_At_Scale_At_Risk_-_Upgrading_Data_and_Oversight_to_Improve_Homele_woZ0ksh.pdf"
+   },
+   "owed_by": [
+    "Mayor",
+    "City Attorney"
+   ],
+   "due": "2026-08-24",
+   "due_basis": "60 days from publication on 2026-06-23 falls on Saturday 2026-08-22, which rolls to the next business day",
+   "due_certainty": "firm",
+   "cadence": "per-event",
+   "status": "missing",
+   "discoverability": "absent",
+   "why_it_matters": "Penal Code 933.05 also caps any 'requires further analysis' answer at six months from publication, so a deferral cannot be open ended. Finding 5 of this report records that Ordinance 99-26 left no independent body able to make unannounced inspections of any City-funded shelter or supportive housing. The Commission calendared the report on 2026-07-31, so the deadline was not overlooked for want of awareness.",
+   "checked": [
+    {
+     "method": "Civil Grand Jury 2025-2026 resource collection, the canonical venue where responses are appended beneath each report",
+     "url": "https://www.sf.gov/resource--2026--civil-grand-jury-reports-2025-2026/",
+     "result": "carries only the report and its press release, no response document of any kind",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Freshness control: confirmed the same page is actively maintained",
+     "url": "https://www.sf.gov/resource--2026--civil-grand-jury-reports-2025-2026/",
+     "result": "responses to the jails report were posted 2026-08-07, so the absence is real rather than a stale page",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Homelessness Oversight Commission agenda of 2026-07-31, items 10A and 10B, where the report was calendared",
+     "url": "https://api.sf.gov/api/v2/documents/61423/",
+     "result": "the Commission took the report up and one commissioner filed an individual position (item 10B), but no Commission response document was published, and the Mayor and City Attorney responses required by Penal Code 933.05 are separate from anything the Commission does",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "no_near_miss_reason": "Responses are published in one known place and that place is empty for this report. There is no plausible alternative venue to rule out.",
+   "watch_terms": [
+    "grand jury.{0,40}respon",
+    "respon.{0,40}grand jury",
+    "at scale.{0,30}respon"
+   ],
+   "requests": [],
+   "request": {
+    "targets": [
+     {
+      "agency": "Mayor's Office",
+      "portal": "https://sanfrancisco.nextrequest.com"
+     },
+     {
+      "agency": "City Attorney",
+      "portal": "https://sanfrancisco.nextrequest.com"
+     }
+    ],
+    "subject": "Immediate Disclosure Request: Civil Grand Jury response, At Scale At Risk",
+    "note": "Civil Grand Jury responses are filed with the Presiding Judge of the Superior Court, not published by the responding office, so a records request is the practical route to a copy. The court's own file is the authoritative venue and should be checked in parallel.",
+    "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the written response to the 2025-2026 Civil Grand Jury report 'At Scale, At Risk: Upgrading Data and Oversight to Improve Homelessness Services', published June 23, 2026, required under California Penal Code sections 933(c) and 933.05 within 60 days, together with any transmittal correspondence to the Presiding Judge.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
+   }
+  },
+  {
+   "id": "cgj-at-scale-90day",
+   "title": "Board of Supervisors response, 90 day (At Scale, At Risk)",
+   "topic": "homelessness",
+   "what": "The Board's response resolution to Findings 1 through 3 and Recommendations 1.1, 1.4, 2.1 and 3.1 of the same Civil Grand Jury report.",
+   "law": {
+    "citation": "Cal. Penal Code Sec. 933(c)",
+    "ordinance": "SF Civil Grand Jury 2025-2026, At Scale, At Risk",
+    "quote": "The governing body of the public agency shall comment to the presiding judge of the superior court within 90 days.",
+    "code_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=933"
+   },
+   "owed_by": [
+    "Board of Supervisors"
+   ],
+   "due": "2026-09-21",
+   "due_basis": "90 days from publication on 2026-06-23",
+   "due_certainty": "firm",
+   "cadence": "per-event",
+   "status": "not_yet_due",
+   "discoverability": "absent",
+   "why_it_matters": "Included before it comes due so the ledger demonstrates it is a clock, not a grievance list.",
+   "checked": [
+    {
+     "method": "Civil Grand Jury 2025-2026 resource collection",
+     "url": "https://www.sf.gov/resource--2026--civil-grand-jury-reports-2025-2026/",
+     "result": "not yet filed, not yet due",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "no_near_miss_reason": "Not yet due.",
+   "watch_terms": [
+    "grand jury.{0,40}respon",
+    "respon.{0,40}grand jury",
+    "at scale.{0,30}respon"
+   ],
+   "requests": []
+  },
+  {
+   "id": "ch124-semiannual-report",
+   "title": "Semiannual report on Covered Facilities Approved",
+   "topic": "homelessness",
+   "what": "A report to the Board describing every Covered Facility approved in the prior six months, with address, Neighborhood and its share of citywide beds, facility type, approval date, whether a Board waiver was required, the Neighborhoods considered but rejected, and the steps taken to find a site in a Neighborhood with no shelter.",
+   "law": {
+    "citation": "SF Admin Code Sec. 124.4",
+    "ordinance": "Ordinance 172-25 (Board File 250487)",
+    "quote": "Within six months of the Operative Date, and every six months thereafter, the Director of Real Estate, in consultation with DPH and HSH, shall submit to the Board of Supervisors a report describing all Covered Facilities that have been Approved by the City in the prior six month period.",
+    "ordinance_url": "https://sfbos.org/sites/default/files/o0172-25.pdf"
+   },
+   "owed_by": [
+    "Director of Real Estate, Office of the City Administrator"
+   ],
+   "due": "2026-07-01",
+   "due_basis": "Six months after the Operative Date of 2026-01-01",
+   "due_certainty": "firm",
+   "cadence": "semiannual",
+   "status": "filed",
+   "discoverability": "buried",
+   "filed_on": "2026-07-23",
+   "filed_window": "Received by the Clerk between 2026-07-16 and 2026-07-23 per the agenda's own heading",
+   "why_it_matters": "This row is why the tracker scores findability separately from compliance. The report was filed. It is also effectively invisible: it has no page on sf.gov, no CMS document record, and nothing on the Real Estate Division or City Administrator sites. It appears only as Petitions and Communications item (9) inside the July 28 2026 Board agenda packet. It is titled June 2026 Shelter Equity Analysis Report, which collides with the name of the different deliverable owed under Sec. 124.2(a). It is a one page letter reporting that nothing happened.",
+   "checked": [
+    {
+     "method": "Board of Supervisors agenda for 2026-07-28, Petitions and Communications, item (9), read directly",
+     "url": "https://www.sf.gov/documents/61026/bag072826_agenda.pdf",
+     "result": "FOUND. 'From the Office of the City Administrator (ADM), pursuant to Administrative Code, Section 124.4, submitting the June 2026 Shelter Equity Analysis Report. Copy: Each Supervisor.'",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Legistar file and packet attachment",
+     "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=15713416&GUID=A7773291-2433-4D63-860D-DB659FD6FAEA",
+     "result": "Board File 260866, report reproduced in full in the 2026-07-28 board packet",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "sf.gov CMS, checked for any standalone record of this report",
+     "url": "https://api.sf.gov/api/v2/documents/?search=covered+facilities",
+     "result": "no CMS document record exists for it",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Real Estate Division and City Administrator department pages",
+     "url": "https://www.sf.gov/departments--city-administrator",
+     "result": "not published on either",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "correction": {
+    "date": "2026-08-25",
+    "text": "An earlier draft of this project listed this report as missing. That was wrong. It was found by two independent adversarial checks and then confirmed by hand in the Board's own agenda. The error is left visible here on purpose: it is exactly the failure mode this site's method exists to prevent."
+   },
+   "watch_terms": [
+    "covered facilit",
+    "124.4",
+    "real estate division report"
+   ],
+   "requests": []
+  },
+  {
+   "id": "ocoh-needs-assessment",
+   "title": "Our City Our Home triennial homelessness needs assessment",
+   "topic": "homelessness",
+   "what": "A written needs assessment covering homelessness and homeless populations, including available data on subpopulations by race, family composition, sexual orientation, age, gender and disability status, transmitted to HSH to inform its strategic planning.",
+   "law": {
+    "citation": "SF Business and Tax Regulations Code Sec. 2810(e)(2)(B), implemented by SF Admin Code Sec. 5.41-2(d)",
+    "ordinance": "Proposition C, November 2018",
+    "quote": "By December 31, 2019, and every three years thereafter.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_business/0-0-0-48451"
+   },
+   "owed_by": [
+    "Our City Our Home Oversight Committee",
+    "Controller"
+   ],
+   "due": "2025-12-31",
+   "due_basis": "Three year cycle from the 2019 base year",
+   "due_certainty": "firm",
+   "cadence": "triennial",
+   "status": "filed",
+   "discoverability": "published",
+   "filed_on": "2025-12-10",
+   "why_it_matters": "A green row. The Committee met a three year deadline three weeks early, and the document states on its face that it fulfils the section.",
+   "checked": [
+    {
+     "method": "Located the 2025 Homelessness Needs Assessment and read its statement of statutory purpose",
+     "url": "https://media.api.sf.gov/documents/2025_Homelessness_Needs_Assessment.pdf",
+     "result": "FOUND, dated 2025-12-10, states it fulfils BTRC 2810(e)(2)(B)",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "watch_terms": [
+    "needs assessment",
+    "our city our home"
+   ],
+   "requests": []
+  },
+  {
+   "id": "ocoh-annual-recommendations",
+   "title": "Our City Our Home annual appropriations recommendations",
+   "topic": "homelessness",
+   "what": "Annual recommendations on appropriations from the Our City Our Home Fund, consistent with the needs assessment, to the Board of Supervisors, the Health Commission and the Homelessness Oversight Commission.",
+   "law": {
+    "citation": "SF Admin Code Sec. 5.41-2(a), incorporating BTRC Sec. 2810(e)(2)(B)",
+    "ordinance": "Proposition C, November 2018; article rewritten by Ordinance 99-26",
+    "quote": "Annual recommendations about appropriations from the Fund, consistent with the needs assessment.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin"
+   },
+   "owed_by": [
+    "Our City Our Home Oversight Committee"
+   ],
+   "due": "2026-06-01",
+   "due_basis": "The code fixes no calendar date, so the duty tracks the City budget cycle. Dated here to the filing actually made.",
+   "due_certainty": "interpreted",
+   "cadence": "annual",
+   "status": "filed",
+   "discoverability": "published",
+   "filed_on": "2026-06-01",
+   "why_it_matters": "Filed to exactly the statutory recipients. Noted as interpreted rather than firm because the code sets no date, and the ledger should say so rather than invent one.",
+   "checked": [
+    {
+     "method": "Located the June 2026 recommendations memo and checked its addressees against the statute",
+     "url": "https://www.sf.gov/our-city-our-home-oversight-committee",
+     "result": "FOUND, 2026-06-01 memo covering FY26-27 and FY27-28, to the Mayor and Board, copied to the Health Commission and the Homelessness Oversight Commission",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "watch_terms": [
+    "our city our home",
+    "appropriation recommendation"
+   ],
+   "requests": []
+  },
+  {
+   "id": "homeward-bound-report",
+   "title": "Homeward Bound annual report",
+   "topic": "homelessness",
+   "what": "Annual report on the Homeward Bound relocation and reunification program.",
+   "law": {
+    "citation": "SF Admin Code Sec. 20.19-4",
+    "ordinance": "Chapter 20, Article XIX",
+    "quote": "Annual report due October 1.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin"
+   },
+   "owed_by": [
+    "HSH"
+   ],
+   "due": "2025-10-01",
+   "due_basis": "October 1 deadline set by Sec. 20.19-4",
+   "due_certainty": "firm",
+   "cadence": "annual",
+   "status": "filed",
+   "discoverability": "published",
+   "filed_on": "2025-10-02",
+   "why_it_matters": "One day late. Recorded as filed rather than missing, because a ledger that treats a one day slip the same as a 221 day absence is not measuring anything useful.",
+   "checked": [
+    {
+     "method": "HSH Additional Reporting and Compliance collection",
+     "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
+     "result": "FOUND, FY2024-25 report posted 2025-10-02",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "watch_terms": [
+    "homeward bound"
+   ],
+   "requests": []
+  },
+  {
+   "id": "ch21b-quarterly-contracts",
+   "title": "Chapter 21B quarterly Core Initiative contract reports",
+   "topic": "drugs",
+   "what": "A report every three months listing each Core Initiative contract or lease executed without competitive procurement, with counterparty, services, amount, duration and measurable outcomes.",
+   "law": {
+    "citation": "SF Admin Code Sec. 21B.6(b)",
+    "ordinance": "Added as Sec. 21B.3 by Ordinance 61-19; redesignated and amended as 21B.6 by Ordinance 10-25, the Fentanyl State of Emergency ordinance, effective 2025-03-15",
+    "quote": "A Designated Department that enters into or amends a Contract or Lease for a Core Initiative shall submit a report every three months.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-71811"
+   },
+   "owed_by": [
+    "HSH",
+    "DPH",
+    "Public Works",
+    "Police",
+    "Sheriff",
+    "DEM",
+    "Human Services Agency",
+    "MOHCD",
+    "City Administrator",
+    "DHR"
+   ],
+   "due": "2026-06-30",
+   "due_basis": "Most recent completed fiscal quarter. The code fixes no anchor date and no calendar quarters, saying only every three months.",
+   "due_certainty": "interpreted",
+   "cadence": "quarterly",
+   "status": "partial",
+   "discoverability": "published",
+   "filed_on": "2026-07-22",
+   "why_it_matters": "HSH is plainly complying and has filed four reports. The other nine Designated Departments named in Sec. 21B.2 have nothing published. That is not automatically a breach, because the duty only attaches to a department that actually executed a Core Initiative contract, and we cannot see which did. This row is marked partial rather than missing for exactly that reason.",
+   "checked": [
+    {
+     "method": "HSH Additional Reporting and Compliance collection, all four filings downloaded and confirmed as real PDFs",
+     "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
+     "result": "FOUND four: 2025-07-31, 2025-10-31, 2026-01-28, and 2026-07-17 covering through 2026-06-30",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Searched the CMS for equivalent filings from the other nine Designated Departments",
+     "url": "https://api.sf.gov/api/v2/documents/?search=core+initiative",
+     "result": "none found from any department other than HSH",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "caveat": "HSH combines Q3 and Q4 into a single July filing in both fiscal years, so the cadence is closer to three filings a year than to every three months.",
+   "watch_terms": [
+    "\\bch\\.? ?21b\\b",
+    "chapter 21b",
+    "core initiative"
+   ],
+   "requests": []
+  },
+  {
+   "id": "ch21b-donations-report",
+   "title": "Chapter 21B annual donations report",
+   "topic": "drugs",
+   "what": "An annual report to the Board on donations accepted and expended under the Core Initiatives donation authority, which allowed up to 10 million dollars in gifts, grants, services and bequests.",
+   "law": {
+    "citation": "SF Admin Code Sec. 21B.4",
+    "ordinance": "Ordinance 10-25 (Board File 250040), effective 2025-03-15",
+    "quote": "The enacted sentence is truncated mid-clause. American Legal carries the codification note 'So in Ord. 10-25'.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-71811"
+   },
+   "owed_by": [
+    "Designated Departments under Sec. 21B.2"
+   ],
+   "due": null,
+   "due_basis": "None ascertainable. The enacted text does not complete the sentence that would set the deadline.",
+   "due_certainty": "undeterminable",
+   "cadence": "annual",
+   "status": "undeterminable",
+   "discoverability": "absent",
+   "why_it_matters": "A duty whose deadline cannot be computed cannot be enforced or tracked, and saying so plainly is the finding. This row exists to show the ledger reports drafting defects rather than converting them into accusations. None of HSH's four Chapter 21B filings mention donations or gifts.",
+   "checked": [
+    {
+     "method": "Read the enacted code text",
+     "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-71811",
+     "result": "sentence truncated mid-clause, publisher note 'So in Ord. 10-25'",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Text extraction across all four HSH Chapter 21B filings",
+     "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
+     "result": "no mention of donations or gifts in any of them",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "watch_terms": [
+    "core initiative.{0,30}donation",
+    "21b.{0,20}donation",
+    "donation.{0,20}report.{0,20}21b"
+   ],
+   "requests": []
+  },
+  {
+   "id": "nav-centers-semiannual",
+   "title": "Navigation Centers semiannual Controller report",
+   "topic": "homelessness",
+   "what": "The Controller's semiannual report to the Board tracking Navigation Center outcomes: residents served, lengths of stay, exit destinations and benefits retention.",
+   "law": {
+    "citation": "SF Admin Code Sec. 106.5(d)",
+    "ordinance": "Struck in its entirety by Ordinance 137-26 (Board File 250630), item 38, passed 7 to 4 on 2026-07-21 and approved 2026-07-23",
+    "quote": "Within six months of the effective date, and every six months thereafter, until the Navigation Centers are no longer in operation.",
+    "code_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin"
+   },
+   "owed_by": [
+    "Controller"
+   ],
+   "due": null,
+   "due_basis": "Repealed. No further instance comes due.",
+   "due_certainty": "repealed",
+   "cadence": "semiannual",
+   "status": "repealed",
+   "discoverability": "published",
+   "why_it_matters": "Carried on the ledger as a repeal, not a failure, and as a warning about method. The codified Administrative Code on American Legal, current as of today, still shows Sec. 106.5(d) intact months after it was struck. Any tracker that scraped the code would report this dead duty as live and accuse the Controller of missing a deadline that no longer exists. Repeals have to be tracked from ordinances.",
+   "checked": [
+    {
+     "method": "Obtained the full 362 page final board-amended text of Ordinance 137-26 and verified the strikethrough by rendering the page rather than trusting text extraction",
+     "url": "https://sfgov.legistar.com",
+     "result": "Sec. 106.5(d) struck in its entirety, listed as item 38",
+     "http": 200,
+     "at": "2026-08-25"
+    },
+    {
+     "method": "Cross-checked the codified version for staleness",
+     "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin",
+     "result": "2026 S-96 still shows 106.5(d) intact, confirming the code is behind the ordinance",
+     "http": 200,
+     "at": "2026-08-25"
+    }
+   ],
+   "considered_rejected": [],
+   "watch_terms": [
+    "navigation center"
+   ],
+   "requests": []
+  }
+ ],
+ "enforcement_note": "Filing a request is not a remedy. The Supervisor of Records, who is the City Attorney, does not decide timeliness. The Sunshine Ordinance Task Force averaged 138 days to hear complaints in 2025 against a 45 day statutory limit, and its 2025 annual report records 54 orders issued, 6 confirmed refusals to comply, and zero orders with confirmed compliance. In SOTF Files 26035 and 26037, decided 2026-05-06, HSH was found to have violated sections 67.21(b), (c) and (e) over a request for shelter operating contracts, and HSH did not attend the hearing."
+}

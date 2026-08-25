@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-08-25T10:11:17",
+ "population_acs_end_year": 2023,
+ "facility_count": 303,
+ "mapped_shelter_beds": 3020,
+ "unassigned_shelter_beds": 190,
+ "sources": {
+  "shelter_capacity": "HSH Temporary Shelter Programs report, 4/13/2026, https://media.api.sf.gov/documents/HSH_Shelter_System_Capacity_and_Occupancy_Report_4.13.26.pdf",
+  "shelter_locations": "Mission Local facility dataset (from HSH records request), https://missionlocal.org/2025/04/sf-map-homeless-shelters-restrictions/",
+  "psh": "DataSF pyxv-n29e (MOHCD Affordable Housing Portfolio)",
+  "bh": "DataSF p6m6-pkpk (DPH MH and SUD Provider Directory)",
+  "districts": "DataSF cqbw-m5m3 (Current Supervisor Districts, 2022 lines)",
+  "neighborhoods": "DataSF j2bu-swwd (Analysis Neighborhoods, the ordinance's ACS Neighborhood Profile geography)",
+  "population": "DataSF 4qbq-hvtt (ACS 5-year, supervisor districts)"
+ },
+ "context": {
+  "hic_2026_shelter_th_beds": 5148,
+  "hic_2026_psh_oph_beds": 16958,
+  "pit_2026_total": 7973,
+  "pit_2026_unsheltered": 3400,
+  "context_source": "HSH 2026 HIC & PIT results, LHCB 6/1/2026, https://media.api.sf.gov/documents/2026_HIC__PIT_Results_-_LHCB.pdf"
+ }
+}

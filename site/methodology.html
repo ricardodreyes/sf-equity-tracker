@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Methodology</title>
+  <meta name="description" content="How this site decides that a legally required document does not exist, and what it refuses to claim." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <main class="page">
+    <h2>What this site is</h2>
+    <p>San Francisco writes reporting deadlines into its own ordinances. This tracks whether the
+      documents actually appear. It covers homelessness, behavioral health and drug policy. It is
+      built entirely from public records, it names no residents, and it makes no claim about whether
+      any policy is good. It only records whether the city did the thing its own law requires, by the
+      date its own law sets.</p>
+
+    <h2>Two things are measured, not one</h2>
+    <p>A document can be filed and still be impossible to find. Those are different failures, so the
+      ledger scores them separately.</p>
+    <ul>
+      <li><strong>Status</strong> asks whether the duty was discharged: missing, filed, partial,
+        undeterminable, or repealed.</li>
+      <li><strong>Findability</strong> asks whether a member of the public could locate it:
+        published (it has its own page or catalogue record), buried (it exists only inside a meeting
+        packet or attachment), or not found.</li>
+    </ul>
+    <p>The clearest example is the semiannual report under Administrative Code 124.4. It was filed.
+      It also has no page on sf.gov, no catalogue record, and nothing on the responsible department's
+      site. It appears only as an item inside one Board agenda packet, under a title that collides
+      with a different statutory deliverable. Calling that simple compliance would be misleading, and
+      calling it a failure would be false.</p>
+
+    <h2>How we decide something is missing</h2>
+    <p>This is the part that has to be right, because an absence claim is the easiest thing on a site
+      like this to get wrong.</p>
+    <ol>
+      <li><strong>We enumerate, we do not search.</strong> The sf.gov content API matches all terms
+        rather than any, so a zero result for a multi-word phrase proves very little: it only means
+        no document contains every word. Instead we list the entire document store and the entire
+        report page type, then filter every title and description ourselves.</li>
+      <li><strong>We publish the log.</strong> Every row records each place checked, what was
+        checked, the result, the HTTP status and the date. If the log is thin, the claim is weak, and
+        you can see that for yourself.</li>
+      <li><strong>We pre-answer the rebuttal.</strong> Each missing row lists the documents that look
+        like the missing one, with the reason each is not it. If we cannot find a single near miss,
+        the row says so explicitly.</li>
+      <li><strong>We ask the city to certify the absence.</strong> California Evidence Code section
+        1284 makes a custodian's written statement of diligent search admissible to prove a record
+        does not exist. Every records request on this site asks for that certificate, so the absence
+        is attested by the department rather than asserted by us.</li>
+    </ol>
+    <p>The language is deliberate. We never write that a department did not produce a report. We
+      write that no published copy was found at these specific places on this specific date.</p>
+
+    <h2>Traps we had to design around</h2>
+    <ul>
+      <li><strong>The published Municipal Code lags the ordinances.</strong> The code publisher still
+        shows Administrative Code 106.5(d) in force months after Ordinance 137-26 struck it. A
+        tracker that scraped the code would accuse the Controller of missing a deadline that no
+        longer exists. Repeals are therefore tracked from ordinances, by hand.</li>
+      <li><strong>Board filings are the hardest thing to see.</strong> The legislative system's
+        public interface is effectively unusable programmatically, and sf.gov carries no Board
+        meeting pages, so a document can be formally public and practically invisible. That is not a
+        theory: it is how the 124.4 report behaves.</li>
+      <li><strong>Some duties cannot be computed.</strong> The annual donations report under
+        Administrative Code 21B.4 has no ascertainable deadline because the enacted sentence stops
+        mid-clause. It is listed as undeterminable rather than counted as a failure.</li>
+      <li><strong>Silence is not always breach.</strong> The Chapter 21B quarterly reports are only
+        owed by a department that actually signed a covered contract. We can see that one department
+        files and nine do not, but not which of the nine owed anything, so the row reads partial.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>Corrections are published in place, dated, with the original claim left visible. Nothing is
+      silently edited.</p>
+    <div class="callout">
+      <h3>2026-08-25</h3>
+      <p>An earlier draft of this project listed the Administrative Code 124.4 semiannual report as
+        missing. That was wrong. Two independent adversarial checks located it in the Board of
+        Supervisors agenda for July 28 2026, and it was then confirmed by hand in the agenda PDF. The
+        row now reads filed, late, and buried. The error is recorded here on purpose, because it is
+        exactly the failure this site's method exists to prevent, and it was caught by the method
+        rather than by a reader.</p>
+    </div>
+    <p>If you can show that anything listed as missing does exist, that is the correction we most
+      want. It will be published with the same prominence as the original claim.</p>
+
+    <h2>What this site does not claim</h2>
+    <ul>
+      <li>That a late or missing report means anyone acted in bad faith. Departments are under real
+        resource pressure and some of these duties were created recently.</li>
+      <li>That filing a records request is a remedy. Enforcement of the Sunshine Ordinance is weak:
+        the Task Force averaged 138 days to hear complaints in 2025 against a 45 day statutory limit,
+        and its own annual report records zero orders with confirmed compliance.</li>
+      <li>That the facility data on the evidence pages is complete. It is not, and the gap is stated
+        next to the numbers.</li>
+    </ul>
+
+    <h2>Sources</h2>
+    <p>Every obligation cites the ordinance that creates it, and every deadline shows how it was
+      derived. Primary sources are the San Francisco Municipal Code, ordinance PDFs published by the
+      Clerk of the Board, the sf.gov content API, department websites, commission agenda archives,
+      and the California Penal Code for Civil Grand Jury response clocks. Full research notes,
+      including the dead ends, are kept in the project repository.</p>
+
+    <div class="footnote">This site is independent and is not affiliated with the City and County of
+      San Francisco.</div>
+  </main>
+  <script type="module">
+    import { header } from "/src/common.js";
+    header("methodology");
+  </script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+{
+ "neighborhoods": [
+  {
+   "neighborhood": "Tenderloin",
+   "shelter_beds": 870,
+   "shelter_sites": 7,
+   "psh_units": 1695,
+   "bh_sites": 12,
+   "shelter_beds_share": 28.8
+  },
+  {
+   "neighborhood": "South of Market",
+   "shelter_beds": 809,
+   "shelter_sites": 6,
+   "psh_units": 1141,
+   "bh_sites": 22,
+   "shelter_beds_share": 26.8
+  },
+  {
+   "neighborhood": "Mission",
+   "shelter_beds": 424,
+   "shelter_sites": 5,
+   "psh_units": 676,
+   "bh_sites": 37,
+   "shelter_beds_share": 14.0
+  },
+  {
+   "neighborhood": "Bayview Hunters Point",
+   "shelter_beds": 399,
+   "shelter_sites": 3,
+   "psh_units": 150,
+   "bh_sites": 18,
+   "shelter_beds_share": 13.2
+  },
+  {
+   "neighborhood": "Financial District/South Beach",
+   "shelter_beds": 200,
+   "shelter_sites": 1,
+   "psh_units": 215,
+   "bh_sites": 0,
+   "shelter_beds_share": 6.6
+  },
+  {
+   "neighborhood": "Potrero Hill",
+   "shelter_beds": 144,
+   "shelter_sites": 2,
+   "psh_units": 0,
+   "bh_sites": 3,
+   "shelter_beds_share": 4.8
+  },
+  {
+   "neighborhood": "Nob Hill",
+   "shelter_beds": 93,
+   "shelter_sites": 2,
+   "psh_units": 265,
+   "bh_sites": 2,
+   "shelter_beds_share": 3.1
+  },
+  {
+   "neighborhood": "Western Addition",
+   "shelter_beds": 54,
+   "shelter_sites": 1,
+   "psh_units": 113,
+   "bh_sites": 8,
+   "shelter_beds_share": 1.8
+  },
+  {
+   "neighborhood": "Lone Mountain/USF",
+   "shelter_beds": 27,
+   "shelter_sites": 1,
+   "psh_units": 25,
+   "bh_sites": 11,
+   "shelter_beds_share": 0.9
+  },
+  {
+   "neighborhood": "Hayes Valley",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 212,
+   "bh_sites": 9,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "West of Twin Peaks",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 29,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Outer Richmond",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 14,
+   "bh_sites": 4,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Inner Richmond",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 20,
+   "bh_sites": 0,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Marina",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 24,
+   "bh_sites": 0,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Presidio Heights",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 25,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Mission Bay",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 332,
+   "bh_sites": 3,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Haight Ashbury",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 32,
+   "bh_sites": 5,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Treasure Island",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 311,
+   "bh_sites": 4,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Bernal Heights",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 3,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Inner Sunset",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Pacific Heights",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 3,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Japantown",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Oceanview/Merced/Ingleside",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 4,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Sunset/Parkside",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 4,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Chinatown",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 2,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Outer Mission",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Portola",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  },
+  {
+   "neighborhood": "Excelsior",
+   "shelter_beds": 0,
+   "shelter_sites": 0,
+   "psh_units": 0,
+   "bh_sites": 1,
+   "shelter_beds_share": 0.0
+  }
+ ]
+}

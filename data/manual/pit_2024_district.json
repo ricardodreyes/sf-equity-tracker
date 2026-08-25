@@ -1,0 +1,8 @@
+{
+ "source": "2024 San Francisco Point-in-Time Count Report, Figure 02, 'Complete Homeless Point-in-Time Count Population by District and Shelter Status, 2022-2024'",
+ "source_url": "https://api.sf.gov/documents/31917/2024_San_Francisco_Point-in-Time_Count_Report_8_13_24.pdf",
+ "geography": "2022 supervisorial district lines",
+ "note": "The ordinance's Fair Share Rule is defined on Analysis Neighborhoods, not districts. No neighborhood-level unsheltered table has ever been published, which is why this is a proxy.",
+ "excluded": {"confidential_scattered_site": 203, "why": "Published as a single citywide line with no district attribution, and confidential locations are excluded from this project by policy."},
+ "unsheltered_2024": {"1":130,"2":127,"3":255,"4":193,"5":975,"6":766,"7":157,"8":142,"9":580,"10":1010,"11":19}
+}

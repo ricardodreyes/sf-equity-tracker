@@ -1,0 +1,31 @@
+name,subtype,capacity,ml_site,address,location_source,confidence,notes
+711 Post Semi-Congregate Shelter,adult_emergency,280,711 Post Shelter,,,verified,
+A Woman's Place,adult_emergency,25,A Woman's Place,,,verified,
+Dolores Shelter Program,adult_emergency,142,Dolores Adult Shelter (includes Jazzie's),,,verified,
+Ellis Semi-Congregate,adult_emergency,134,Ellis Semi-Congregate Shelter,,,verified,
+Gough Cabins,adult_emergency,70,33 Gough Cabins,,,verified,
+Hospitality House,adult_emergency,22,Hospitality House Shelter,,,verified,
+MSC-South,adult_emergency,299,MSC South,,,verified,
+Next Door,adult_emergency,334,Next Door,,,verified,
+Sanctuary,adult_emergency,200,Sanctuary,,,verified,
+The Commons,adult_emergency,68,,2177 Jerrold Avenue,https://davisvanguard.org/2025/04/san-francisco-opens-first-shelter-designed-for-older-adults-experiencing-homelessness/,reported,Older-adults shelter opened April 2025
+Hope House Recovery Focused Shelter,adult_emergency,60,,,https://sfist.com/2025/09/10/with-salvation-army-san-francisco-opens-its-first-sober/,pending,Salvation Army sober shelter on 6th Street opened Sept 2025; exact address unverified so not mapped
+Baldwin SAFE,navigation,180,Baldwin SAFE Navigation Center,,,verified,
+Bayshore,navigation,128,Bayshore Navigation Center,,,verified,
+Bayview SAFE,navigation,203,Bayview SAFE Navigation Center,,,verified,
+Central Waterfront,navigation,64,Central Waterfront Navigation Center,,,verified,
+Division Circle,navigation,186,Division Circle Navigation Center,,,verified,
+Embarcadero SAFE,navigation,200,Embarcadero SAFE Navigation Center,,,verified,
+Taimon Booton,navigation,75,Taimon Booton Navigation Center,,,verified,
+Lark Inn,tay,34,Lark Inn,,,verified,
+Lower Polk TAY,tay,75,Lower Polk TAY Navigation Center,,,verified,
+Downtown High School Family Stay Over Program,family,80,,693 Vermont Street,https://www.sf.gov/meeting-20250520-community-event-family-stay-over-program-at-downtown-high-school,reported,School-site stay-over program
+Hamilton Families Emergency Center,family,44,Hamilton Families Emergency Shelter,,,verified,
+Hamilton Families Residence,family,27,Hamilton Families Residence,,,verified,ML lists 1631 Hayes Street
+Harbor House,family,30,Harbor House,,,verified,
+St. Joseph's Family Center,family,10,St. Joseph's Family Center,,,verified,
+HPP PATH Emergency Housing,family,16,PATH,,,verified,
+Compass Family Shelter,family,22,Compass Family Shelter,,,verified,
+Providence Family Services Center - Oasis,family,54,Providence Family - Emergency Center - Oasis Shelter,,,verified,
+Compass Family UAV,family,130,,,https://www.sf.gov/data--shelter-and-crisis-interventions,reported,Urgent Accommodation Voucher program with no fixed site; counted citywide and not mapped
+Raphael House,family,18,,1065 Sutter Street,https://www.raphaelhouse.org/connect/,reported,Private nonprofit family shelter

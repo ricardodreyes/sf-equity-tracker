@@ -1,0 +1,39 @@
+{
+  "audit_run_utc": "2026-08-25T16:11:54Z",
+  "method": "GET https://api.sf.gov/api/v2/{documents,pages}/?search=<term> ; read meta.total_count",
+  "note": "sf.gov CMS (Wagtail) covers ~94k pages and ~59k documents. Search appears to OR-match terms, so non-zero counts require inspection.",
+  "searches": [
+    {"term": "shelter equity analysis", "documents": 0, "pages": 0, "http": 200},
+    {"term": "shelter equity", "documents": 2, "pages": 0, "http": 200, "hits_inspected": true},
+    {"term": "equitable distribution shelter", "documents": 0, "pages": 0, "http": 200},
+    {"term": "covered facility", "documents": 0, "pages": 0, "http": 200},
+    {"term": "covered facilities", "documents": 2, "pages": 0, "http": 200, "hits_inspected": true},
+    {"term": "chapter 124", "documents": 0, "pages": 0, "http": 200},
+    {"term": "geographic equity shelter", "documents": 0, "pages": 0, "http": 200}
+  ],
+  "considered_and_rejected": [
+    {
+      "id": 47792,
+      "title": "Home by the Bay: Equity Addendum - Equity Analysis - Executive Summary",
+      "url": "https://media.api.sf.gov/documents/Equity_Analysis_-_Executive_Summary.pdf",
+      "created": "2025-11-20",
+      "why_not": "Racial/demographic disparity analysis of homelessness-system OUTCOMES (nine system metrics by race and priority population). Chapter 124 requires a GEOGRAPHIC analysis: per-Neighborhood unsheltered persons and shelter/transitional beds with citywide shares. Also created 2025-11-20, before the 2026-01-01 operative date, so it cannot discharge a duty that had not attached. Home by the Bay is itself a voluntary strategic plan, not a Municipal Code mandate."
+    },
+    {
+      "id": 60248,
+      "title": "Equity Report (Shelter Monitoring Committee emergency report, March 2026)",
+      "url": "https://api.sf.gov/documents/60248/Equity_Report_-_March_2026.pdf",
+      "duplicate_of": "52552 (Equity Report Draft - March 2026, created 2026-03-17)",
+      "why_not": "Authored by the Shelter Monitoring Committee, not HSH and the Planning Department as Sec. 124.2(a) requires. Self-described 'emergency report'. Contains no per-Neighborhood bed/unsheltered share table. PDF ships with a broken subset font map (no ToUnicode CMap) so its text is not machine-readable without manual decoding.",
+      "significance": "Corroborates the tracker's premise. Its executive summary states the report draws attention to '(1) concerns that significant inequities remain unaddressed in San Francisco's shelter system, and (2) significant gaps in the available data, making an objective assessment harder than it should be to arrive at.' The Shelter Monitoring Committee was abolished by Ordinance 99-26, effective 2026-06-29, roughly three months later."
+    },
+    {
+      "note": "The two 'covered facilities' hits are OR-match noise: a 2023 healthcare/jail masking order and a rodent-and-vector control regulation. Neither relates to Chapter 124."
+    }
+  ],
+  "proving_a_negative_doctrine": {
+    "authority": "California Evidence Code Sec. 1284",
+    "substance": "A writing by the official custodian of records reciting a diligent search and failure to find a record is not made inadmissible by the hearsay rule when offered to prove the record's absence.",
+    "product_implication": "Do not assert 'the City did not produce the report.' Assert 'no published X was found at these URLs as of this timestamp,' publish the search log with HTTP status codes, and separately REQUEST a custodian certificate of diligent search under Sec. 1284 so the absence is attested by the City itself rather than by us."
+  }
+}
