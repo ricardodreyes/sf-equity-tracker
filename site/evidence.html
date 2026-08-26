@@ -3,10 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Evidence: facility distribution</title>
+  <title>Evidence | SF Accountability Ledger</title>
   <meta name="description" content="Shelter beds, supportive housing, and behavioral health facilities by San Francisco supervisor district." />
   <meta property="og:title" content="Which SF districts carry the city's shelter beds" />
+  <meta property="og:description" content="Shelter beds, supportive housing, and behavioral health facilities by San Francisco supervisor district." />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://site-slpwlk.vercel.app/evidence.html" />
+  <link rel="preload" href="/data/rollup_districts.json" as="fetch" crossorigin />
+  <link rel="preload" href="/data/fairshare.json" as="fetch" crossorigin />
+  <link rel="preload" href="/data/rollup_neighborhoods.json" as="fetch" crossorigin />
+  <link rel="preload" href="/data/meta.json" as="fetch" crossorigin />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/newsreader-var.woff2" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/plexsans-var.woff2" />
   <link rel="stylesheet" href="/src/style.css" />
@@ -25,8 +34,9 @@
     <p class="note" id="frame">
       This is the evidence layer behind the ledger. The city owes a
       <a href="/obligation.html?id=ch124-shelter-equity-analysis">Shelter Equity Analysis</a> under
-      Administrative Code 124.2(a) and has not published one. Below is as much of that analysis as
-      public data allows, plus the underlying facility distribution.
+      Administrative Code 124.2(a). HSH filed one with the Board in January 2026, six days late, and it
+      has no public page of its own. Below is as much of that analysis as public data allows, plus the
+      underlying facility distribution.
     </p>
 
     <h2>Where the beds are</h2>
@@ -34,7 +44,8 @@
     <p class="note" id="choropleth-cap"></p>
 
     <h2>The Fair Share test, run as a district-level proxy</h2>
-    <div class="callout" id="fs-caveat"></div>
+    <noscript><p class="note">This page needs JavaScript to render the record. The data it reads is at <a href="/data/rollup_districts.json">/data/rollup_districts.json</a>.</p></noscript>
+    <div class="caveat" id="fs-caveat"></div>
     <div class="tablewrap" tabindex="0" role="region" aria-label="Fair Share proxy by district">
     <table class="data" id="fairshare">
       <thead><tr><th>District</th><th>Shelter beds</th><th>Bed share</th><th>Unsheltered (2024 PIT)</th><th>Unsheltered share</th><th>Fair Share result</th></tr></thead>
@@ -48,7 +59,7 @@
     <table class="data" id="district-table">
       <thead>
         <tr>
-          <th>District</th><th>Shelter beds</th><th class="bar-cell"></th><th>Share</th>
+          <th>District</th><th>Shelter beds</th><th class="bar-cell" aria-label="Shelter beds as a bar"></th><th>Share</th>
           <th>Beds / 10k residents</th><th>PSH units</th><th>BH sites</th><th>Population</th>
         </tr>
       </thead>
@@ -62,7 +73,7 @@
       transitional beds to its share of the city's unsheltered population. Bed shares below are computed from
       this tracker's facility list; the unsheltered side of the test uses Point-in-Time Count neighborhood
       tables and is shown once the full 2026 PIT report is published.</p>
-    <div class="scroll" tabindex="0" role="region" aria-label="Beds by Analysis Neighborhood">
+    <div class="tablewrap" tabindex="0" role="region" aria-label="Beds by Analysis Neighborhood">
       <table class="data" id="nhood-table">
         <thead><tr><th>Neighborhood</th><th>Shelter beds</th><th>Share</th><th>PSH units</th><th>BH sites</th></tr></thead>
         <tbody></tbody>

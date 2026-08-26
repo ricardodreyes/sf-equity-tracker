@@ -41,7 +41,7 @@ const PAGE_PROBE = `(() => {
     title: document.title,
     description: !!document.querySelector('meta[name="description"]')?.content,
     favicon: !!document.querySelector('link[rel="icon"]'),
-    current: document.querySelectorAll('header.site nav a[aria-current="page"]').length,
+    current: document.querySelectorAll("header.site nav a[aria-current]").length,
     overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
     fonts: ["Newsreader", "Plex"].map((f) => document.fonts.check("16px " + f)),
     imgNoAlt: [...document.images].filter((i) => !i.hasAttribute("alt")).length,
@@ -55,6 +55,8 @@ const PAGE_PROBE = `(() => {
     textWrap: [document.querySelector(".standfirst .caption"), document.querySelector("main.page > p")].filter(Boolean).map((el) => cs(el, "text-wrap")),
     navHeights: [...document.querySelectorAll("header.site nav a")].map((a) => Math.round(a.getBoundingClientRect().height)),
     links: [...document.querySelectorAll("a[href]")].map((a) => a.href).filter((h) => h.startsWith(location.origin)),
+    tablesNamed: [...document.querySelectorAll("main table")].every((t) => t.getAttribute("aria-label") || t.querySelector("caption") || t.closest("[role=region][aria-label]")),
+    thinBars: [...document.querySelectorAll(".bar")].filter((b) => b.getBoundingClientRect().width < 2).length,
   };
   return out;
 })()`;
@@ -99,6 +101,8 @@ try {
       check(where, "tabular-nums", p.tabular.every(Boolean), p.tabular.join(","));
       check(where, "text-wrap-set", p.textWrap.length > 0 && p.textWrap.every((w) => w === "pretty" || w === "balance"), p.textWrap.join(","));
       check(where, "cls-under-0.1", cls < 0.1, cls.toFixed(3));
+      check(where, "tables-named", p.tablesNamed, "");
+      if (path.startsWith("/evidence")) check(where, "bars-visible", p.thinBars === 0, `${p.thinBars} bars under 2px`);
       if (vpName === "mobile") check(where, "nav-touch-target-44", p.navHeights.every((h) => h >= 44), p.navHeights.join(","));
       if (vpName === "desktop") {
         await page.keyboard.press("Tab");
@@ -114,6 +118,13 @@ try {
       await ctx.close();
     }
   }
+
+  const tablet = await browser.newContext({ viewport: { width: 768, height: 1024 } });
+  const tp = await tablet.newPage();
+  await tp.goto(base + "/", { waitUntil: "networkidle" });
+  const tOverflow = await tp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  check("/@tablet", "no-horizontal-overflow", tOverflow <= 1, `${tOverflow}px`);
+  await tablet.close();
 
   // reduced motion, dark mode, print, and the failure state, on the ledger
   const reduced = await browser.newContext({ reducedMotion: "reduce", viewport: VIEWPORTS.desktop });
@@ -137,10 +148,11 @@ try {
   await pp.emulateMedia({ media: "print" });
   const pr = await pp.evaluate(() => ({
     nav: getComputedStyle(document.querySelector("header.site nav")).display,
+    legend: getComputedStyle(document.querySelector(".legend")).display,
     bg: getComputedStyle(document.body).backgroundColor,
     mark: getComputedStyle(document.querySelector("tr.is-missing .row-title"), "::before").content,
   }));
-  check("/@print", "print-stylesheet", pr.nav === "none" && /255, 255, 255/.test(pr.bg) && pr.mark.includes("!"), JSON.stringify(pr));
+  check("/@print", "print-stylesheet", pr.nav === "none" && pr.legend !== "none" && /255, 255, 255/.test(pr.bg) && pr.mark.includes("!"), JSON.stringify(pr));
   await print.close();
 
   for (const [path, data] of [["/", "obligations.json"], ["/evidence.html", "rollup_districts.json"], ["/obligation.html?id=ch124-shelter-equity-analysis", "obligations.json"]]) {
@@ -151,6 +163,7 @@ try {
     const text = await bp.evaluate(() => document.querySelector("main")?.innerText ?? "");
     const stuck = /loading/i.test(text) && !/could not|couldn't|failed|unavailable|try again|reload/i.test(text);
     check(`${path.replace(/\?.*/, "")}@fetch-failure`, "error-state-shown", !stuck && /could not|couldn't|failed|unavailable|try again|reload/i.test(text), text.slice(0, 80).replace(/\n/g, " "));
+    if (path.startsWith("/evidence")) check("/evidence.html@fetch-failure", "empty-boxes-hidden", await bp.evaluate(() => getComputedStyle(document.getElementById("fs-caveat")).display === "none"), "");
     await broken.close();
   }
   const nf = await browser.newContext({ viewport: VIEWPORTS.desktop });
@@ -159,6 +172,15 @@ try {
   const nft = await np.evaluate(() => document.querySelector("main")?.innerText ?? "");
   check("/obligation.html@unknown-id", "not-found-state", /not found/i.test(nft) && /back to the ledger/i.test(nft), nft.slice(0, 60).replace(/\n/g, " "));
   await nf.close();
+
+  const xss = await browser.newContext({ viewport: VIEWPORTS.desktop });
+  const xp = await xss.newPage();
+  let dialog = false;
+  xp.on("dialog", async (d) => { dialog = true; await d.dismiss(); });
+  await xp.goto(base + "/obligation.html?id=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E", { waitUntil: "networkidle" });
+  const xr = await xp.evaluate(() => ({ img: document.querySelectorAll("main img").length, code: document.querySelector("main code")?.textContent ?? "" }));
+  check("/obligation.html@hostile-id", "id-rendered-as-text", !dialog && xr.img === 0 && xr.code.includes("<img"), `dialog=${dialog} img=${xr.img}`);
+  await xss.close();
 } finally {
   await browser.close();
 }
