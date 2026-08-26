@@ -54,6 +54,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+html { scrollbar-gutter: stable; } /* the ledger landing must not nudge the page sideways */
 body {
   margin: 0;
   background: var(--paper);
@@ -83,9 +84,10 @@ header.site h1 {
   margin: 0; font-size: var(--s-0); font-weight: 600; letter-spacing: 0.14em;
   text-transform: uppercase; font-family: var(--sans);
 }
-header.site h1 a { text-decoration: none; }
+/* 44px tap targets without moving the baseline: pad the link, pull the margin back */
+header.site h1 a { text-decoration: none; display: inline-block; padding: 0.75rem 0; margin: -0.75rem 0; }
 header.site nav { display: flex; gap: 1.4rem; font-family: var(--sans); font-size: var(--s--1); }
-header.site nav a { color: var(--ink-3); text-decoration: none; letter-spacing: 0.04em; }
+header.site nav a { color: var(--ink-3); text-decoration: none; letter-spacing: 0.04em; padding: 0.75rem 0; margin: -0.75rem 0; }
 header.site nav a:hover { color: var(--ink); }
 header.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--signal); }
 
@@ -99,6 +101,8 @@ h2 {
 }
 h3 { font-family: var(--sans); font-size: var(--s-0); margin: 0 0 0.35rem; }
 p { margin: 0 0 1rem; }
+p, li, dd, .standfirst .caption { text-wrap: pretty; }
+h2, h3 { text-wrap: balance; }
 ul, ol { padding-left: 1.1rem; }
 li { margin-bottom: 0.45rem; }
 strong { font-weight: 600; }
@@ -110,11 +114,11 @@ strong { font-weight: 600; }
   line-height: 0.94; letter-spacing: -0.03em; font-variant-numeric: tabular-nums;
   display: block; margin-bottom: 0.5rem;
 }
-.standfirst .caption { font-size: var(--s-1); line-height: 1.45; color: var(--ink-2); }
+.standfirst .caption { font-size: var(--s-1); line-height: 1.45; color: var(--ink-2); min-height: 2.9em; } /* two lines reserved so the figure lands without pushing the page */
 .standfirst .caption a { color: var(--ink); }
 .dateline {
   font-family: var(--sans); font-size: var(--s--1); color: var(--ink-3);
-  letter-spacing: 0.05em; margin-top: 1.1rem; max-width: 40rem;
+  letter-spacing: 0.05em; margin-top: 1.1rem; max-width: 40rem; min-height: 1.5em;
 }
 .dateline.stale { color: var(--ink-2); border-left: 2px solid var(--signal); padding-left: 0.8rem; }
 
@@ -122,7 +126,7 @@ strong { font-weight: 600; }
 table.ledger { width: 100%; border-collapse: collapse; font-family: var(--sans); }
 table.ledger th {
   text-align: left; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em;
-  text-transform: uppercase; color: var(--ink-3);
+  text-transform: uppercase; color: var(--ink-3); white-space: nowrap;
   padding: 0 0.8rem 0.5rem; border-bottom: 1px solid var(--ink);
 }
 table.ledger td { padding: 0.85rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
@@ -222,9 +226,10 @@ table.data td { text-align: right; padding: 0.5rem 0.7rem; border-bottom: 1px so
 table.data th:first-child, table.data td:first-child { text-align: left; }
 .bar { height: 7px; background: var(--rule-strong); }
 td.bar-cell { width: 20%; }
-.choropleth { max-width: 40rem; margin: 1.2rem 0 0; }
+.choropleth { max-width: 40rem; margin: 1.2rem 0 0; aspect-ratio: 640 / 560; } /* reserves the map's box before the SVG lands */
 .choropleth svg { width: 100%; height: auto; display: block; }
 .scroll { max-height: 26rem; overflow-y: auto; }
+.tablewrap { overflow-x: auto; } /* wide data tables scroll inside their region, never the page */
 
 /* mobile: rows become records. nothing is hidden, nothing scrolls sideways. */
 @media (max-width: 46rem) {
@@ -243,6 +248,7 @@ td.bar-cell { width: 20%; }
     text-transform: uppercase; color: var(--ink-3);
   }
   td.days { text-align: left; font-size: var(--s-0); }
+  .standfirst .caption { min-height: 5.8em; }
   .kv { grid-template-columns: 1fr; gap: 0.1rem; }
   .kv dt { margin-top: 0.7rem; }
   table.audit td.url { max-width: none; }

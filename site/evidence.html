@@ -7,9 +7,15 @@
   <meta name="description" content="Shelter beds, supportive housing, and behavioral health facilities by San Francisco supervisor district." />
   <meta property="og:title" content="Which SF districts carry the city's shelter beds" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/newsreader-var.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/plexsans-var.woff2" />
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 <body>
+  <header class="site">
+    <h1><a href="/">SF Accountability Ledger</a></h1>
+    <nav><a href="/">Ledger</a><a href="/evidence.html" aria-current="page">Evidence</a><a href="/methodology.html">Methodology</a></nav>
+  </header>
   <main class="page">
     <section class="standfirst">
       <span class="figure" id="headline-figure">&nbsp;</span>
@@ -29,13 +35,16 @@
 
     <h2>The Fair Share test, run as a district-level proxy</h2>
     <div class="callout" id="fs-caveat"></div>
+    <div class="tablewrap" tabindex="0" role="region" aria-label="Fair Share proxy by district">
     <table class="data" id="fairshare">
       <thead><tr><th>District</th><th>Shelter beds</th><th>Bed share</th><th>Unsheltered (2024 PIT)</th><th>Unsheltered share</th><th>Fair Share result</th></tr></thead>
       <tbody></tbody>
     </table>
+    </div>
     <p class="note" id="fs-source"></p>
 
     <h2>By supervisor district</h2>
+    <div class="tablewrap" tabindex="0" role="region" aria-label="Facilities by supervisor district">
     <table class="data" id="district-table">
       <thead>
         <tr>
@@ -45,6 +54,7 @@
       </thead>
       <tbody></tbody>
     </table>
+    </div>
     <p class="note" id="unassigned-note"></p>
 
     <h2>By Analysis Neighborhood (the ordinance's legal geography)</h2>
@@ -52,7 +62,7 @@
       transitional beds to its share of the city's unsheltered population. Bed shares below are computed from
       this tracker's facility list; the unsheltered side of the test uses Point-in-Time Count neighborhood
       tables and is shown once the full 2026 PIT report is published.</p>
-    <div class="scroll">
+    <div class="scroll" tabindex="0" role="region" aria-label="Beds by Analysis Neighborhood">
       <table class="data" id="nhood-table">
         <thead><tr><th>Neighborhood</th><th>Shelter beds</th><th>Share</th><th>PSH units</th><th>BH sites</th></tr></thead>
         <tbody></tbody>

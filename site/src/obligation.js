@@ -1,11 +1,16 @@
-import { header, j, daysOverdue, daysLate, timeliness } from "./common.js";
+import { j, daysOverdue, daysLate, timeliness } from "./common.js";
 
-header("ledger");
-
-const { obligations } = await j("/data/obligations.json");
-const id = new URLSearchParams(location.search).get("id");
-const r = obligations.find((o) => o.id === id);
 const root = document.getElementById("root");
+const id = new URLSearchParams(location.search).get("id");
+let obligations;
+try {
+  ({ obligations } = await j("/data/obligations.json"));
+} catch (e) {
+  root.innerHTML = `<h2>Could not load this obligation</h2><p class="note">${e.message}.
+    <a href="">Reload the page</a> or go <a href="/">back to the ledger</a>.</p>`;
+  throw e;
+}
+const r = obligations.find((o) => o.id === id);
 
 if (!r) {
   root.innerHTML = `<h2>Not found</h2><p class="note">No tracked obligation with id <code>${id ?? ""}</code>.
@@ -20,13 +25,13 @@ if (!r) {
   const section = (title, body) => (body ? `<h2>${title}</h2>${body}` : "");
 
   const audit = r.checked?.length
-    ? `<table class="audit">
+    ? `<div class="tablewrap" tabindex="0" role="region" aria-label="Search log"><table class="audit">
         <thead><tr><th>What we checked</th><th>Where</th><th>Result</th><th>HTTP</th><th>When</th></tr></thead>
         <tbody>${r.checked.map((c) => `
           <tr><td>${c.method}</td>
               <td class="url"><a href="${c.url}">${c.url}</a></td>
               <td class="res">${c.result}</td><td>${c.http ?? ""}</td><td>${c.at}</td></tr>`).join("")}</tbody>
-       </table>`
+       </table></div>`
     : "";
 
   const rejected = r.considered_rejected?.length

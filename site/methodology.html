@@ -6,9 +6,15 @@
   <title>Methodology</title>
   <meta name="description" content="How this site decides that a legally required document does not exist, and what it refuses to claim." />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/newsreader-var.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/plexsans-var.woff2" />
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 <body>
+  <header class="site">
+    <h1><a href="/">SF Accountability Ledger</a></h1>
+    <nav><a href="/">Ledger</a><a href="/evidence.html">Evidence</a><a href="/methodology.html" aria-current="page">Methodology</a></nav>
+  </header>
   <main class="page">
     <h2>What this site is</h2>
     <p>San Francisco writes reporting deadlines into its own ordinances. This tracks whether the
@@ -155,9 +161,5 @@
     <div class="footnote">This site is independent and is not affiliated with the City and County of
       San Francisco.</div>
   </main>
-  <script type="module">
-    import { header } from "/src/common.js";
-    header("methodology");
-  </script>
 </body>
 </html>

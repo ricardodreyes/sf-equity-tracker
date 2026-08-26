@@ -1,14 +1,21 @@
-import { header, j, fmt, pct } from "./common.js";
+import { j, fmt, pct } from "./common.js";
 
-header("evidence");
-
-const [rollup, nhoods, meta, districtsGeo, fs] = await Promise.all([
-  j("/data/rollup_districts.json"),
-  j("/data/rollup_neighborhoods.json"),
-  j("/data/meta.json"),
-  j("/data/districts.geojson"),
-  j("/data/fairshare.json"),
-]);
+let rollup, nhoods, meta, districtsGeo, fs;
+try {
+  [rollup, nhoods, meta, districtsGeo, fs] = await Promise.all([
+    j("/data/rollup_districts.json"),
+    j("/data/rollup_neighborhoods.json"),
+    j("/data/meta.json"),
+    j("/data/districts.geojson"),
+    j("/data/fairshare.json"),
+  ]);
+} catch (e) {
+  document.getElementById("headline-figure").textContent = "";
+  document.getElementById("headline-caption").innerHTML =
+    `Could not load the evidence tables (${e.message}). <a href="">Reload the page</a>, or go
+     <a href="/">back to the ledger</a>.`;
+  throw e;
+}
 
 // Fair Share proxy. The caveats render above the numbers, never below them.
 // static SVG rather than a tile map: no external requests, prints, screenshots cleanly
