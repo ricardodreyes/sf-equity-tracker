@@ -10,7 +10,6 @@ export const pct = (n) => (n == null ? "–" : `${n}%`);
 const NAV = [
   ["/", "Ledger", "ledger"],
   ["/evidence.html", "Evidence", "evidence"],
-  ["/map.html", "Map", "map"],
   ["/methodology.html", "Methodology", "methodology"],
 ];
 

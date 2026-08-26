@@ -4,64 +4,66 @@ header("ledger");
 
 const { obligations, enforcement_note } = await j("/data/obligations.json");
 
-const STATUS_UI = {
-  missing:        { cls: "critical", label: "Missing" },
-  filed:          { cls: "good",     label: "Filed" },
-  partial:        { cls: "warning",  label: "Partial" },
-  not_yet_due:    { cls: "muted",    label: "Not yet due" },
-  undeterminable: { cls: "muted",    label: "Undeterminable" },
-  repealed:       { cls: "muted",    label: "Repealed" },
+// Colour does one job here: marking failure. Everything else is a neutral mark
+// plus a word, because four status hues cannot be told apart under CVD.
+const STATUS = {
+  missing:        ["fail", "Missing"],
+  filed:          ["done", "Filed"],
+  partial:        ["part", "Partial"],
+  not_yet_due:    ["none", "Not yet due"],
+  undeterminable: ["none", "Undeterminable"],
+  repealed:       ["none", "Repealed"],
 };
-const FIND_UI = {
-  published: { cls: "good",    label: "Published" },
-  buried:    { cls: "serious", label: "Buried" },
-  absent:    { cls: "muted",   label: "Not found" },
+const FIND = {
+  published: ["done", "Published"],
+  buried:    ["part", "Buried"],
+  absent:    ["none", "Not found"],
 };
 
-const pill = (ui) => `<span class="pill ${ui.cls}">${ui.label}</span>`;
+const mark = ([cls, label]) => `<span class="mark ${cls}">${label}</span>`;
 
-// a filed-but-late row should not read as clean, so the status pill degrades
-function statusUI(r) {
-  const base = STATUS_UI[r.status];
-  if (r.status === "filed" && timeliness(r) === "late") {
-    const n = daysLate(r);
-    return { cls: "serious", label: n === 1 ? "Filed 1 day late" : `Filed ${n} days late` };
-  }
-  return base;
+function statusOf(r) {
+  if (r.status === "filed" && timeliness(r) === "late") return ["part", "Filed late"];
+  return STATUS[r.status];
 }
 
-const rows = [...obligations].sort((a, b) => daysOverdue(b) - daysOverdue(a));
+const rows = [...obligations].sort((a, b) => daysOverdue(b) - daysOverdue(a) || daysLate(b) - daysLate(a));
 const overdue = rows.filter((r) => daysOverdue(r) > 0);
 const worst = overdue[0];
 
-document.getElementById("hero-figure").textContent = worst ? `${daysOverdue(worst)} days` : "0";
+document.getElementById("hero-figure").textContent = worst ? `${daysOverdue(worst)} days` : "In order";
 document.getElementById("hero-caption").innerHTML = worst
-  ? `is how long San Francisco has been late delivering the <a href="/obligation.html?id=${worst.id}">${worst.title}</a>
-     required by ${worst.law.citation}. ${overdue.length} of ${rows.length} tracked obligations are currently unmet.`
+  ? `late, and counting, on the <a href="/obligation.html?id=${worst.id}">${worst.title}</a> that
+     ${worst.law.citation} requires. ${overdue.length} of ${rows.length} tracked obligations are unmet.`
   : "Every tracked obligation is currently met.";
+document.getElementById("dateline").textContent =
+  `Computed in your browser on ${new Date().toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" })}.`;
 
 const tbody = document.querySelector("#ledger tbody");
 for (const r of rows) {
   const d = daysOverdue(r);
+  const late = daysLate(r);
   const tr = document.createElement("tr");
+  if (r.status === "missing") tr.className = "is-missing";
   tr.innerHTML = `
-    <td>
+    <td data-label="Obligation">
       <a class="row-title" href="/obligation.html?id=${r.id}">${r.title}</a>
       <div class="cite">${r.law.citation}</div>
     </td>
-    <td class="who">${r.owed_by.join(", ")}</td>
-    <td class="due">${r.due ?? "none set"}</td>
-    <td>${pill(statusUI(r))}</td>
-    <td>${pill(FIND_UI[r.discoverability])}</td>
-    <td class="days ${d > 0 ? "over" : ""}">${d > 0 ? d : daysLate(r) > 0 ? `+${daysLate(r)}` : "–"}</td>`;
+    <td class="who" data-label="Owed by">${r.owed_by.join(", ")}</td>
+    <td class="due" data-label="Due">${r.due ?? "none set"}</td>
+    <td data-label="Status">${mark(statusOf(r))}</td>
+    <td data-label="Findable">${mark(FIND[r.discoverability])}</td>
+    <td class="days ${d > 0 ? "over" : ""}" data-label="Days late">${d > 0 ? d : late > 0 ? `+${late}` : "–"}</td>`;
   tbody.appendChild(tr);
 }
 
-document.getElementById("legend").innerHTML =
-  `${pill(STATUS_UI.missing)} no document found &nbsp; ${pill({ cls: "serious", label: "Filed late" })} arrived after the deadline, with the lag in days
-   &nbsp; ${pill(FIND_UI.buried)} exists, but only inside a meeting packet &nbsp; ${pill(STATUS_UI.repealed)} the duty was deleted`;
+document.getElementById("legend").innerHTML = [
+  [["fail", "Missing"], "no document found; the row carries a margin mark"],
+  [["part", "Filed late"], "late, or reachable only inside a meeting packet"],
+  [["done", "Filed"], "delivered and publicly posted"],
+  [["none", "Repealed"], "the duty was deleted, so nothing is owed"],
+].map(([m, text]) => `<span class="legend-item">${mark(m)}<span>${text}</span></span>`).join("");
 
 document.getElementById("foot").innerHTML =
-  `Overdue counts advance on their own and are computed in your browser against each deadline, so this
-   page is never stale. ${enforcement_note}
-   <br><br>Method, near misses and corrections: <a href="/methodology.html">methodology</a>.`;
+  `${enforcement_note}<br><br>Method, near misses and corrections: <a href="/methodology.html">methodology</a>.`;

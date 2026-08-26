@@ -11,6 +11,13 @@ const [rollup, nhoods, meta, districtsGeo, fs] = await Promise.all([
 ]);
 
 // Fair Share proxy. The caveats render above the numbers, never below them.
+// static SVG rather than a tile map: no external requests, prints, screenshots cleanly
+fetch("/data/districts.svg").then((r) => r.text()).then((svg) => {
+  document.getElementById("choropleth").innerHTML = svg;
+  document.getElementById("choropleth-cap").textContent =
+    "Share of mapped shelter and transitional housing beds by supervisor district. Darker is a larger share.";
+});
+
 document.getElementById("fs-caveat").innerHTML =
   `<h3>Read this before the table</h3>
    <p>${fs.proxy_caveat}</p>
@@ -26,8 +33,8 @@ for (const r of fs.districts) {
     <td>${fmt(r.unsheltered)}</td>
     <td>${pct(r.unsheltered_share)}</td>
     <td style="text-align:left">${r.over_served
-      ? `<span class="pill critical">Over-served</span> <span class="note">no new siting</span>`
-      : `<span class="pill muted">Under</span> <span class="note">siting allowed</span>`}</td>`;
+      ? `<span class="mark fail">Over-served</span>`
+      : `<span class="mark none">Under</span>`}</td>`;
   fsBody.appendChild(tr);
 }
 document.getElementById("fs-source").innerHTML =

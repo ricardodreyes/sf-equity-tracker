@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "vite": "^7"
-  },
-  "dependencies": {
-    "maplibre-gl": "^5"
   }
 }

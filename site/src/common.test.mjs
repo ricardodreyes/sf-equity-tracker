@@ -9,9 +9,17 @@ assert.equal(timeliness({ due: "2026-07-01", filed_on: "2026-07-01" }), "on time
 assert.equal(timeliness({ due: null, status: "repealed" }), "repealed");
 assert.equal(timeliness({ due: null, status: "undeterminable" }), "no deadline");
 
-// a past deadline with nothing filed is overdue; a future one is not
-const future = new Date(Date.now() + 30 * 86400000).toISOString().slice(0, 10);
-const past = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+// Fixtures must be built in LOCAL calendar time. daysSince() parses "YYYY-MM-DD" as
+// local midnight, so a UTC-derived fixture is off by one whenever local time and UTC
+// fall on different dates (any evening in Pacific time).
+const localISO = (offsetDays) => {
+  const d = new Date();
+  d.setDate(d.getDate() + offsetDays);
+  const p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+};
+const future = localISO(30);
+const past = localISO(-30);
 assert.equal(timeliness({ due: past, status: "missing" }), "overdue");
 assert.equal(timeliness({ due: future, status: "not_yet_due" }), "not yet due");
 

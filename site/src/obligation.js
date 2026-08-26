@@ -25,7 +25,7 @@ if (!r) {
         <tbody>${r.checked.map((c) => `
           <tr><td>${c.method}</td>
               <td class="url"><a href="${c.url}">${c.url}</a></td>
-              <td>${c.result}</td><td>${c.http ?? ""}</td><td>${c.at}</td></tr>`).join("")}</tbody>
+              <td class="res">${c.result}</td><td>${c.http ?? ""}</td><td>${c.at}</td></tr>`).join("")}</tbody>
        </table>`
     : "";
 
@@ -51,10 +51,10 @@ if (!r) {
     : "";
 
   root.innerHTML = `
-    <p class="note"><a href="/">Ledger</a> / ${r.title}</p>
-    <section class="hero">
-      <div class="figure">${headline}</div>
-      <div class="caption">${d > 0 ? "overdue. " : ""}${r.what}</div>
+    <p class="crumb"><a href="/">Ledger</a> / ${r.title}</p>
+    <section class="standfirst">
+      <span class="figure">${headline}</span>
+      <p class="caption">${d > 0 ? "overdue. " : ""}${r.what}</p>
     </section>
 
     ${r.correction ? `<div class="callout"><h3>Correction, ${r.correction.date}</h3><p>${r.correction.text}</p></div>` : ""}
