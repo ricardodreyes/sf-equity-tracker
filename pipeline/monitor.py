@@ -73,6 +73,21 @@ def main():
             if rx.search(title):
                 hits.append((oid, otitle, d))
 
+    # Title matching alone is why this script missed both Chapter 124 filings: departmental
+    # reports to the Board live inside PDFs titled "bag012726_agenda" with empty descriptions.
+    # The agenda corpus is searched by body text, which is where those filings actually appear.
+    try:
+        import board_agendas
+        found, _ = board_agendas.sync("2025-07-01", "2026-12-31")
+        for oid, otitle, _rx in watched:
+            terms = next(o["watch_terms"] for o in obligations if o["id"] == oid)
+            for h in board_agendas.search(terms):
+                hits.append((oid, otitle, {"id": h["agenda"], "title": h["text"][:160],
+                                           "created_at": "", "venue": "board agenda"}))
+    except Exception as e:
+        print(f"  WARNING board agenda sweep failed: {e}. Absence claims are not safe to publish "
+              f"until it runs, because that venue has falsified three of them.")
+
     top = max(d["id"] for d in docs)
     STATE.write_text(json.dumps({"last_id": top, "checked_through": docs[0].get("created_at")}, indent=1))
 

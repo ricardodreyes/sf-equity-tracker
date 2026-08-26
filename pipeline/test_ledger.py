@@ -56,7 +56,10 @@ for r in rows:
     req = r.get("request")
     if req:
         assert req["draft"].startswith("IMMEDIATE DISCLOSURE REQUEST"), f"{r['id']}: IDR phrase not at top"
-        assert "1284" in req["draft"], f"{r['id']}: no custodian certificate ask"
+        # 7922.600 creates an actual duty on the agency. Evidence Code 1284 does not:
+        # it is a hearsay exception addressed to courts, so it may be asked for but never demanded.
+        assert "7922.600" in req["draft"], f"{r['id']}: no enforceable follow-up ask"
+        assert "no statute compels one" in req["draft"], f"{r['id']}: 1284 must be framed as optional"
         assert req.get("targets"), f"{r['id']}: request with no target agency"
 
 missing = [r for r in rows if r["status"] == "missing"]
