@@ -4,8 +4,9 @@ export async function j(path) {
   return r.json();
 }
 
-export const fmt = (n) => (n == null ? "–" : n.toLocaleString("en-US"));
-export const pct = (n) => (n == null ? "–" : `${n}%`);
+const NONE = '<span role="img" aria-label="no data">–</span>';
+export const fmt = (n) => (n == null ? NONE : n.toLocaleString("en-US"));
+export const pct = (n) => (n == null ? NONE : `${n}%`);
 
 /** Today's calendar date in San Francisco, as YYYY-MM-DD.
     A statutory deadline set by a San Francisco ordinance has one correct answer, and it

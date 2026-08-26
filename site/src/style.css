@@ -27,6 +27,7 @@
   --sans:  "Plex", ui-sans-serif, system-ui, sans-serif;
   --mono:  "PlexMono", ui-monospace, monospace;
 
+  --s--2: 0.72rem; /* the floor for uppercase labels; below this they stop being legible on phones */
   --s--1: clamp(0.78rem, 0.76rem + 0.08vw, 0.82rem);
   --s-0:  clamp(0.94rem, 0.92rem + 0.12vw, 1.02rem);
   --s-1:  clamp(1.12rem, 1.05rem + 0.3vw, 1.3rem);
@@ -66,12 +67,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 2px; }
-a:hover { text-decoration-color: var(--signal); }
+a:hover { text-decoration-thickness: 2px; }
 :where(a, button, [tabindex]):focus-visible {
-  outline: 2px solid var(--signal);
+  outline: 2px solid var(--ink);
   outline-offset: 3px;
   border-radius: 1px;
 }
+code { font-family: var(--mono); font-size: 0.92em; }
 
 /* masthead ------------------------------------------------------------- */
 header.site {
@@ -88,8 +90,10 @@ header.site h1 {
 header.site h1 a { text-decoration: none; display: inline-block; padding: 0.75rem 0; margin: -0.75rem 0; }
 header.site nav { display: flex; gap: 1.4rem; font-family: var(--sans); font-size: var(--s--1); }
 header.site nav a { color: var(--ink-3); text-decoration: none; letter-spacing: 0.04em; padding: 0.75rem 0; margin: -0.75rem 0; }
+/* the ring hugs the word, not the padded hit box */
+header.site h1 a:focus-visible, header.site nav a:focus-visible { outline-offset: calc(3px - 0.75rem); }
 header.site nav a:hover { color: var(--ink); }
-header.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--signal); }
+header.site nav a[aria-current] { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 
 main.page { max-width: var(--wide); margin: 0 auto; padding: 0 1.4rem 5rem; }
 main.page > p, main.page > ul, main.page > ol { max-width: var(--measure); }
@@ -125,12 +129,14 @@ strong { font-weight: 600; }
 /* ledger ---------------------------------------------------------------- */
 table.ledger { width: 100%; border-collapse: collapse; font-family: var(--sans); }
 table.ledger th {
-  text-align: left; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em;
+  text-align: left; font-size: var(--s--2); font-weight: 600; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--ink-3); white-space: nowrap;
   padding: 0 0.8rem 0.5rem; border-bottom: 1px solid var(--ink);
 }
 table.ledger td { padding: 0.85rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
-table.ledger tr:hover td { background: var(--paper-2); }
+@media (hover: hover) { table.ledger tr:hover td { background: var(--paper-2); } }
+table.ledger tr:focus-within td { background: var(--paper-2); }
+table.ledger th:last-child { text-align: right; }
 /* the margin mark: a ledger annotation, and the only place colour appears in a row */
 table.ledger tr.is-missing td:first-child { box-shadow: inset 2px 0 0 var(--signal); }
 table.ledger .row-title {
@@ -150,16 +156,16 @@ td.days.over { color: var(--signal); font-weight: 600; }
 /* status: a mark plus a label in ink. colour never lands on the words. */
 .mark {
   display: inline-flex; align-items: baseline; gap: 0.45rem;
-  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+  font-size: var(--s--2); font-weight: 600; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-2); white-space: nowrap;
 }
 .mark::before {
   content: ""; width: 8px; height: 8px; flex: none; translate: 0 -1px;
-  border: 1px solid var(--rule-strong);
+  border: 1px solid var(--ink-3); /* 5.27:1, the outline carries meaning for the empty states */
 }
 .mark.fail::before { background: var(--signal); border-color: var(--signal); }
-.mark.part::before { background: linear-gradient(135deg, var(--rule-strong) 50%, transparent 50%); }
-.mark.done::before { background: var(--rule-strong); }
+.mark.part::before { background: linear-gradient(135deg, var(--ink-3) 50%, transparent 50%); }
+.mark.done::before { background: var(--ink-3); }
 .mark.none { color: var(--ink-3); }
 .mark.none::before { border-style: dotted; }
 
@@ -173,6 +179,8 @@ td.days.over { color: var(--signal); font-weight: 600; }
   font-size: var(--s--1); color: var(--ink-3); max-width: 46rem;
 }
 .note { font-size: var(--s--1); color: var(--ink-3); }
+.callout:empty, .caveat:empty, .footnote:empty, .note:empty { display: none; } /* nothing paints before its data lands */
+.tablewrap + .note, .choropleth + .note { margin-top: 0.9rem; }
 
 /* detail page ----------------------------------------------------------- */
 .crumb { font-family: var(--sans); font-size: var(--s--1); color: var(--ink-3);
@@ -184,12 +192,12 @@ td.days.over { color: var(--signal); font-weight: 600; }
 }
 .kv { display: grid; grid-template-columns: minmax(7rem, 10rem) 1fr; gap: 0.5rem 1.6rem;
   margin: 1.6rem 0 0; font-family: var(--sans); font-size: var(--s--1); max-width: 46rem; }
-.kv dt { color: var(--ink-3); letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.7rem;
+.kv dt { color: var(--ink-3); letter-spacing: 0.06em; text-transform: uppercase; font-size: var(--s--2);
   padding-top: 0.18rem; }
-.kv dd { margin: 0; color: var(--ink); }
+.kv dd { margin: 0; color: var(--ink); font-variant-numeric: tabular-nums; }
 
 table.audit { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: var(--s--1); }
-table.audit th { text-align: left; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+table.audit th { text-align: left; font-size: var(--s--2); letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--ink-3); font-weight: 600; padding: 0 0.7rem 0.45rem; border-bottom: 1px solid var(--ink); }
 table.audit td { padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
 table.audit td.url { font-family: var(--mono); font-size: 0.74rem; word-break: break-all; max-width: 20rem; }
@@ -204,6 +212,13 @@ table.audit td:nth-child(4), table.audit td:nth-child(5) { white-space: nowrap; 
 .callout h3 { font-family: var(--sans); font-size: var(--s--1); letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-2); }
 .callout p { margin: 0; }
+.callout p + p { margin-top: 0.7rem; }
+
+/* a caveat is not a correction: same shape, no tint, no signal */
+.caveat { border-left: 2px solid var(--rule-strong); padding: 0 0 0 1.1rem; margin: 1.2rem 0; max-width: 46rem; }
+.caveat h3 { font-family: var(--sans); font-size: var(--s--1); letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-2); }
+.caveat p { margin: 0 0 0.7rem; }
 
 pre.draft {
   font-family: var(--mono); font-size: 0.76rem; line-height: 1.6; white-space: pre-wrap;
@@ -212,31 +227,40 @@ pre.draft {
 }
 button.copy {
   font-family: var(--sans); font-size: var(--s--1); letter-spacing: 0.06em;
-  padding: 0.35rem 0.9rem; border: 1px solid var(--rule-strong);
+  padding: 0.35rem 0.9rem; border: 1px solid var(--ink-3);
   background: transparent; color: var(--ink); cursor: pointer;
+  transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 button.copy:hover { border-color: var(--ink); }
+button.copy:active { transform: scale(0.97); }
 
 /* evidence ------------------------------------------------------------- */
 table.data { width: 100%; border-collapse: collapse; font-family: var(--sans);
   font-size: var(--s--1); font-variant-numeric: tabular-nums; }
-table.data th { text-align: right; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+table.data th { text-align: right; font-size: var(--s--2); letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--ink-3); font-weight: 600; padding: 0 0.7rem 0.45rem; border-bottom: 1px solid var(--ink); }
 table.data td { text-align: right; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--rule); }
-table.data th:first-child, table.data td:first-child { text-align: left; }
-.bar { height: 7px; background: var(--rule-strong); }
-td.bar-cell { width: 20%; }
+table.data th:first-child, table.data td:first-child, table.data td.result { text-align: left; }
+.bar { height: 7px; background: var(--ink-3); }
+td.bar-cell, th.bar-cell { width: 20%; min-width: 6rem; } /* the column keeps its width when the table scrolls */
 .choropleth { max-width: 40rem; margin: 1.2rem 0 0; aspect-ratio: 640 / 560; } /* reserves the map's box before the SVG lands */
 .choropleth svg { width: 100%; height: auto; display: block; }
-.scroll { max-height: 26rem; overflow-y: auto; }
+/* the generated SVG carries a blue ramp and its own strokes and font; the page restyles it into ink tints,
+   so it follows the palette and the colour scheme, and every label gets a paper halo */
+.choropleth text { font-family: var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+.choropleth [stroke="#fcfcfb"] { stroke: var(--paper); }
+.choropleth [fill="#cfe0f6"] { fill: color-mix(in oklab, var(--ink) 8%, var(--paper)); }
+.choropleth [fill="#6da7ec"] { fill: color-mix(in oklab, var(--ink) 22%, var(--paper)); }
+.choropleth [fill="#3987e5"] { fill: color-mix(in oklab, var(--ink) 38%, var(--paper)); }
+.choropleth [fill="#256abf"] { fill: color-mix(in oklab, var(--ink) 55%, var(--paper)); }
+.choropleth [fill="#104281"] { fill: color-mix(in oklab, var(--ink) 75%, var(--paper)); }
 .tablewrap { overflow-x: auto; } /* wide data tables scroll inside their region, never the page */
 
 /* mobile: rows become records. nothing is hidden, nothing scrolls sideways. */
-@media (max-width: 46rem) {
+@media (max-width: 50rem) { /* 50rem so a portrait tablet stacks too; six nowrap columns need more than 736px */
   table.ledger thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   table.ledger, table.ledger tbody, table.ledger tr, table.ledger td { display: block; width: 100%; }
   table.ledger tr { border-bottom: 1px solid var(--ink); padding: 1rem 0 0.9rem; }
-  table.ledger tr:hover td { background: none; }
   table.ledger td { border: 0; padding: 0.1rem 0 0.1rem 0.9rem; }
   table.ledger tr.is-missing { box-shadow: inset 2px 0 0 var(--signal); }
   table.ledger tr.is-missing td:first-child { box-shadow: none; }
@@ -244,7 +268,7 @@ td.bar-cell { width: 20%; }
   table.ledger td:first-child[data-label]::before { display: none; }
   table.ledger td[data-label]::before {
     content: attr(data-label); display: inline-block; min-width: 6.5rem;
-    font-family: var(--sans); font-size: 0.66rem; letter-spacing: 0.1em;
+    font-family: var(--sans); font-size: var(--s--2); letter-spacing: 0.1em;
     text-transform: uppercase; color: var(--ink-3);
   }
   td.days { text-align: left; font-size: var(--s-0); }
@@ -256,13 +280,21 @@ td.bar-cell { width: 20%; }
 
 /* print: a record should print like one, with every checked URL intact ---- */
 @media print {
-  header.site nav, button.copy, .legend { display: none; }
+  header.site nav, button.copy { display: none; }
+  .tablewrap { overflow: visible; }
+  .mark::before, .bar, .callout, .caveat { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   body { background: #fff; color: #000; font-size: 10.5pt; }
   main.page { max-width: none; padding: 0; }
   table.ledger tr, table.audit tr, .callout, .standfirst { break-inside: avoid; }
   h2 { break-after: avoid; }
-  table.audit td.url a::after { content: " (" attr(href) ")"; font-size: 8pt; word-break: break-all; }
+  main a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; word-break: break-all; }
+  table.audit td.url a::after { content: none; } /* the visible text already is the URL */
   a { text-decoration: none; }
   table.ledger tr.is-missing td:first-child { box-shadow: none; }
   table.ledger tr.is-missing .row-title::before { content: "! "; font-weight: 700; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button.copy { transition: none; }
+  button.copy:active { transform: none; }
 }

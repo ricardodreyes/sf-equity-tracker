@@ -7,7 +7,12 @@
   <meta name="description" content="Whether San Francisco meets the homelessness, behavioral health and drug policy reporting deadlines written into its own laws." />
   <meta property="og:title" content="SF Accountability Ledger" />
   <meta property="og:description" content="The city's own deadlines, its own dates, and whether the document exists. Every absence claim publishes its search log." />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://site-slpwlk.vercel.app/" />
+  <link rel="preload" href="/data/obligations.json" as="fetch" crossorigin />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/newsreader-var.woff2" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/plexsans-var.woff2" />
   <link rel="stylesheet" href="/src/style.css" />
@@ -28,9 +33,10 @@
       documents actually appear. Every row cites the law that creates the duty, and every claim that
       something is missing publishes the list of places we looked and when.</p>
 
-    <table class="ledger" id="ledger">
+    <noscript><p class="note">This page needs JavaScript to render the record. The data it reads is at <a href="/data/obligations.json">/data/obligations.json</a>.</p></noscript>
+    <table class="ledger" id="ledger" aria-label="Tracked obligations, sorted by days overdue">
       <thead>
-        <tr><th>Obligation</th><th>Owed by</th><th>Due</th><th>Status</th><th>Findability</th><th style="text-align:right">Days late</th></tr>
+        <tr><th>Obligation</th><th>Owed by</th><th>Due</th><th>Status</th><th>Findability</th><th>Days late</th></tr>
       </thead>
       <tbody></tbody>
     </table>

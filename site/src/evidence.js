@@ -1,13 +1,14 @@
 import { j, fmt, pct } from "./common.js";
 
-let rollup, nhoods, meta, districtsGeo, fs;
+let rollup, nhoods, meta, districtsGeo, fs, svg;
 try {
-  [rollup, nhoods, meta, districtsGeo, fs] = await Promise.all([
+  [rollup, nhoods, meta, districtsGeo, fs, svg] = await Promise.all([
     j("/data/rollup_districts.json"),
     j("/data/rollup_neighborhoods.json"),
     j("/data/meta.json"),
     j("/data/districts.geojson"),
     j("/data/fairshare.json"),
+    fetch("/data/districts.svg").then((r) => (r.ok ? r.text() : "")).catch(() => ""),
   ]);
 } catch (e) {
   document.getElementById("headline-figure").textContent = "";
@@ -19,11 +20,12 @@ try {
 
 // Fair Share proxy. The caveats render above the numbers, never below them.
 // static SVG rather than a tile map: no external requests, prints, screenshots cleanly
-fetch("/data/districts.svg").then((r) => r.text()).then((svg) => {
-  document.getElementById("choropleth").innerHTML = svg;
-  document.getElementById("choropleth-cap").textContent =
-    "Share of mapped shelter and transitional housing beds by supervisor district. Darker is a larger share.";
-});
+const map = document.getElementById("choropleth");
+map.innerHTML = svg;
+map.querySelectorAll("text").forEach((t) => t.setAttribute("aria-hidden", "true"));
+document.getElementById("choropleth-cap").textContent = svg
+  ? "Share of mapped shelter and transitional housing beds by supervisor district. Darker is a larger share."
+  : "The district map could not be loaded. The tables below carry the same figures.";
 
 document.getElementById("fs-caveat").innerHTML =
   `<h3>Read this before the table</h3>
@@ -39,13 +41,13 @@ for (const r of fs.districts) {
     <td>${pct(r.bed_share)}</td>
     <td>${fmt(r.unsheltered)}</td>
     <td>${pct(r.unsheltered_share)}</td>
-    <td style="text-align:left">${r.over_served
+    <td class="result">${r.over_served
       ? `<span class="mark fail">Over-served</span>`
       : `<span class="mark none">Under</span>`}</td>`;
   fsBody.appendChild(tr);
 }
 document.getElementById("fs-source").innerHTML =
-  `By this proxy only <b>${fs.over_served.map((d) => "D" + d).join(" and ")}</b> would be blocked from new
+  `By this proxy ${fs.over_served.length ? `only <strong>${fs.over_served.map((d) => "D" + d).join(" and ")}</strong>` : "no district"} would be blocked from new
    City-funded facilities. Note that D5 reads as under-served despite holding the Tenderloin, because the
    Tenderloin spans three districts and the statute measures neighborhoods, not districts. Unsheltered counts:
    <a href="${fs.unsheltered_source_url}">${fs.unsheltered_source}</a>. Beds: ${fs.bed_source}.
@@ -67,7 +69,7 @@ const zeros = rows.filter((r) => r.shelter_beds === 0).map((r) => `D${r.district
 document.getElementById("headline-figure").textContent = `${bedShare}%`;
 document.getElementById("headline-caption").textContent =
   `of San Francisco's mapped shelter and transitional housing beds are in Districts ${top[0].district} and ${top[1].district}, ` +
-  `home to ${popShare}% of its residents. ${zeros.join(", ")} have none.`;
+  `home to ${popShare}% of its residents.${zeros.length ? ` ${zeros.join(", ")} have none.` : ""}`;
 
 const maxBeds = Math.max(...rows.map((r) => r.shelter_beds));
 const tbody = document.querySelector("#district-table tbody");
@@ -77,7 +79,7 @@ for (const r of rows) {
   tr.innerHTML = `
     <td>D${r.district} <span class="note">${supName[r.district] ?? ""}</span></td>
     <td>${fmt(r.shelter_beds)}</td>
-    <td class="bar-cell"><div class="bar" style="width:${(100 * r.shelter_beds) / maxBeds}%"></div></td>
+    <td class="bar-cell">${r.shelter_beds ? `<div class="bar" aria-hidden="true" style="width:max(2px, ${(100 * r.shelter_beds) / maxBeds}%)"></div>` : ""}</td>
     <td>${pct(r.shelter_beds_share)}</td>
     <td>${fmt(r.shelter_beds_per_10k)}</td>
     <td>${fmt(r.psh_units)}</td>
