@@ -43,7 +43,7 @@ const PAGE_PROBE = `(() => {
     favicon: !!document.querySelector('link[rel="icon"]'),
     current: document.querySelectorAll("header.site nav a[aria-current]").length,
     overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
-    fonts: ["Newsreader", "Plex"].map((f) => document.fonts.check("16px " + f)),
+    fonts: ["Roboto Flex", "Roboto Slab"].map((f) => document.fonts.check("16px " + f)),
     imgNoAlt: [...document.images].filter((i) => !i.hasAttribute("alt")).length,
     svgUnlabeled: [...document.querySelectorAll("main svg")].filter((s) => !(s.getAttribute("aria-label") || s.querySelector("title") || s.getAttribute("aria-hidden") === "true")).length,
     scrollRegions: [...document.querySelectorAll("*")].filter((el) => { const s = getComputedStyle(el); return el !== document.documentElement && el !== document.body && ((/(auto|scroll)/.test(s.overflowY) && el.scrollHeight > el.clientHeight) || (/(auto|scroll)/.test(s.overflowX) && el.scrollWidth > el.clientWidth)); }).map((el) => ({ cls: el.className, focusable: el.tabIndex >= 0 })),
@@ -91,7 +91,7 @@ try {
       check(where, "metadata", p.lang === "en" && p.title.length > 0 && p.description && p.favicon, `${p.lang} "${p.title}"`);
       check(where, "nav-current", p.current === 1, `${p.current} aria-current`);
       check(where, "no-horizontal-overflow", p.overflow <= 1, `${p.overflow}px`);
-      check(where, "fonts-loaded", p.fonts.every(Boolean), `Newsreader ${p.fonts[0]}, Plex ${p.fonts[1]}`);
+      check(where, "fonts-loaded", p.fonts.every(Boolean), `Roboto Flex ${p.fonts[0]}, Roboto Slab ${p.fonts[1]}`);
       check(where, "images-labelled", p.imgNoAlt === 0 && p.svgUnlabeled === 0, `${p.imgNoAlt} img, ${p.svgUnlabeled} svg without a label`);
       check(where, "scroll-regions-focusable", p.scrollRegions.every((r) => r.focusable), p.scrollRegions.map((r) => r.cls).join(","));
       for (const [k, fg] of p.textColors) check(where, `contrast-${k}`, contrast(fg, p.bodyBg) >= 4.5, contrast(fg, p.bodyBg).toFixed(2) + ":1");
@@ -138,7 +138,7 @@ try {
   const dp = await dark.newPage();
   await dp.goto(base + "/", { waitUntil: "networkidle" });
   const d = await dp.evaluate(PAGE_PROBE);
-  check("/@dark", "dark-tokens-applied", luminance(d.bodyBg) < 0.1, `bg rgb(${d.bodyBg})`);
+  check("/@dark", "stays-light-like-sf-gov", luminance(d.bodyBg) > 0.8, `bg rgb(${d.bodyBg})`);
   for (const [k, fg] of d.textColors) check("/@dark", `contrast-${k}`, contrast(fg, d.bodyBg) >= 4.5, contrast(fg, d.bodyBg).toFixed(2) + ":1");
   await dark.close();
 
