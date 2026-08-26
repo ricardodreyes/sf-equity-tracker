@@ -21,56 +21,31 @@
    "due_basis": "15 days after the Operative Date of 2026-01-01",
    "due_certainty": "firm",
    "cadence": "biennial, refreshed within 60 days of each Point-in-Time Count release",
-   "status": "missing",
-   "discoverability": "absent",
-   "why_it_matters": "Sec. 124.2(b)'s Fair Share Rule blocks new City-funded facilities in any Neighborhood whose share of beds exceeds its share of unsheltered persons. Without this analysis the rule has no published input, so nobody outside the City can check whether a siting decision complies.",
+   "status": "filed",
+   "discoverability": "buried",
+   "why_it_matters": "HSH filed this. It is also invisible: it has no page on sf.gov, no catalogue record, and does not appear on HSH's own reporting and compliance page. It exists as one line in the Petitions and Communications section of a Board agenda. Both Chapter 124 deliverables now behave the same way, filed and then unfindable, which is the pattern this ledger exists to measure. The Fair Share Rule in 124.2(b) still has no public input, because a document nobody can locate cannot be used to check a siting decision.",
    "checked": [
     {
-     "method": "Enumerated the entire sf.gov CMS document store and filtered every title and description",
+     "method": "Board of Supervisors agenda for 2026-01-27, Petitions and Communications, read directly",
+     "url": "https://sfbos.archive.sf.gov/sites/default/files/bag012726_agenda.pdf",
+     "result": "FOUND. 'From the Department of Homelessness and Supportive Housing (HSH), pursuant to Ordinance No. 172-25, submitting a January 2026 Shelter Equity Analysis. File No. 250487.' The agenda's receipt window is 2026-01-08 through 2026-01-22, which brackets the 2026-01-16 deadline.",
+     "http": 200,
+     "at": "2026-08-25T19:05:00Z"
+    },
+    {
+     "method": "sf.gov content catalogue, enumerated in full",
      "url": "https://api.sf.gov/api/v2/documents/?order=-id&limit=1000",
-     "result": "0 of 58,905 documents match",
+     "result": "absent from all 58,905 documents and all 5,547 report pages. The filing exists but was never published to sf.gov.",
      "http": 200,
-     "at": "2026-08-25",
+     "at": "2026-08-25T17:00:00Z",
      "date_precision_only": true
     },
     {
-     "method": "Enumerated every page of type sf.Report",
-     "url": "https://api.sf.gov/api/v2/pages/?type=sf.Report&limit=1000",
-     "result": "0 of 5,547 pages match",
-     "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
-    },
-    {
-     "method": "Paginated CMS ids 43443 to 62484, covering 2025-08-14 through 2026-08-24, which brackets the deadline",
-     "url": "https://api.sf.gov/api/v2/documents/",
-     "result": "18,000 records, no match",
-     "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
-    },
-    {
-     "method": "Keyword search, both endpoints, 7 phrasings",
-     "url": "https://api.sf.gov/api/v2/documents/?search=shelter+equity+analysis",
-     "result": "total_count 0",
-     "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
-    },
-    {
-     "method": "Planning Department site and Planning Commission agenda archive, which are outside the sf.gov CMS",
-     "url": "https://sfplanning.org",
-     "result": "not found",
-     "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
-    },
-    {
-     "method": "HSH Additional Reporting and Compliance collection, the page where HSH lists filings against their mandating authority",
+     "method": "HSH Additional Reporting and Compliance collection, where HSH lists its filings against their mandating authority",
      "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
-     "result": "no Chapter 124 entry",
+     "result": "no Chapter 124 entry, despite HSH having filed",
      "http": 200,
-     "at": "2026-08-25",
+     "at": "2026-08-25T17:00:00Z",
      "date_precision_only": true
     }
    ],
@@ -94,30 +69,18 @@
    "open_lead": "KQED reported on 2025-11-11 that a Budget and Legislative Analyst analysis showed neighborhood-level service versus need discrepancies using the figures this section calls for. If that product is public, the City had the analysis before the deadline.",
    "watch_terms": [
     "shelter equity",
-    "equitable distribution",
-    "covered facilit"
+    "equitable distribution"
    ],
    "we_built_instead": {
     "label": "We built as much of it as public data allows",
     "href": "/evidence.html"
    },
    "requests": [],
-   "request": {
-    "targets": [
-     {
-      "agency": "HSH",
-      "portal": "https://sanfrancisco.nextrequest.com"
-     },
-     {
-      "agency": "Planning Department",
-      "portal": "mailto:CPC-RecordRequest@sfgov.org",
-      "note": "Planning is off portal and takes requests by email only"
-     }
-    ],
-    "subject": "Immediate Disclosure Request: Shelter Equity Analysis, Admin Code 124.2(a)",
-    "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the Shelter Equity Analysis prepared under San Francisco Administrative Code section 124.2(a), added by Ordinance 172-25, together with any draft, memorandum, spreadsheet or dataset prepared in connection with it. Section 124.2(a) required HSH and the Planning Department to prepare this analysis within 15 days of the January 1, 2026 operative date, using 2024 Point-in-Time Count data, showing for each Neighborhood the number of unsheltered persons, that Neighborhood's share of citywide unsheltered persons, the total shelter and transitional housing beds located there, and its share of citywide beds.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
-   },
-   "search_boundary": "This search covered the sf.gov content catalogue by enumeration, department websites, and the commission agenda archives named above. It did NOT cover documents that exist only inside Legistar agenda packets, which cannot be searched programmatically, and it does not reach systems outside sf.gov unless a specific check below names one. A document filed with the Clerk and never posted would not appear here. That is how the Admin Code 124.4 report escaped an earlier sweep."
+   "filed_on": "2026-01-22",
+   "correction": {
+    "date": "2026-08-25",
+    "text": "This row read MISSING and said no Shelter Equity Analysis had been published anywhere, at 221 days overdue. That was false, and it was this site's headline claim against two named departments. HSH submitted the analysis to the Board of Supervisors in January 2026, within the receipt window that brackets the deadline. Board of Supervisors agendas are published as PDFs at a predictable path and every departmental filing is listed in their Petitions and Communications section. That venue was not checked when this row was first published, which is why the row was wrong. The row now reads filed and buried, which is what the evidence actually supports."
+   }
   },
   {
    "id": "street-teams-report",
@@ -137,12 +100,12 @@
     "Fire Department"
    ],
    "due": "2025-09-26",
-   "due_basis": "The last Friday of September 2025, the first year the duty applied",
-   "due_certainty": "firm",
+   "due_basis": "The last Friday of September 2025 under Sec. 20.11-2(c). Contested: DEM asked the Board for an extension before the deadline, and we cannot establish whether it was granted.",
+   "due_certainty": "contested",
    "cadence": "annual",
    "status": "missing",
    "discoverability": "absent",
-   "why_it_matters": "Sec. 20.11-2(e) separately requires DEM to post each report on its own website within 10 calendar days of submitting it. Absence from DEM's site is therefore not just our failure to find it, it is a second, independent breach.",
+   "why_it_matters": "No report has been located, and Sec. 20.11-2(e) separately requires DEM to post each report on its own website within 10 days. But DEM asked the Board for an extension before the deadline passed, so the deadline itself is contested and this row should not be read as a clean failure.",
    "checked": [
     {
      "method": "Department of Emergency Management website, full document listing",
@@ -166,6 +129,13 @@
      "result": "one DPH presentation from 2026-07-06 about a contract transfer, listed as considered and rejected below",
      "http": 200,
      "at": "2026-08-25T18:35:00Z"
+    },
+    {
+     "method": "Board of Supervisors agenda for 2025-09-02, Petitions and Communications",
+     "url": "https://sfbos.archive.sf.gov/sites/default/files/bag090225_agenda.pdf",
+     "result": "'From the Department of Emergency Management (DEM), pursuant to Administrative Code, Chapter 20, submitting request for extension for annual Street Teams Report.' Received in the 2025-07-24 to 2025-08-28 window, before the 2025-09-26 deadline. Whether the Board granted it is not established.",
+     "http": 200,
+     "at": "2026-08-25T19:05:00Z"
     }
    ],
    "considered_rejected": [
@@ -195,7 +165,7 @@
     "subject": "Immediate Disclosure Request: Street Teams report, Admin Code 20.11-2",
     "draft": "IMMEDIATE DISCLOSURE REQUEST\n\n1. I request the Street Teams report required by San Francisco Administrative Code section 20.11-2, due on the last Friday of September 2025, together with any draft or transmittal correspondence. I also request records sufficient to show whether the report was posted on the Department's website as section 20.11-2(e) requires within 10 calendar days of submission.\n\n2. If no such record exists, I request a written certification under California Evidence Code section 1284 from the official custodian of records, reciting that a diligent search was made and that the record cannot be found. Please state what was searched and by whom.\n\nThis is a request under the California Public Records Act and San Francisco Administrative Code Chapter 67. Because this request is marked as an Immediate Disclosure Request under Section 67.25(a), a response is due by the close of business on the next business day. If you claim an extension under Section 67.25(b), please state the specific basis in writing.\n\nPlease produce records on a rolling basis under Section 67.25(d) rather than withholding everything until the last item is ready."
    },
-   "search_boundary": "This search covered the sf.gov content catalogue by enumeration, department websites, and the commission agenda archives named above. It did NOT cover documents that exist only inside Legistar agenda packets, which cannot be searched programmatically, and it does not reach systems outside sf.gov unless a specific check below names one. A document filed with the Clerk and never posted would not appear here. That is how the Admin Code 124.4 report escaped an earlier sweep."
+   "search_boundary": "This search covered the sf.gov content catalogue by enumeration, department websites, and the commission agenda archives named above. It did NOT cover documents that exist only inside Legistar agenda packets, which cannot be searched programmatically, and it does not reach systems outside sf.gov unless a specific check below names one. A document filed with the Clerk and never posted would not appear here. That is how the Admin Code 124.4 report escaped an earlier sweep. Board of Supervisors agendas are published as PDFs at a predictable path and every departmental filing is listed in their Petitions and Communications section. That venue was not checked when this row was first published, which is why the row was wrong."
   },
   {
    "id": "rapid-rehousing-report",
@@ -218,7 +188,7 @@
    "cadence": "annual",
    "status": "missing",
    "discoverability": "absent",
-   "why_it_matters": "This is the only duty the Homelessness Oversight Commission owes on a clock. Charter Sec. 4.133, which created the Commission, sets no reporting cadence at all.",
+   "why_it_matters": "This is the one absence claim on the site that has survived a search of the venue that falsified the others. It is also the only duty the Homelessness Oversight Commission owes on a clock: Charter Sec. 4.133, which created the Commission, sets no reporting cadence at all.",
    "checked": [
     {
      "method": "Read the agenda of every Homelessness Oversight Commission meeting from January 2025 through August 2026",
@@ -235,10 +205,17 @@
      "http": 200,
      "at": "2026-08-25",
      "date_precision_only": true
+    },
+    {
+     "method": "Every Board of Supervisors agenda published between 2025-07-01 and 2026-08-31, 43 in total, searched in full text",
+     "url": "https://sfbos.archive.sf.gov/sites/default/files/",
+     "result": "zero mentions of Rapid Rehousing or Sec. 20.21-4 in any agenda, including the Petitions and Communications sections where departmental filings to the Board are listed",
+     "http": 200,
+     "at": "2026-08-25T19:15:00Z"
     }
    ],
    "considered_rejected": [],
-   "no_near_miss_reason": "No document or hearing of any kind resembling this deliverable was located, so there is nothing to list as considered and rejected.",
+   "no_near_miss_reason": "Nothing resembling this deliverable was found in 43 Board agendas, in the Commission's own agendas across 20 months, or in the sf.gov catalogue. There is genuinely nothing to rule out, which is itself worth stating plainly rather than leaving the section empty.",
    "watch_terms": [
     "rapid re-?housing"
    ],
@@ -611,10 +588,17 @@
      "http": 200,
      "at": "2026-08-25",
      "date_precision_only": true
+    },
+    {
+     "method": "Board of Supervisors agendas 2025-07 to 2026-08, searched for Chapter 21B filings from any department",
+     "url": "https://sfbos.archive.sf.gov/sites/default/files/bag011326_agenda.pdf",
+     "result": "Other departments do file under Chapter 21B. The Sheriff's Office submitted waiver notifications on 2026-01-13, and an agenda of 2026-01-06 records 10 notifications from various departments. These are waiver notifications rather than the 21B.6(b) quarterly contract report, so they do not discharge this duty, but they do show the other departments are not silent under the chapter.",
+     "http": 200,
+     "at": "2026-08-25T19:15:00Z"
     }
    ],
    "considered_rejected": [],
-   "caveat": "HSH combines Q3 and Q4 into a single July filing in both fiscal years, so the cadence is closer to three filings a year than to every three months.",
+   "caveat": "HSH combines Q3 and Q4 into a single July filing in both fiscal years, so the cadence is closer to three filings a year than to every three months. An earlier version of this row said the other nine Designated Departments had filed nothing. That was too strong: they file waiver notifications under the same chapter. What is absent is the quarterly contract report specifically, and only from departments that may not owe one.",
    "watch_terms": [
     "\\bch\\.? ?21b\\b",
     "chapter 21b",

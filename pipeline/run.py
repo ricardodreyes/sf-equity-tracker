@@ -6,6 +6,7 @@
 import sys
 
 import assign
+import board_agendas
 import choropleth
 import fairshare
 import fetch
@@ -25,6 +26,9 @@ def main():
     choropleth.build()
     ledger.main()
     monitor.main()
+    # the venue that produced three false positives; sync so searches run against fresh agendas
+    found, missing = board_agendas.sync("2025-07-01", "2026-12-31")
+    print(f"board agendas: {len(found)} cached, {len(missing)} dates with none published")
     print("done")
 
 

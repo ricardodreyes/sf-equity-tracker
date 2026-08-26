@@ -1,0 +1,981 @@
+BOARD OF SUPERVISORS
+CITY AND COUNTY OF SAN FRANCISCO
+AGENDA
+Legislative Chamber, Room 250
+City Hall, 1 Dr. Carlton B. Goodlett Place
+San Francisco, CA 94102-4689
+Tuesday, July 7, 2026 - 2:00 PM
+Regular Meeting
+RAFAEL MANDELMAN, PRESIDENT
+CONNIE CHAN, CHYANNE CHEN, MATT DORSEY, JACKIE FIELDER, BILAL MAHMOOD,
+MYRNA MELGAR, DANNY SAUTER, STEPHEN SHERRILL,
+SHAMANN WALTON, ALAN WONG
+Angela Calvillo, Clerk of the Board
+Agendas of the Board of Supervisors are available on the internet at sf.gov/sfbos
+
+BOARD COMMITTEES
+Committee Membership
+
+Meeting Days
+
+Budget and Appropriations Committee
+Supervisors Chan, Dorsey, Sauter, Walton, Mandelman
+
+Wednesday
+1:30 PM
+
+Budget and Finance Committee
+Supervisors Chan, Dorsey, Sauter
+
+Wednesday
+10:00 AM
+
+Government Audit and Oversight Committee
+Supervisors Sherrill, Mahmood, Fielder
+Land Use and Transportation Committee
+Supervisors Melgar, Chen, Mahmood
+Public Safety and Neighborhood Services Committee
+Supervisors Dorsey, Sauter, Wong
+Rules Committee
+Supervisors Walton, Sherrill, Mandelman
+
+First-named Supervisor is Chair, Second-named Supervisor is Vice-Chair of the Committee.
+
+1st and 3rd Thursday
+10:00 AM
+Monday
+1:30 PM
+2nd and 4th Thursday
+10:00 AM
+Monday
+10:00 AM
+
+The Levine Act
+Pursuant to California Government Code, Section 84308, Members of the Board who have received campaign
+contributions totaling more than $500 may be required to disclose that fact on the record of the proceeding.
+Parties and their paid agents may also be required to disclose on the record any campaign contributions made to a
+Member of the Board that meets the following qualifications for disclosure. A Member of the Board of
+Supervisors is disqualified and must recuse themselves on any agenda item involving business, professional,
+trade, and land use licenses or permits and all other entitlements for use, if they received more than $500 in
+campaign contributions from the applicant or contractor, an agent of the applicant or contractor, or any financially
+interested participant within the 12 months prior to the final decision; and for 12 months following the date of the
+final decision, a Member of the Board shall not accept, solicit, or direct a campaign contribution of $500 or more
+from the applicant or contractor, an agent of the applicant or contractor, or any financially interested participant.
+The foregoing statements do not constitute legal advice. Parties, participants, and their agents are urged to
+consult their own legal counsel regarding the requirements of the law. For more information about these
+disclosures, visit sfethics.org.
+Agenda Item Information
+Each item on the Consent or Regular agenda may include the following 1) Legislation; 2) Budget and Legislative
+Analyst report; 3) Department or Agency cover letter and/or report; 4) Public correspondence. These items are
+available for review at City Hall, 1 Dr. Carlton B. Goodlett Place, Room 244 or at sf.gov/sfbos-lrc.
+Meeting Procedures
+The Board of Supervisors is the legislative body of the City and County of San Francisco. The Board has several
+standing committees where legislation is the subject of hearings at which members of the public are urged to
+testify. The full Board does not hold a second public hearing nor take public comment on matters which have
+been heard in committee. An opportunity for members of the public to provide remote comment is provided at full
+Board of Supervisors meetings (remote comment is not provided at committees), as required by California
+Government Code, Sections 54953.4 et seq.
+Board procedures do not permit: 1) vocal or audible support or opposition to statements by Supervisors or by
+other persons testifying; 2) ringing and use of cell phones or electronic devices; 3) bringing in or displaying signs
+in the meeting room; or 4) standing in the meeting room. Each member of the public will be allotted the same
+maximum number of minutes to speak as set by the President or Chair at the beginning of each item or public
+comment, excluding City representatives; except that public speakers using interpretation assistance will be
+allowed to testify for twice the amount of time. Members of the public who want to display a document should
+place it on the overhead during their public comment and remove the document when they want the screen to
+return to live coverage of the meeting.
+IMPORTANT INFORMATION: The public is encouraged to testify at Board and Committee meetings. Persons
+unable to attend the meeting may submit to the City, by the time the proceedings begin, written comments
+regarding agenda items for the official public record. Written communications should be submitted to the Clerk of
+the Board or the Clerk of the Committee: 1 Dr. Carlton B. Goodlett Place, Room 244, San Francisco, CA 94102.
+Communications not received prior to the hearing may be delivered to the Clerk of the Board or the Clerk of the
+Committee and will be shared with the Members.
+COPYRIGHT: All system content that is broadcasted live during public proceedings is secured by
+High-bandwidth Digital Content Protection (HDCP), which prevents copyrighted or encrypted content from being
+displayed or transmitted through unauthorized devices. Members of the public who wish to utilize chamber
+digital, audio and visual technology may not display copyrighted or encrypted content during public
+proceedings.
+AGENDA PACKET: Available at sf.gov/sfbos-meetings. Meetings are cablecast on SFGovTV, at sf.gov/tv or
+your Local Cable Channel (see your provider for channel listing).
+LANGUAGE INTERPRETERS: Language services are available in Spanish, Chinese and Filipino for requests
+made at least two (2) business days in advance of the meeting, to help ensure availability. For more information or
+
+to request services, contact bos@sfgov.org or call (415) 554-5184.
+傳譯服務: 所有常規及特別市參事會會議和常務委員會會議將提供西班牙文, 中文以及菲律賓文的傳譯服
+務, 但必須在會議前最少兩 (2) 個工作日作出請求, 以確保能獲取到傳譯服務. 將因應請求提供交替傳
+譯服務, 以便公眾向有關政府機構發表意見. 如需更多資訊或請求有關服務, 請發電郵至
+bos@sfgov.org 或致電 (415) 554-5184 聯絡我們.
+INTÉRPRETES DE IDIOMAS: Para asegurar la disponibilidad de los servicios de interpretación en chino, filipino
+y español, presente su petición por lo menos con dos (2) días hábiles de antelación previo a la reunión. Para más
+información o para solicitar los servicios, envíe su mensaje a bos@sfgov.org o llame al (415) 554-5184.
+TAGA SALIN-WIKA: Ipaabot sa amin ang mga kahilingan sa pag salin-wika sa Kastila, Tsino at Pilipino ng hindi
+bababa sa dalawang araw bago ang pulong. Makakatulong ito upang tiyakin na ang mga serbisyo ay nakalaan at
+nakahanda. Para sa dagdag kaalaman o para humilin
+Americans with Disabilities Act (ADA) and Reasonable Accommodations
+Title II of the ADA requires that all programs offered through the state and local government such as the City
+and County of San Francisco be accessible and usable to people with disabilities. The ADA and City policy
+require that people with disabilities have equal access to all City services, activities, and benefits. If you believe
+your rights under the ADA are violated, contact the ADA Coordinator. Ordinance No. 90-10 added Section
+2A.22.3 to the Administrative Code, which adopted a Citywide Americans with Disabilities Act Reasonable
+Modification Policy.
+Meetings are real-time captioned and cablecast open-captioned on SFGovTV (sf.gov/tv) or your Local Cable
+Channel (see your provider for channel listing). Board and Committee meeting agendas and minutes are available
+on the Board’s website sf.gov/sfbos and adhere to web development Federal Access Board’s Section 508
+Guidelines. For reasonable accommodations, please email bos@sfgov.org, or call (415) 554-5184 or (415) 554-5227
+(TTY). Board of Supervisors’ Rules of Order 1.3.3 permits remote public comment at meetings of the Board and
+its committees, as legally required to enable people with disabilities to participate in such meetings. If you
+require remote access as a means of reasonable accommodation under ADA, please contact the Clerk’s Office to
+request remote access, including a description of the functional limitation(s) that precludes your ability to attend
+in person. Requests made at least two (2) business days in advance of the meeting will help to ensure
+availability. For further assistance, please contact Wilson Ng, ADA Coordinator, at Wilson.L.Ng@sfgov.org.
+Know Your Rights Under The Sunshine Ordinance
+Commissions, boards, councils, and other agencies of the City and County exist to conduct the people's
+business. This Ordinance assures that deliberations are conducted before the people and that City operations
+are open to the people's review. For information on your rights under the Sunshine Ordinance (San Francisco
+Administrative Code, Chapter 67) or to report a violation of the Ordinance, contact by mail at Sunshine
+Ordinance Task Force, 1 Dr. Carlton B. Goodlett Place, Room 244, San Francisco CA 94102; phone at (415)
+554-7724; fax at (415) 554-5163; or by email at sotf@sfgov.org. Citizens may obtain a free copy of the Sunshine
+Ordinance by printing the San Francisco Administrative Code, Chapter 67, on the Internet at sf.gov/sotf.
+Ethics Requirements
+Individuals and entities that influence or attempt to influence local legislative or administrative action may be
+required by the San Francisco Lobbyist Ordinance (Campaign & Governmental Conduct Code, Section 2.100) to
+register and report lobbying activity. For more information about the Lobbyist Ordinance, please contact the
+Ethics Commission at 25 Van Ness Avenue, Suite 220, San Francisco, CA 94102; (415) 252-3100; fax (415)
+252-3112; website sfethics.org.
+Under Campaign and Governmental Conduct Code, Section 1.127, no person or entity with a financial interest in
+a land use matter pending before the Board of Appeals, Board of Supervisors, Building Inspection Commission,
+Commission on Community Investment and Infrastructure, Historic Preservation Commission, Planning
+Commission, Port Commission, or the Treasure Island Development Authority Board of Directors, may make a
+campaign contribution to a member of the Board of Supervisors, the Mayor, the City Attorney, or a candidate for
+any of those offices, from the date the land use matter commenced until 12 months after the board or commission
+has made a final decision, or any appeal to another City agency from that decision has been resolved. For more
+information about this restriction, visit sfethics.org.
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+Remote Access to Information and Participation
+The Board of Supervisors meetings allow in-person attendance, in-person public comment
+(prioritized before remote public comment), and remote public comment.
+Members of the public may also submit their comments by email to: bos@sfgov.org; all
+comments received will be made a part of the official record. Watch live on your Local
+Cable Channel (see your provider for channel listing) or stream meetings on the
+SFGovTV website (www.sf.gov/tv). Board of Supervisors Regular Meetings begin at
+2:00 p.m. on Tuesdays. Board Agendas and their associated documents are available at
+www.sf.gov/sfbos.
+PUBLIC COMMENT CALL-IN
+1 (415) 655-0001 / Meeting ID: 2663 746 7031 # #
+(Press *3 to enter the speaker line)
+Visit the Board’s website (www.sf.gov/sfbos) for additional information or contact the
+Office of the Clerk of the Board at (415) 554-5184.
+
+ROLL CALL AND PLEDGE OF ALLEGIANCE
+Pursuant to Board Rule 4.7.1 the President shall present the ancestral homeland
+acknowledgement of the Ramaytush Ohlone, who are the original inhabitants of the San
+Francisco Peninsula.
+
+COMMUNICATIONS
+APPROVAL OF MEETING MINUTES
+Approval of the June 2, 2026, Board Meeting Minutes.
+
+AGENDA CHANGES
+
+City and County of San Francisco
+
+Page 4
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+CONSENT AGENDA
+All matters listed hereunder constitute a Consent Agenda, are considered to be routine by the Board of
+Supervisors and will be acted upon by a single roll call vote of the Board. There will be no separate
+discussion of these items unless a member of the Board so requests, in which event the matter shall
+be removed from the Consent Agenda and considered as a separate item.
+Questions on the Consent Agenda are on final passage, first reading, adoption, or approved, as
+indicated.
+
+Items 1 through 4
+
+Recommendations of the Government Audit and Oversight Committee
+Present: Supervisors Sherrill, Mahmood
+
+1.
+
+260483
+
+[Settlement of Lawsuit - Amaryllis Cruz and Elias Jimenez - $3,000,000]
+Ordinance authorizing settlement of the lawsuit filed by Amaryllis Cruz and Elias Jimenez
+against the City and County of San Francisco for $3,000,000; the lawsuit was filed on
+September 5, 2023, in San Francisco Superior Court, Case No. CGC-23-608832; entitled
+Amaryllis Cruz, et al. v. City and County of San Francisco, et al.; the lawsuit involves
+alleged medical negligence. (City Attorney)
+06/30/2026; PASSED, ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+2.
+
+260484
+
+[Settlement of Lawsuit - David M. Kennedy-Phelps - $50,000]
+Ordinance authorizing settlement of the lawsuit filed by David M. Kennedy-Phelps against
+the City and County of San Francisco for $50,000; the lawsuit was filed on November 22,
+2024, in San Francisco Superior Court, Case No. CGC-24-620022; entitled David M.
+Kennedy-Phelps v. City and County of San Francisco, et al.; the lawsuit involves alleged
+personal injury from a vehicle collision. (City Attorney)
+06/30/2026; PASSED, ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+3.
+
+260566
+
+[Settlement of Lawsuit - Elise Williams and Zachary Williams - $35,000]
+Ordinance authorizing settlement of the lawsuit filed by Elise Williams and Zachary
+Williams against the City and County of San Francisco for $35,000; the lawsuit was filed
+on June 27, 2023, in San Francisco Superior Court, Case No. CGC-23-607295; entitled
+Elise Williams, et al. v. City and County of San Francisco, et al.; the lawsuit involves
+alleged personal injury on a City street. (City Attorney)
+06/30/2026; PASSED, ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+City and County of San Francisco
+
+Page 5
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+260540
+
+[Police Code - Expanding Protections - Fair Chance Ordinance]
+
+4.
+
+Tuesday, July 7, 2026
+
+Sponsors: Mahmood; Dorsey, Mandelman, Sherrill and Fielder
+Ordinance amending the Police Code to modify provisions of the Fair Chance Ordinance
+that regulate the use of criminal history in certain employment and housing decisions
+specifically by providing that employers and affordable housing providers may not use
+out-of-state criminal convictions or arrests for conduct that is lawful in California related to
+abortion-related healthcare, drag performances, gender-affirming care, and spontaneous
+abortion, as defined, in making certain employment or housing-related decisions;
+increasing administrative penalties for violations; and increasing liquidated damages
+available in a lawsuit.
+06/30/2026; PASSED, ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+REGULAR AGENDA
+UNFINISHED BUSINESS
+Recommendation of the Rules Committee
+Present: Supervisors Walton, Sherrill, Mandelman
+
+5.
+
+260535
+
+[Charter Amendment - Municipal Finance Corporation and Public Bank]
+Sponsors: Chen; Fielder, Melgar, Mahmood and Walton
+Charter Amendment (First Draft) to amend the Charter of the City and County of San
+Francisco to authorize the establishment of a Municipal Finance Corporation and Public
+Bank as nonprofit corporations, and to set forth the mission, principles, and governance
+structure of those corporations; at an election to be held on November 3, 2026.
+(Supervisor Wong voted No to the continuance on first appearance.)
+06/30/2026; CONTINUED.
+
+Question: Shall this Charter Amendment be SUBMITTED?
+
+City and County of San Francisco
+
+Page 6
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+NEW BUSINESS
+Recommendations of the Land Use and Transportation Committee
+Present: Supervisors Melgar, Mahmood, Sherrill
+
+6.
+
+260180
+
+[Planning Code - Relocation and Re-establishment of Liquor Establishments]
+Sponsor: Walton
+Ordinance amending the Planning Code to principally permit the relocation of Bar Uses
+with Alcohol Beverage Control licenses as of May 19, 2003, within the Third Street Alcohol
+Restricted Use District (RUD) and the Bayview Neighborhood Commercial District (NCD);
+allow establishments with Alcohol Beverage Control licenses as of May 19, 2003, to
+re-establish the use under the existing license within the RUD and NCD; affirming the
+Planning Department’s determination under the California Environmental Quality Act;
+making findings of consistency with the General Plan, and the eight priority policies of
+Planning Code, Section 101.1; and making findings of public necessity, convenience, and
+welfare pursuant to Planning Code, Section 302.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+7.
+
+260541
+
+[Public Works Code - Encroachment Permit and Occupancy Fee Waivers Harry Street Steps Waste Bin Enclosure]
+Sponsor: Mandelman
+Ordinance waiving the street encroachment permit fee and annual public right-of-way
+occupancy fee for a project sponsor to install and maintain a waste bin enclosure on the
+sidewalk adjacent to the Harry Street Steps at the intersection of Laidley and Harry
+Streets in the Upper Noe and Diamond Heights neighborhood; and affirming the Planning
+Department’s determination under the California Environmental Quality Act.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+City and County of San Francisco
+
+Page 7
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+Referred Without Recommendation From the Land Use and Transportation
+Committee
+Present: Supervisors Melgar, Mahmood, Sherrill
+
+8.
+
+260281
+
+[Various Codes - Cannabis Cafés]
+Sponsor: Mandelman
+Ordinance amending the Health, Planning, Police, and Business and Tax Regulations
+Codes to establish a new permit type for cannabis cafés to be administered by the Office
+of Cannabis that will authorize the permittee to sell cannabis and cannabis products only
+for consumption on the premises of the café; exempt cannabis cafés from the prohibition
+on smoking in business establishments; eliminate the prohibition on establishments with a
+cannabis consumption permit requiring employees to enter a designated smoking room as
+a condition of employment; exempt cannabis cafés in certain circumstances from the
+600-foot buffer rule that applies to cannabis retail establishments; restrict eligibility for
+cannabis café permits for one year to businesses that currently hold a cannabis storefront
+retailer permit or that have the same owners as such a business; require Equity Applicants
+that apply for a cannabis café permit to pay the $2,000 application fee, any permit
+amendment processing costs, and the $3,000 license fee for the first year of operation,
+associated with the cannabis café permit; affirming the Planning Department’s
+determination under the California Environmental Quality Act; making findings of
+consistency with the General Plan and the eight priority policies of Planning Code, Section
+101.1; and making public necessity, convenience, and welfare findings under Planning
+Code, Section 302.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+City and County of San Francisco
+
+Page 8
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+Recommendations of the Rules Committee
+Present: Supervisors Walton, Sherrill, Mandelman
+(Pursuant to the provisions of Board of Supervisors Rule 2.22.7, at least six days must
+intervene between the first appearance of a proposed Charter Amendment, before the
+Board as a referral from Committee, and any Board order of submission to the electorate.
+In accordance therewith, consideration of the following proposed Charter Amendments
+appropriately may be continued at least one week.)
+
+9.
+
+260536
+
+[Charter Amendment - Department, Board, Commission, and Advisory Body
+Updates]
+Sponsors: Mandelman; Mahmood, Melgar and Sherrill
+Charter Amendment (Second Draft) to amend the Charter of the City and County of San
+Francisco by 1) requiring or authorizing the Board of Supervisors to amend specified
+initiative ordinances; 2) transferring from the Charter to the Municipal Code certain
+commissions and advisory bodies, in some cases with modified functions; 3) requiring that
+the Commission Streamlining Task Force be convened every ten years; 4) removing the
+general requirements that boards and commissions develop and keep an annual statement
+of purpose, appoint an executive secretary, and prepare an annual report; 5) changing the
+membership qualifications, composition, and member selection process for certain bodies;
+6) eliminating, consolidating, and changing the functions and authorities of certain bodies;
+7) changing the planning and reporting schedule of the Department of Children, Youth, and
+Their Families (“DCYF”) and related policy bodies, and changing the names but not the
+functions of those related policy bodies; 8) specifying that elected members of the
+Retirement Board, Health Service Board, and Retiree Health Care Trust Fund Board may
+be removed only for official misconduct; 9) making various changes to departments’
+operations and reporting requirements; 10) updating the Public Utilities Commission’s
+exclusive charge over matters related to water, power, and sewer infrastructure and
+services; 11) providing that the Board of Supervisors shall approve settlements or
+dismissals of legal proceedings recommended by the City Attorney by resolution, rather
+than by ordinance; 12) authorizing the City Administrator to conduct real estate strategic
+planning and to negotiate and manage acquisitions, leases, and conveyances of City real
+property; and 13) making clarifying edits, deleting obsolete language, and updating
+out-of-date references in various sections; at an election to be held on November 3, 2026.
+Question: Shall this Charter Amendment be CONTINUED?
+
+10.
+
+260537
+
+[Charter Amendment - Housing Trust Fund]
+Sponsors: Melgar; Walton, Sauter, Sherrill, Dorsey, Wong, Mahmood, Mandelman
+and Fielder
+Charter Amendment (Second Draft) to amend the Charter of the City and County of San
+Francisco to increase the amount of funding the City must appropriate to the Housing
+Trust Fund each fiscal year that is used for the creation, acquisition, and rehabilitation of
+affordable rental and ownership housing, for downpayment loans and housing stabilization
+for certain households, and for housing-related infrastructure; provide for a temporary freeze
+and temporary reduction in the annual appropriation to the Housing Trust Fund under
+certain circumstances; extend the sunset date of the Housing Trust Fund from July 1,
+2043 to July 1, 2058; and delete obsolete provisions; at an election to be held on
+November 3, 2026.
+Question: Shall this Charter Amendment be CONTINUED?
+
+City and County of San Francisco
+
+Page 9
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+11.
+
+260656
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+[Appointments, San Francisco Health Authority - Michael Chung and
+Tangerine Brigham]
+Motion appointing Michael Chung (residency requirement waived), term ending January 15,
+2029, and Tangerine Brigham (residency requirement waived), term ending January 15,
+2027, to the San Francisco Health Authority. (Clerk of the Board)
+Applicants considered in committee:
+Michael Chung, seat 2
+Tangerine Brigham, seat 3
+Question: Shall this Motion be APPROVED?
+
+SPECIAL ORDER 2:30 P.M. - Recognition of Commendations
+COMMITTEE REPORTS
+Reports from committees, if any, recommending emergency or urgent measures.
+The following items will be considered by the Rules Committee at a Regular Meeting on
+Monday, July 6, 2026, at 10:00 a.m. The Chair intends to request the Committee to send
+the following items as Committee Reports on Tuesday, July 7, 2026.
+
+12.
+
+260686
+
+[Administrative Code - Chestnut Street Entertainment Zone]
+Sponsor: Sherrill
+Ordinance amending the Administrative Code to create the Chestnut Street Entertainment
+Zone, on Chestnut Street from Divisadero Street to Fillmore Street, Steiner Street from
+Chestnut Street to Lombard Street, Pierce Street from Chestnut Street to Lombard Street,
+and Scott Street from Chestnut Street to Lombard Street; and affirming the Planning
+Department’s determination under the California Environmental Quality Act.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+13.
+
+260765
+
+[Mayoral Appointment, Port Commission - Rich Lee]
+Motion approving/rejecting the Mayor’s nomination for appointment of Rich Lee to the Port
+Commission, term ending May 1, 2030. (Clerk of the Board)
+(Charter, Section 4.114, provides that the Mayor's appointment is subject to confirmation
+by a majority (six votes) of the Board of Supervisors, with no timeframe to confirm
+specified. Transmittal Date: June 30, 2026.)
+Question: Shall this Motion be APPROVED?
+
+City and County of San Francisco
+
+Page 10
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+260766
+
+[Mayoral Appointment, Port Commission - Vanessa Hartigan]
+
+14.
+
+Tuesday, July 7, 2026
+
+Motion approving/rejecting the Mayor’s nomination for appointment of Vanessa Hartigan to
+the Port Commission, term ending May 1, 2030. (Clerk of the Board)
+(Charter, Section 4.114, provides that the Mayor's appointment is subject to confirmation
+by a majority (six votes) of the Board of Supervisors, with no timeframe to confirm
+specified. Transmittal Date: June 30, 2026.)
+Question: Shall this Motion be APPROVED?
+
+15.
+
+260767
+
+[Mayoral Reappointment, Port Commission - William Adams]
+Motion approving/rejecting the Mayor’s nomination for reappointment of William Adams to
+the Port Commission, term ending May 1, 2030. (Clerk of the Board)
+(Charter, Section 4.114, provides that the Mayor's appointment is subject to confirmation
+by a majority (six votes) of the Board of Supervisors, with no timeframe to confirm
+specified. Transmittal Date: June 30, 2026.)
+Question: Shall this Motion be APPROVED?
+
+16.
+
+ROLL CALL FOR INTRODUCTIONS
+Roll call for introduction of ordinances, resolutions, charter amendments, requests for hearings, letters
+of inquiry, letters of request to the City Attorney and Board Members' reports on their regional body
+activities.
+
+17.
+
+PUBLIC COMMENT
+An opportunity for members of the public to directly address the Board on items of interest to the public
+that are within the subject matter jurisdiction of the Board, including items being considered today
+which have not been considered by a Board committee and excluding items which have been
+considered by a Board committee. Members of the public may address the Board for up to two
+minutes. Each member of the public will be allotted the same number of minutes to speak,
+except public speakers using interpretation assistance will be allowed to testify for two minutes
+and the interpreter will have two minutes for interpretation. If simultaneous interpretation services are
+used, speakers will be governed by the public testimony time limit applied to speakers not requesting
+translation assistance. The President or the Board may limit the total testimony to 30 minutes.
+Members of the public who want a document placed on the overhead for display should clearly state
+such and subsequently remove the document when they want the screen to return to live coverage of
+the meeting.
+PUBLIC COMMENT CALL-IN
+1 (415) 655-0001 / Meeting ID: 2663 746 7031 # #
+(Press *3 to enter the speaker line)
+
+City and County of San Francisco
+
+Page 11
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+FOR ADOPTION WITHOUT COMMITTEE REFERENCE
+These measures were introduced for adoption without committee reference. A unanimous vote is
+required for adoption of these resolutions today. Any Supervisor may require any resolution to go
+to committee.
+Questions on the For Adoption Without Committee Reference Agenda are on for adoption, or
+approved, as indicated.
+(PUBLIC COMMENT for Items 18 through 20 will be taken during Item 17 - General Public
+Comment.)
+
+Items 18 through 20
+18.
+
+260775
+
+[Urging the FCC to Renew KGO-TV Broadcast License]
+Sponsor: Chan
+Resolution urging the Federal Communications Commission (FCC) to fairly evaluate and
+renew the broadcast license for KGO-TV.
+06/30/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+19.
+
+260776
+
+[Supporting California State Assembly Bill No. 1573 (Bryan) - The Unseen and
+Unheard Housing Act]
+Sponsor: Mandelman
+Resolution supporting California State Assembly Bill No. 1573 (AB 1573) introduced by
+Assembly Member Isaac Bryan and coauthored by Assembly Member Catherine Stefani,
+which would amend Section 65582 of the California Government Code to provide that
+victims of domestic violence, sexual assault, and human trafficking may be included in the
+definition of “target population” under California’s Housing Element requirements, thereby
+ensuring that cities and counties assess the supportive housing needs of survivors when
+updating their general plans.
+06/30/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 12
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+20.
+
+260777
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+[Approval of a 90-Day Extension for Planning Commission Review of
+Development Impact Fees Waiver on Corner Lots (File No. 260542)]
+Sponsor: Sherrill
+Resolution extending by 90 days the prescribed time within which the Planning
+Commission may render its decision on a Ordinance (File No. 260542) amending the
+Planning Code to exempt projects on corner lots approved under the Housing Choice-San
+Francisco program from development impact fees and requirements, except for Citywide
+inclusionary housing requirements; affirming the Planning Department’s determination
+under the California Environmental Quality Act; making findings of consistency with the
+General Plan, and the eight priority policies of Planning Code, Section 101.1; and making
+public necessity, convenience, and welfare findings under Planning Code, Section 302.
+06/30/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+21.
+
+IMPERATIVE AGENDA
+Resolution(s), if any, to be adopted within limits imposed by the Sunshine Ordinance and the Ralph M.
+Brown Act, introduced today, not on the printed agenda. For such resolutions to be considered, the
+Board must first adopt the Serious Injury Finding or the Purely Commendatory Finding and the Brown
+Act Finding. Each motion requires eight (8) votes or a unanimous six (6) or seven (7). A unanimous
+vote is required for the resolution(s).
+[Serious Injury Finding]
+Motion that the Board find that for the resolution(s) being considered at this time "the need to take
+action is so imperative as to threaten serious injury to the public interest if action is deferred to a
+later meeting."
+[Purely Commendatory Finding]
+Motion that the Board find that the resolution(s) being considered at this time are purely
+commendatory.
+[Brown Act Finding]
+Motion that the Board find by roll call vote that, for the resolution(s) being considered at this time,
+there is a need to take immediate action. The need to take action came to the attention of the City
+and County of San Francisco after the agenda was posted.
+(PUBLIC COMMENT WILL BE TAKEN on any Imperative Agenda item introduced.)
+PUBLIC COMMENT CALL-IN
+1 (415) 655-0001 / Meeting ID: 2663 746 7031 # #
+(Press *3 to enter the speaker line)
+
+City and County of San Francisco
+
+Page 13
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+LEGISLATION INTRODUCED AT ROLL CALL
+Introduced by a Supervisor or the Mayor
+Pursuant to Charter, Section 2.105, an Ordinance or Resolution may be introduced before the Board
+of Supervisors by a Member of the Board, a Committee of the Board, or the Mayor and shall be
+referred to and reported upon by an appropriate Committee of the Board.
+
+Legislation Introduced will appear on the Final Minutes for this meeting. Once the
+Legislation Introduced is approved, it will be available on
+http://www.sfbos.org/legislation_introduced.
+
+Introduced at the Request of a Department
+Pursuant to Rules of Order of the Board of Supervisors, Section 2.7.1, Department Heads may
+submit proposed legislation to the Clerk of the Board, in which case titles of the legislation will be
+printed at the rear of the next available agenda of the Board.
+
+PROPOSED RESOLUTIONS
+260755
+
+[Accept and Expend Grant - Retroactive - San Francisco Foundation Affirmative Litigation and Enforcement Outreach and Coordination - $200,000]
+Resolution retroactively authorizing the Office of the City Attorney to accept and expend a
+grant in the amount of $200,000 from the San Francisco Foundation to fund engagement,
+strategic planning, outreach, litigation support, and coordination with a coalition of public
+law offices to support affirmative litigation and enforcement, for the period from October 1,
+2025, through September 30, 2028. (City Attorney)
+06/24/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260756
+
+[Professional Services Agreement - Environmental Science Associates, Inc As-Needed Environmental Review Services - Not to Exceed $15,000,000]
+Resolution approving and authorizing the General Manager of the San Francisco Public
+Utilities Commission to execute Contract No. PRO.0333.A, As-Needed Environmental
+Review Services, with Environmental Science Associates, Inc., to provide as-needed
+environmental services pursuant to the California Environmental Quality Act and the
+National Environmental Policy Act, and to obtain resource agency permits, for an amount
+not to exceed $15,000,000 for a period of seven years, beginning October 14, 2026,
+through October 14, 2033, pursuant to Charter, Section 9.118. (Public Utilities
+Commission)
+06/29/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+City and County of San Francisco
+
+Page 14
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+260757
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+[Professional Services Agreement - AECOM Technical Services, Inc As-Needed Environmental Review Services - Not to Exceed $15,000,000]
+Resolution approving and authorizing the General Manager of the San Francisco Public
+Utilities Commission to execute Contract No. PRO.0333.B, As-Needed Environmental
+Review Services, with AECOM Technical Services, to provide as-needed environmental
+services pursuant to the California Environmental Quality Act and the National
+Environmental Policy Act, and to obtain resource agency permits, for an amount not to
+exceed $15,000,000 for a duration of seven years, starting October 14, 2026, through
+October 14, 2033, pursuant to Charter, Section 9.118. (Public Utilities Commission)
+06/29/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260758
+
+[Professional Services Agreement - Panorama Environmental, Inc. As-Needed Environmental Review Services - Not to Exceed $15,000,000]
+Resolution approving and authorizing the General Manager of the San Francisco Public
+Utilities Commission to execute Contract No. PRO.0333.C, As-Needed Environmental
+Review Services, with Panorama Environmental, Inc. to provide as-needed environmental
+services pursuant to the California Environmental Quality Act and the National
+Environmental Policy Act, and to obtain resource agency permits, for an amount not to
+exceed $15,000,000 for a period of seven years, beginning October 14, 2026, through
+October 14, 2033, pursuant to Charter, Section 9.118. (Public Utilities Commission)
+06/29/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260759
+
+[Professional Services Agreement - GEI Consultants - As-Needed
+Environmental Review Services - Not to Exceed $15,000,000]
+Resolution approving and authorizing the General Manager of the San Francisco Public
+Utilities Commission to execute Contract No. PRO.0333.D, As-Needed Environmental
+Review Services, with GEI Consultants to provide as-needed environmental services
+pursuant to the California Environmental Quality Act and the National Environmental Policy
+Act, and to obtain resource agency permits, for an amount not to exceed $15,000,000 for
+a duration of seven years, starting October 14, 2026, through October 14, 2033, pursuant
+to Charter, Section 9.118. (Public Utilities Commission)
+06/29/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+City and County of San Francisco
+
+Page 15
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+260760
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+[Professional Services Agreement - Stantec Consulting Services, Inc. As-Needed Environmental Review Services - Not to Exceed $15,000,000]
+Resolution approving and authorizing the General Manager of the San Francisco Public
+Utilities Commission to execute Contract No. PRO.0333.E, As-Needed Environmental
+Review Services, with Stantec Consulting Services, Inc. to provide as-needed
+environmental services pursuant to the California Environmental Quality Act and the
+National Environmental Policy Act, and to obtain resource agency permits, for an amount
+not to exceed $15,000,000 for a period of seven years, beginning October 14, 2026,
+through October 14, 2033, pursuant to Charter, Section 9.118. (Public Utilities
+Commission)
+06/29/2026; RECEIVED FROM DEPARTMENT.
+07/07/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+City and County of San Francisco
+
+Page 16
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+260761
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+[Petitions and Communications]
+Petitions and Communications received from June 25, 2026, through July 1, 2026, for
+reference by the President to Committee considering related matters, or to be ordered filed
+by the Clerk on July 7, 2026.
+Personal information that is provided in communications to the Board of Supervisors is
+subject to disclosure under the California Public Records Act and the San Francisco
+Sunshine Ordinance. Personal information will not be redacted.
+From the Office of the Mayor (MYR), pursuant to Resolution Nos. 514-25 and 515-25,
+submitting Behested Payment Waiver Reports for Core Initiatives; Fundraising for Services
+Related to Immigration, LGBTQ+ Rights, Environmental Protection,
+Reproductive Rights, and Racial Equity. Copy: Each Supervisor. (1)
+From the Planning Department (CPC), submitting Responses to Comments on the Draft
+Environmental Impact Report for the Pacific Gas and Electric (PG&E) Power Asset
+Acquisition Project. Copy: Each Supervisor. (2)
+From the Juvenile Probation Department (JUV), pursuant the Administrative Code, Chapter
+12i, Section 12(i)(5), submitting the Civil Detainers and communications with Federal
+agency charged with enforcement of Federal immigration law Semi-Annual Report. Copy:
+Each Supervisor. (3)
+From the San Francisco Arts Commission (ART), submitting an agenda link for the July 1,
+2026, Advisory Committee of Street Artist and Crafts Examiners. Copy: Each Supervisor.
+(4)
+From the Human Services Agency (HSA), pursuant to Administrative Code, Chapter 67,
+Section 67.24(e)(3)(i), submitting Sole Source Contract Activity Report for the Fiscal Year
+(FY) 2026. Copy: Each Supervisor. (5)
+From Robert Paul Preston, regarding certification of election results. Copy: Each
+Supervisor. (6)
+From the Twin Peaks Eastside Neighborhood Alliance regarding 2 Crestline Drive. Copy:
+Each Supervisor. (7)
+From Renetta Ann Harrison regarding various subjects. 14 Letters. Copy: Each Supervisor.
+(8)
+From Brandon Beberwyck, regarding sewer main at 28 Hill Point Avenue. Copy: Each
+Supervisor. (9)
+From Ellen Brotsky, regarding the San Francisco Police Department. Copy: Each
+Supervisor. (10)
+From Steven Bohon, regarding tourism experience in San Francisco. Copy: Each
+Supervisor. (11)
+From members of the public, regarding an Ordinance amending the Administrative Code to
+establish the E-Bike Incentive Fund to support implementation of an electric bicycle (or
+“e-bike”) incentive program administered by the Department of the Environment. File No.
+240967, Ordinance No. 268-24. 2 Letters. Copy: Each Supervisor. (12)
+From members of the public, regarding a proposed Ordinance amending the Administrative
+
+City and County of San Francisco
+
+Page 17
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+Code to state that it is City policy to expand the availability of Site-Based Permanent
+Supportive Housing (“PSH”) that prohibits on-site illicit drug use among residents
+(“Drug-Free PSH”) to meet the demand of people experiencing homelessness who prefer
+such a residential option; require that City funding for new Site-Based PSH for people
+experiencing homelessness be used for Drug-Free PSH except where operation of the
+housing as Drug-Free PSH would conflict with standards imposed by law or by a condition
+of other funding, where the funding is for new construction, or the Board of Supervisors has
+waived the funding requirement based on specific findings; require the Department of
+Homelessness and Supportive Housing (“HSH”) to survey residents of Site-Based PSH to
+assess their interest in living in either Drug-Tolerant PSH or Drug-Free PSH and report on
+the survey findings and HSH’s strategies to meet PSH residents’ demands; and require
+HSH to adopt rules and regulations establishing standards and protocols for evictions from
+City-funded Drug-Free Housing. File No. 251003. 2 Letters. Copy: Each Supervisor. (13)
+From Breathe California, regarding a proposed Ordinance amending the Health, Planning,
+Police, and Business and Tax Regulations Codes to establish a new permit type for
+cannabis cafés to be administered by the Office of Cannabis that will authorize the
+permittee to sell cannabis and cannabis products only for consumption on the premises of
+the café; exempt cannabis cafés from the prohibition on smoking in business
+establishments; eliminate the prohibition on establishments with a cannabis consumption
+permit requiring employees to enter a designated smoking room as a condition of
+employment; exempt cannabis cafés in certain circumstances from the 600-foot buffer rule
+that applies to cannabis retail establishments; restrict eligibility for cannabis café permits
+for one year to businesses that currently hold a cannabis storefront retailer permit or that
+have the same owners as such a business; require Equity Applicants that apply for a
+cannabis café permit to pay the $2,000 application fee, any permit amendment processing
+costs, and the $3,000 license fee for the first year of operation, associated with the
+cannabis café permit; affirming the Planning Department’s determination under the
+California Environmental Quality Act; making findings of consistency with the General Plan
+and the eight priority policies of Planning Code, Section 101.1; and making public
+necessity, convenience, and welfare findings under Planning Code, Section 302. File No.
+260281. Copy: Each Supervisor. (14)
+From members of the public, regarding a Resolution authorizing the Sheriff’s Office to
+contract with the San Francisco Pretrial Diversion Project (SF Pretrial) for Pretrial Services
+for a three year period from July 1, 2026, through June 30, 2029, for a contract total not to
+exceed amount of $22,532,145, with two one-year options to extend. File No. 260442,
+Resolution no. 334-26. 5 Letters. Copy: Each Supervisor. (15)
+From members of the public and various organizations, regarding a proposed Ordinance
+amending the Planning Code to: 1) reduce Inclusionary Affordable Housing Program
+requirements for projects of 25 units or more; 2) delete Inclusionary Affordable Housing
+Program requirements for projects under 25 units; 3) allow all projects to dedicate land to
+the City as an alternative to payment of the Inclusionary Affordable Housing Program fee;
+4) adopt a process for projects to request a modification to conditions of approval related to
+Inclusionary Affordable Housing Program requirements; 5) delete certain Article 4
+affordable housing and development impact fees; and 6) adopt conforming amendments to
+various sections of the Planning Code; amending the Building Code to reduce Planning
+Code Article 4 development impact fees and allow deferral of payment of such fees; and
+amending the Administrative Code to adopt conforming amendments to the requirements
+of the Citywide Affordable Housing Fund; affirming the Planning Department’s
+determination under the California Environmental Quality Act; making public necessity,
+convenience, and welfare findings under Planning Code, Section 302; and making findings
+of consistency with the General Plan, and the eight priority policies of Planning Code,
+Section 101.1. File No. 260538. 18 Letters. Copy: Each Supervisor. (16)
+From members of the public, regarding a Hearing of the Board of Supervisors sitting as a
+City and County of San Francisco
+
+Page 18
+
+Printed at 5:23 pm on 7/1/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, July 7, 2026
+
+Committee of the Whole on June 16, 2026, at 3:00 p.m., to consider the Department of
+Public Health's budget reducing medical and health care services provided by the City and
+County of San Francisco for Fiscal Years (FYs) 2026-2027 and 2027-2028, pursuant to
+California Health and Safety Code, Section 1442.5(a) (The Beilenson Act). File No.
+260565. 2 Letters. Copy: Each Supervisor. (17)
+From members of the public, regarding banning retail animal sales. 2 Letters Copy: Each
+Supervisor. (18)
+From members of the public, regarding safety bollards on Portola Drive. 2 Letters. Copy:
+Each Supervisor. (19)
+From Alex Ames, regarding the San Francisco Budget. File Nos. 260616, 260596, and
+260597. Copy: Each Supervisor. (20)
+From members of the public, regarding the renovation of Crocker Amazon baseball and
+softball fields. 2 Letters. Copy: Each Supervisor. (21)
+From Julien Defrance, regarding District 9 representation. Copy: Each Supervisor. (22)
+From a member of the public, regarding the Central Subway. Copy: Each Supervisor. (23)
+From Jocelyn Yang, regarding banning plastic cigarette filters. Copy: Each Supervisor. (24)
+From Desiree Richardson, regarding an incident at the San Francisco Zoo. 2 Letters.
+Copy: Each Supervisor. (25)
+
+ADJOURNMENT
+
+City and County of San Francisco
+
+Page 19
+
+Printed at 5:23 pm on 7/1/26
+
+

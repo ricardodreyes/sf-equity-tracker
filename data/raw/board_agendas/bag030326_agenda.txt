@@ -1,0 +1,1486 @@
+BOARD OF SUPERVISORS
+CITY AND COUNTY OF SAN FRANCISCO
+AGENDA
+Legislative Chamber, Room 250
+City Hall, 1 Dr. Carlton B. Goodlett Place
+San Francisco, CA 94102-4689
+Tuesday, March 3, 2026 - 2:00 PM
+Regular Meeting
+RAFAEL MANDELMAN, PRESIDENT
+CONNIE CHAN, CHYANNE CHEN, MATT DORSEY, JACKIE FIELDER, BILAL MAHMOOD,
+MYRNA MELGAR, DANNY SAUTER, STEPHEN SHERRILL,
+SHAMANN WALTON, ALAN WONG
+Angela Calvillo, Clerk of the Board
+Agendas of the Board of Supervisors are available on the internet at www.sfbos.org
+
+BOARD COMMITTEES
+Committee Membership
+
+Meeting Days
+
+Budget and Appropriations Committee
+Supervisors Chan, Dorsey, Sauter, Walton, Mandelman
+
+Wednesday
+1:30 PM
+
+Budget and Finance Committee
+Supervisors Chan, Dorsey, Sauter
+
+Wednesday
+10:00 AM
+
+Government Audit and Oversight Committee
+Supervisors Fielder, Sauter, Sherrill
+Land Use and Transportation Committee
+Supervisors Melgar, Chen, Mahmood
+Public Safety and Neighborhood Services Committee
+Supervisors Dorsey, Mahmood, Wong
+Rules Committee
+Supervisors Walton, Sherrill, Mandelman
+
+First-named Supervisor is Chair, Second-named Supervisor is Vice-Chair of the Committee.
+
+1st and 3rd Thursday
+10:00 AM
+Monday
+1:30 PM
+2nd and 4th Thursday
+10:00 AM
+Monday
+10:00 AM
+
+The Levine Act
+Pursuant to California Government Code, Section 84308, Members of the Board who have received campaign
+contributions totaling more than $500 may be required to disclose that fact on the record of the proceeding.
+Parties and their paid agents may also be required to disclose on the record any campaign contributions made to a
+Member of the Board that meets the following qualifications for disclosure. A Member of the Board of
+Supervisors is disqualified and must recuse themselves on any agenda item involving business, professional,
+trade, and land use licenses or permits and all other entitlements for use, if they received more than $500 in
+campaign contributions from the applicant or contractor, an agent of the applicant or contractor, or any financially
+interested participant within the 12 months prior to the final decision; and for 12 months following the date of the
+final decision, a Member of the Board shall not accept, solicit, or direct a campaign contribution of $500 or more
+from the applicant or contractor, an agent of the applicant or contractor, or any financially interested participant.
+The foregoing statements do not constitute legal advice. Parties, participants, and their agents are urged to
+consult their own legal counsel regarding the requirements of the law. For more information about these
+disclosures, visit www.sfethics.org.
+Agenda Item Information
+Each item on the Consent or Regular agenda may include the following 1) Legislation; 2) Budget and Legislative
+Analyst report; 3) Department or Agency cover letter and/or report; 4) Public correspondence. These items are
+available for review at City Hall, 1 Dr. Carlton B. Goodlett Place, Room 244 or at
+www.sfbos.org/legislative-research-center-lrc.
+Meeting Procedures
+The Board of Supervisors is the legislative body of the City and County of San Francisco. The Board has several
+standing committees where legislation is the subject of hearings at which members of the public are urged to
+testify. The full Board does not hold a second public hearing on measures which have been heard in committee.
+Board procedures do not permit: 1) vocal or audible support or opposition to statements by Supervisors or by
+other persons testifying; 2) ringing and use of cell phones or electronic devices; 3) bringing in or displaying signs
+in the meeting room; or 4) standing in the meeting room. Each member of the public will be allotted the same
+maximum number of minutes to speak as set by the President or Chair at the beginning of each item or public
+comment, excluding City representatives; except that public speakers using interpretation assistance will be
+allowed to testify for twice the amount of time. Members of the public who want to display a document should
+place it on the overhead during their public comment and remove the document when they want the screen to
+return to live coverage of the meeting.
+IMPORTANT INFORMATION: The public is encouraged to testify at Board and Committee meetings. Persons
+unable to attend the meeting may submit to the City, by the time the proceedings begin, written comments
+regarding agenda items for the official public record. Written communications should be submitted to the Clerk of
+the Board or the Clerk of the Committee: 1 Dr. Carlton B. Goodlett Place, Room 244, San Francisco, CA 94102.
+Communications not received prior to the hearing may be delivered to the Clerk of the Board or the Clerk of the
+Committee and will be shared with the Members.
+COPYRIGHT: All system content that is broadcasted live during public proceedings is secured by
+High-bandwidth Digital Content Protection (HDCP), which prevents copyrighted or encrypted content from being
+displayed or transmitted through unauthorized devices. Members of the public who wish to utilize chamber
+digital, audio and visual technology may not display copyrighted or encrypted content during public
+proceedings.
+AGENDA PACKET: Available at www.sfbos.org/meetings. Meetings are cablecast on SFGovTV, at
+www.sfgovtv.org or Cable Channels 26, 28, 78 or 99 (depending on your provider).
+LANGUAGE INTERPRETERS: Language services are available in Spanish, Chinese and Filipino for requests
+made at least two (2) business days in advance of the meeting, to help ensure availability. For more information or
+to request services, contact bos@sfgov.org or call (415) 554-5184.
+
+傳譯服務: 所有常規及特別市參事會會議和常務委員會會議將提供西班牙文, 中文以及菲律賓文的傳譯服
+務, 但必須在會議前最少兩 (2) 個工作日作出請求, 以確保能獲取到傳譯服務. 將因應請求提供交替傳
+譯服務, 以便公眾向有關政府機構發表意見. 如需更多資訊或請求有關服務, 請發電郵至
+bos@sfgov.org 或致電 (415) 554-5184 聯絡我們.
+INTÉRPRETES DE IDIOMAS: Para asegurar la disponibilidad de los servicios de interpretación en chino, filipino
+y español, presente su petición por lo menos con dos (2) días hábiles de antelación previo a la reunión. Para más
+información o para solicitar los servicios, envíe su mensaje a bos@sfgov.org o llame al (415) 554-5184.
+TAGA SALIN-WIKA: Ipaabot sa amin ang mga kahilingan sa pag salin-wika sa Kastila, Tsino at Pilipino ng hindi
+bababa sa dalawang araw bago ang pulong. Makakatulong ito upang tiyakin na ang mga serbisyo ay nakalaan at
+nakahanda. Para sa dagdag kaalaman o para humiling ng serbisyo, maki pagugnayan po sa bos@sfgov.org o
+tumawag sa (415) 554-5184.
+Americans with Disabilities Act (ADA) and Reasonable Accommodations
+Title II of the ADA requires that all programs offered through the state and local government such as the City
+and County of San Francisco be accessible and usable to people with disabilities. The ADA and City policy
+require that people with disabilities have equal access to all City services, activities, and benefits. If you believe
+your rights under the ADA are violated, contact the ADA Coordinator. Ordinance No. 90-10 added Section
+2A.22.3 to the Administrative Code, which adopted a Citywide Americans with Disabilities Act Reasonable
+Modification Policy.
+Meetings are real-time captioned and cablecast open-captioned on SFGovTV (www.sfgovtv.org) or Cable
+Channels 26, 28, 78 or 99 (depending on your provider). Board and Committee meeting agendas and minutes are
+available on the Board’s website www.sfbos.org and adhere to web development Federal Access Board’s
+Section 508 Guidelines. For reasonable accommodations, please email Board.of.Supervisors@sfgov.org, or call
+(415) 554-5184 or (415) 554-5227 (TTY). Board of Supervisors’ Rules of Order 1.3.3 does not permit remote public
+comment by members of the public at meetings of the Board and its committees, except as legally required to
+enable people with disabilities to participate in such meetings. If you require remote access as a means of
+reasonable accommodation under ADA, please contact the Clerk’s Office to request remote access, including a
+description of the functional limitation(s) that precludes your ability to attend in person. Requests made at least
+two (2) business days in advance of the meeting will help to ensure availability. For further assistance, please
+contact Wilson Ng, ADA Coordinator, at Wilson.L.Ng@sfgov.org.
+Know Your Rights Under The Sunshine Ordinance
+Commissions, boards, councils, and other agencies of the City and County exist to conduct the people's
+business. This ordinance assures that deliberations are conducted before the people and that City operations are
+open to the people's review. For information on your rights under the Sunshine Ordinance (San Francisco
+Administrative Code, Chapter 67) or to report a violation of the ordinance, contact by mail Sunshine Ordinance
+Task Force, 1 Dr. Carlton B. Goodlett Place, Room 244, San Francisco CA 94102; phone at (415) 554-7724; fax at
+(415) 554-5163; or by email at sotf@sfgov.org. Citizens may obtain a free company of the Sunshine Ordinance by
+printing the San Francisco Administrative Code, Chapter 67, on the Internet at www.sfbos.org/sunshine.
+Ethics Requirements
+Individuals and entities that influence or attempt to influence local legislative or administrative action may be
+required by the San Francisco Lobbyist Ordinance (Campaign & Governmental Conduct Code, Section 2.100) to
+register and report lobbying activity. For more information about the Lobbyist Ordinance, please contact the
+Ethics Commission at 25 Van Ness Avenue, Suite 220, San Francisco, CA 94102; (415) 252-3100; fax (415)
+252-3112; website www.sfgov.org/ethics.
+Under Campaign and Governmental Conduct Code, Section 1.127, no person or entity with a financial interest in
+a land use matter pending before the Board of Appeals, Board of Supervisors, Building Inspection Commission,
+Commission on Community Investment and Infrastructure, Historic Preservation Commission, Planning
+Commission, Port Commission, or the Treasure Island Development Authority Board of Directors, may make a
+campaign contribution to a member of the Board of Supervisors, the Mayor, the City Attorney, or a candidate for
+any of those offices, from the date the land use matter commenced until 12 months after the board or commission
+has made a final decision, or any appeal to another City agency from that decision has been resolved. For more
+information about this restriction, visit www.sfethics.org.
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+ROLL CALL AND PLEDGE OF ALLEGIANCE
+Pursuant to Board Rule 4.7.1 the President shall present the ancestral homeland
+acknowledgement of the Ramaytush Ohlone, who are the original inhabitants of the San
+Francisco Peninsula.
+
+COMMUNICATIONS
+APPROVAL OF MEETING MINUTES
+Approval of the January 27, 2026, Board Meeting Minutes.
+
+AGENDA CHANGES
+CONSENT AGENDA
+All matters listed hereunder constitute a Consent Agenda, are considered to be routine by the Board of
+Supervisors and will be acted upon by a single roll call vote of the Board. There will be no separate
+discussion of these items unless a member of the Board so requests, in which event the matter shall
+be removed from the Consent Agenda and considered as a separate item.
+Questions on the Consent Agenda are on final passage, first reading, adoption, or approved, as
+indicated.
+
+Items 1 through 4
+
+Recommendations of the Budget and Finance Committee
+Present: Supervisors Chan, Dorsey, Sauter
+
+1.
+
+251248
+
+[Appropriation - Port Harbor Fund - Port - Fund Balance for Stabilization and
+Removal of Dry Dock - $18,500,000 - FY2025-2026]
+Sponsor: Mayor
+Ordinance appropriating $18,500,000 of Fund Balance from the Port Harbor Fund to the
+Port of San Francisco (PRT) for stabilization and disposal of dry docks and other shipyard
+improvements and safety measures in Fiscal Year (FY) 2025-2026.
+(Fiscal Impact)
+02/24/2026; PASSED ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+City and County of San Francisco
+
+Page 4
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+2.
+
+260085
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Appropriation - General Reserve - Municipal Transportation Agency Portsmouth Square Garage Parking and Transit Fares - $311,269 FY2025-2026]
+Sponsors: Chan; Chen, Sauter and Mandelman
+Ordinance appropriating $311,269 from the General Reserve to the Municipal
+Transportation Agency to support free one-hour parking in the Portsmouth Square Parking
+Garage from February 8 through March 8, 2026, and transit fares for the Lunar New Year
+Parade on March 7, 2026, of Fiscal Year (FY) 2025-2026.
+(Fiscal Impact)
+02/24/2026; PASSED ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+Recommendations of the Rules Committee
+Present: Supervisors Walton, Sherrill, Mandelman
+
+3.
+
+251143
+
+[Administrative Code - Appointments of Deputy Fire Chief and Fire
+Department Physician]
+Sponsor: Mayor
+Ordinance amending the Administrative Code to remove the Fire Commission’s authority to
+appoint the Fire Department physician and to revise the required qualifications for one of
+the Deputy Fire Chiefs.
+(Meet and confer requirement met.)
+02/24/2026; PASSED ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+4.
+
+251253
+
+[Administrative Code - Fisherman’s Wharf Entertainment Zone]
+Sponsors: Sauter; Mandelman, Sherrill and Walton
+Ordinance amending the Administrative Code to create the Fisherman’s Wharf
+Entertainment Zone, on Powell Street from The Embarcadero to Beach Street; The
+Embarcadero from Powell to Taylor Streets; Taylor Street from The Embarcadero to
+Jefferson Street; Jefferson Street from Taylor to Hyde Streets; Beach Street from Hyde to
+Polk Streets; Polk Street from Beach to North Point Streets; North Point Street from Polk
+to Larkin Streets; Larkin Street from North Point to Beach Streets; Beach Street from
+Larkin to Powell Streets; and Al Scoma Way; and affirming the Planning Department’s
+determination under the California Environmental Quality Act.
+02/24/2026; PASSED ON FIRST READING.
+
+Question: Shall this Ordinance be FINALLY PASSED?
+
+City and County of San Francisco
+
+Page 5
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+REGULAR AGENDA
+NEW BUSINESS
+Recommendations of the Budget and Finance Committee
+Present: Supervisors Chan, Dorsey, Sauter
+
+5.
+
+251249
+
+[Appropriation - General City Reserve - Department of Emergency
+Management - Street Conditions Staffing - $4,000,000 - Human Rights
+Commission - Community Initiatives - $150,000 - FY2025-2026]
+Sponsors: Mayor; Sauter and Sherrill
+Ordinance appropriating $4,000,000 from the General City Reserve to the Department of
+Emergency Management (DEM) for expanded street conditions staffing, and $150,000
+from the General City Reserve to the Human Rights Commission (HRC) for community
+initiatives in Fiscal Year (FY) 2025-2026.
+(Fiscal Impact)
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+6.
+
+260019
+
+[Management Agreement Amendment - IMCO Parking, LLC - Management of
+Parking Garages and Lots - Not to Exceed $219,000,000]
+Resolution approving the third contract amendment with IMCO Parking, LLC, and the City
+and County of San Francisco, by and through the San Francisco Municipal Transportation
+Agency, for the management of two off-street parking facilities under the jurisdiction of the
+Port of San Francisco, located at Pier 30-32 and Pier 70, for an increased amount not to
+exceed $12,000,000 for a total contract amount not to exceed $219,000,000 effective on
+March 1, 2026, with no changes to the term of February 1, 2023, through January 31,
+2032. (Municipal Transportation Agency)
+(Fiscal Impact)
+Question: Shall this Resolution be ADOPTED?
+
+7.
+
+260020
+
+[Management Agreement Amendment - LAZ Parking California, LLC Management of Parking Garages and Lots - Not to Exceed $189,000,000]
+Resolution approving the second contract amendment with LAZ Parking California, LLC,
+and the City and County of San Francisco, by and through the San Francisco Municipal
+Transportation Agency, for the management of two off-street parking facilities under the
+jurisdiction of the Port of San Francisco, located at Triangle Lot and Seawall 321, for an
+increased amount not to exceed $9,000,000 for a total contract amount not to exceed
+$189,000,000 effective on March 1, 2026, with no changes to the term of February 1, 2023,
+through January 31, 2032. (Municipal Transportation Agency)
+(Fiscal Impact)
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 6
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+8.
+
+260076
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Contract Amendment - YMCA of San Francisco - Mental Health Services to
+Children and Youth - Not to Exceed $11,577,751]
+Resolution approving Amendment No. 2 to the agreement between the City and County of
+San Francisco, acting by and through the Department of Public Health (DPH), and YMCA
+of San Francisco, to provide mental health services to children and youth, to extend the
+term by one year from June 30, 2027, for a new term of July 1, 2018, through June 30,
+2028, and to increase the amount by $1,590,148 for a new total not to exceed amount of
+$11,577,751; and to authorize DPH to enter into amendments or modifications to the
+agreement that do not materially increase the obligations or liabilities to the City and are
+necessary to effectuate the purposes of the agreement or this Resolution. (Public Health
+Department)
+(Fiscal Impact)
+Question: Shall this Resolution be ADOPTED?
+
+9.
+
+260119
+
+[Standard Agreement - Accept and Expend Grant - California Department of
+Housing and Community Development - Affordable Housing and Sustainable
+Communities Program - Treasure Island Parcel IC4.3 - $45,109,140]
+Sponsors: Mayor, Dorsey and Mandelman
+Resolution authorizing the Treasure Island Development Authority (the “Authority”) to
+execute the Standard Agreements with the California Department of Housing and
+Community Development (“HCD”) under the Affordable Housing and Sustainable
+Communities Program for a total award of $45,109,140 including $30,000,000 disbursed by
+HCD as a loan to IC4.3 Family Housing, LP for a 100% affordable housing project at
+Treasure Island Parcel IC4.3, and $15,109,140 to be disbursed as a grant to the Authority
+for public transportation improvements on Treasure Island; approving the Standard
+Agreements for the period starting on the execution date through March 30, 2046;
+acknowledging the expenditure deadlines are set forth in the Standard Agreements; and
+authorizing the Authority to accept and expend the grant of $15,109,140 for transportation,
+streetscape and pedestrian improvements and other transit-oriented programming and
+improvements as approved by HCD. (Treasure Island Development Authority)
+Question: Shall this Resolution be ADOPTED?
+
+Recommendations of the Land Use and Transportation Committee
+Present: Supervisors Melgar, Chen, Mahmood
+
+10.
+
+250886
+
+[Planning Code - Adaptive Reuse of Historic Buildings]
+Sponsor: Mayor
+Ordinance amending the Planning Code to allow additional uses as principally or
+conditionally permitted in Historic Buildings citywide, and make conforming amendments
+to provisions affected by the foregoing, including zoning control tables; affirming the
+Planning Department’s determination under the California Environmental Quality Act;
+making findings of consistency with the General Plan, and the eight priority policies of
+Planning Code, Section 101.1; and making findings of public necessity, convenience, and
+general welfare under Planning Code, Section 302.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+City and County of San Francisco
+
+Page 7
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+251004
+
+[Administrative, Public Works Codes - Shared Spaces Program]
+
+11.
+
+Tuesday, March 3, 2026
+
+Sponsor: Mandelman
+Ordinance amending the Administrative Code provisions related to the Shared Spaces
+Program to remove the Planning Department as a coordinating entity conducting design
+review, eliminate application requirements of documented community outreach and
+neighbor notice, and eliminate public accessibility and alternate public seating
+requirements; amending the Public Works Code to eliminate requirements of public notice
+of application; and affirming the Planning Department’s determination under the California
+Environmental Quality Act.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+Present: Supervisors Melgar, Chen, Sherrill
+
+12.
+
+251247
+
+[Fire Code - Repealing 2022 Code; Adopting 2025 Code]
+Sponsors: Mayor; Sherrill and Sauter
+Ordinance repealing the existing San Francisco Fire Code in its entirety and enacting a
+new San Francisco Fire Code consisting of the 2025 California Fire Code and portions of
+the 2024 International Fire Code, together with amendments specific to San Francisco,
+including provisions for fees for permits, inspections, and various City services, with an
+operative date of January 1, 2026; adopting findings of local conditions pursuant to
+California Health and Safety Code, Section 17958.7; directing the Clerk of the Board of
+Supervisors to forward San Francisco's amendments to the California Building Standards
+Commission and State Fire Marshal; and making environmental findings.
+Question: Shall this Ordinance be PASSED ON FIRST READING?
+
+Present: Supervisors Melgar, Chen, Mahmood
+
+13.
+
+260045
+
+[Initiating Landmark Designation - Alexander Adams Home]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Alexander Adams Home, located at 1450 Masonic Avenue, Assessor’s Parcel Block No.
+2603, Lot No. 009.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+14.
+
+260046
+
+[Initiating Landmark Designation - Hinkel House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Hinkel House, located at 740 Castro Street, Assessor’s Parcel Block No. 2752, Lot No.
+014.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 8
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+15.
+
+260047
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Initiating Landmark Designation - Born Home]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Born Home, located at 99 Divisadero Street, Assessor’s Parcel Block No. 2610, Lot No.
+001.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+16.
+
+260048
+
+[Initiating Landmark Designation - Buena Vista Farmhouse]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Buena Vista Farmhouse, located at 11 Piedmont Street, Assessor’s Parcel Block No.
+2617A, Lot No. 026.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+17.
+
+260049
+
+[Initiating Landmark Designation - Charles Katz Home]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Charles Katz Home, located at 1200 Dolores Street, Assessor’s Parcel Block No. 6550,
+Lot No. 043.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+18.
+
+260050
+
+[Initiating Landmark Designation - Duboce Triangle Greek Revival Home]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Duboce Triangle Greek Revival Home, located at 2173 15th Street, Assessor’s Parcel
+Block No. 3560, Lot No. 022.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+19.
+
+260051
+
+[Initiating Landmark Designation - Elliott M. Wilson Home]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Elliott M. Wilson Home, located at 1335 Guerrero Street, Assessor’s Parcel Block No.
+6532, Lot No. 026.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 9
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+20.
+
+260052
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Initiating Landmark Designation - Fernando Nelson House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Fernando Nelson House, located at 701 Castro Street, Assessor’s Parcel Block No. 3603,
+Lot No. 075.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+21.
+
+260053
+
+[Initiating Landmark Designation - Engine Company No. 44]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Engine Company No. 44 building, located at 3816-22nd Street, Assessor’s Parcel Block
+No. 3622, Lot No. 018.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+22.
+
+260054
+
+[Initiating Landmark Designation - Floyd Spreckels Mansion]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Floyd Spreckels Mansion, located at 737 Buena Vista Avenue West, Assessor’s Parcel
+Block No. 1256, Lot No. 078.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+23.
+
+260055
+
+[Initiating Landmark Designation - Golden Gate Lutheran Church]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for Golden
+Gate Lutheran Church, located at 3689-19th Street, Assessor’s Parcel Block No. 3598,
+Lot No. 060.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+24.
+
+260056
+
+[Initiating Landmark Designation - Guerrero Street Double Stick Eastlake
+House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Guerrero Street Double Stick Eastlake house, located at 1415-1417 Guerrero Street,
+Assessor’s Parcel Block No. 6568, Lot No. 011B.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 10
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+260057
+
+[Initiating Landmark Designation - Henry Street Rowhouses]
+
+25.
+
+Tuesday, March 3, 2026
+
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Henry Street Rowhouses, located at 191-197 Henry Street, Assessor’s Parcel Block No.
+3540, Lot No. 092.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+26.
+
+260058
+
+[Initiating Landmark Designation - Holy Innocents Church]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for Holy
+Innocents Church, located at 455 Fair Oaks Street, Assessor’s Parcel Block No. 6533,
+Lot No. 027.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+27.
+
+260059
+
+[Initiating Landmark Designation - James C. Hormel Mansion]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+James C. Hormel Mansion, located at 181 Buena Vista Avenue East, Assessor’s Parcel
+Block No. 1258, Lot No. 026.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+28.
+
+260060
+
+[Initiating Landmark Designation - John J. Clark House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for John J.
+Clark House, located at 210 Douglass Street, Assessor’s Parcel Block No. 2691, Lot No.
+002.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+29.
+
+260061
+
+[Initiating Landmark Designation - Kirby House and Phoenix Brewery]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+buildings located at 560 Noe Street (Kirby House), Assessor’s Parcel Block No. 3583, Lot
+No. 012, and 552 Noe Street (Phoenix Brewery), Assessor’s Parcel Block No. 3583, Lot
+No. 011.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 11
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+30.
+
+260062
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Initiating Landmark Designation - Lange House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Lange House, located at 199 Carl Street, Assessor’s Parcel Block No. 1273, Lot No. 034.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+31.
+
+260063
+
+[Initiating Landmark Designation - Mission Dolores Academy]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Mission Dolores Academy, located at 3371-16th Street, Assessor’s Parcel Block No.
+3566, Lot No. 055.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+32.
+
+260064
+
+[Initiating Landmark Designation - Lebanon Presbyterian Church/Noe Valley
+Ministry]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for
+Lebanon Presbyterian Church/Noe Valley Ministry, located at 1021 Sanchez Street,
+Assessor’s Parcel Block No. 3652, Lot No. 033.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+33.
+
+260066
+
+[Initiating Landmark Designation - Poole-Bell House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Poole-Bell House, located at 192 Laidley Street, Assessor’s Parcel Block No. 6665, Lot
+No. 107.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+34.
+
+260067
+
+[Initiating Landmark Designation - Power House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Power House, located at 1526 Masonic Avenue, Assessor’s Parcel Block No. 2616, Lot
+No. 039.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 12
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+35.
+
+260068
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Initiating Landmark Designation - Second Church of Christ Scientist]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for
+Second Church of Christ Scientist, located at 651 Dolores Street, Assessor’s Parcel
+Block No. 3598, Lot No. 172.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+36.
+
+260069
+
+[Initiating Landmark Designation - Shaughnessy House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Shaughnessy House, located at 394 Fair Oaks Street, Assessor’s Parcel Block No. 6511,
+Lot No. 042.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+37.
+
+260071
+
+[Initiating Landmark Designation - Tietz/Beneke House]
+Sponsor: Mandelman
+Resolution initiating landmark designation under Article 10 of the Planning Code for the
+Tietz/Beneke house, located at 657 Chenery Street, Assessor’s Parcel Block No. 6742,
+Lot No. 030.
+01/27/2026; REFERRED to the Land Use and Transportation Committee.
+
+Question: Shall this Resolution be ADOPTED?
+
+38.
+
+260140
+
+[Commemorative Street Name Designation - “Carmen Johnson Way” - Pierce
+Street between Turk Street and Eddy Street]
+Sponsors: Mahmood; Melgar
+Resolution adding the commemorative street name “Carmen Johnson Way” to the 1100
+block of Pierce Street between Turk Street and Eddy Street in recognition of her lifetime of
+service to the families of the Fillmore neighborhood.
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 13
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+Recommendation of the Rules Committee
+Present: Supervisors Walton, Sherrill, Mandelman
+
+39.
+
+260018
+
+[Mayoral Appointment, Redevelopment Successor Agency Oversight Board Alison Warner]
+Motion approving the Mayoral appointment of Alison Warner to the Redevelopment
+Successor Agency Oversight Board (commonly known as the Commission on Community
+Investment and Infrastructure), term ending January 24, 2028. (Clerk of the Board)
+(Resolution No. 11-12, provides that this member shall be appointed by the Mayor and
+subject to confirmation by the majority of the Board of Supervisors. There is no deadline
+for confirmation and the appointment is not effective until the Board takes action.
+Transmittal date: January 2, 2026)
+Question: Shall this Motion be APPROVED?
+
+SPECIAL ORDER 2:30 P.M. - Recognition of Commendations
+40.
+
+ROLL CALL FOR INTRODUCTIONS
+Roll call for introduction of ordinances, resolutions, charter amendments, requests for hearings, letters
+of inquiry, letters of request to the City Attorney and Board Members' reports on their regional body
+activities.
+
+41.
+
+PUBLIC COMMENT
+An opportunity for members of the public to directly address the Board on items of interest to the public
+that are within the subject matter jurisdiction of the Board, including items being considered today
+which have not been considered by a Board committee and excluding items which have been
+considered by a Board committee. Members of the public may address the Board for up to two
+minutes. Each member of the public will be allotted the same number of minutes to speak,
+except public speakers using interpretation assistance will be allowed to testify for two minutes
+and the interpreter will have two minutes for interpretation. If simultaneous interpretation services are
+used, speakers will be governed by the public testimony time limit applied to speakers not requesting
+translation assistance. The President or the Board may limit the total testimony to 30 minutes.
+Members of the public who want a document placed on the overhead for display should clearly state
+such and subsequently remove the document when they want the screen to return to live coverage of
+the meeting.
+
+City and County of San Francisco
+
+Page 14
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+CLOSED SESSION
+CONFERENCE WITH CITY ATTORNEY - Existing Litigation
+(Scheduled pursuant to Motion No. M26-018 (File No. 260167), approved on February 24,
+2026.)
+
+42.
+
+260168
+
+[Closed Session - Existing Litigation - Airlines for America - March 3, 2026]
+Closed Session for the Board of Supervisors to convene on March 3, 2026, pursuant to
+California Government Code, Section 54956.9(a), and San Francisco Administrative Code,
+Section 67.10(d), for the purpose of conferring with, or receiving advice from, the City
+Attorney regarding the following existing litigation matter in which the City is a party:
+Airlines for America v. City and County of San Francisco, Case No. 3:21-cv-02341-EMC
+(N.D. Cal.); scheduled pursuant to Motion No. M26-018 (File No. 260167), approved on
+February 24, 2026. (Clerk of the Board)
+Closed Session: The Board of Supervisors shall confer with the City Attorney.
+
+[Elect To Disclose]
+Motion that the Board finds it is in the best interest of the public that the Board elect at this time to
+disclose its closed session deliberations.
+[Elect Not to Disclose]
+Motion that the Board finds that it is in the best interest of the public that the Board elect at this time not
+to disclose its closed session deliberations.
+After a closed session, if one occurs, pending approval of above action to disclose, the President shall
+(1) request the Deputy City Attorney to identify the subjects discussed in the closed session, and (2)
+direct the Clerk of the Board to report the vote taken on any motion in the closed session.
+
+City and County of San Francisco
+
+Page 15
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+FOR ADOPTION WITHOUT COMMITTEE REFERENCE
+These measures were introduced for adoption without committee reference. A unanimous vote is
+required for adoption of these resolutions today. Any Supervisor may require any resolution to go
+to committee.
+Questions on the For Adoption Without Committee Reference Agenda are on for adoption, or
+approved, as indicated.
+(PUBLIC COMMENT for Items 43 through 55 will be taken during Item 41 - General Public
+Comment.)
+
+Items 43 through 55
+43.
+
+260142
+
+[Emergency Preparedness - Restoration of Outdoor Public Warning System]
+Sponsor: Wong
+Resolution urging the Department of Emergency Management and Department of
+Technology to prioritize the restoration of San Francisco's outdoor public warning system
+in tsunami evacuation zones and coastal areas, and to allocate funding for this critical
+public safety infrastructure.
+02/10/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+02/24/2026; CONTINUED.
+
+Question: Shall this Resolution be ADOPTED?
+
+44.
+
+260186
+
+[Supporting California State Senate Bill No. 944 (Wiener) - Medi-Cal:
+Acupuncture]
+Sponsors: Chen; Chan
+Resolution supporting the passage of California State Senate Bill No. 944, introduced by
+Senator Scott Wiener, removing the limitation requiring federal matching funds for
+acupuncture to be a covered benefit, thereby making acupuncture a covered benefit under
+Medi-Cal.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+45.
+
+260187
+
+[Supporting California State Assembly Bill No. 2455 (Haney) - Bruce Lee Day]
+Sponsors: Chen; Chan, Mahmood and Walton
+Resolution supporting California State Assembly Bill No. 2455, introduced by Assembly
+Member Matt Haney, to annually designate May 17 as Bruce Lee Day.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 16
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+46.
+
+260189
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Initiating Landmark Designation - Latin Rock House]
+Sponsor: Fielder
+Resolution initiating a landmark designation under Article 10 of the Planning Code for the
+Latin Rock House, located at 2880-25th Street, Assessor's Parcel Block No. 4266, Lot
+No. 020C.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+47.
+
+260192
+
+[Supporting California State Senate Bill No. 875 (Wiener) - Access to Public
+Power Act]
+Sponsors: Mandelman; Dorsey, Sauter, Melgar, Wong, Mahmood and Fielder
+Resolution supporting California State Senate Bill No. 875, introduced by State Senator
+Scott Wiener, which will strengthen and protect the ability of local jurisdictions within the
+Pacific Gas and Electric service territory to form or expand their own public utilities.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+48.
+
+260193
+
+[Supporting California State Assembly Bill No. 1897 (Haney) - Mentally
+Disordered Offenders: Criteria for Commitment]
+Sponsors: Mandelman; Sauter
+Resolution supporting California State Assembly Bill No. 1897, introduced by Assembly
+Member Matt Haney, which clarifies legal standards governing continued treatment for
+offenders with severe mental illness and strengthens evidence-based evaluation
+requirements.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+49.
+
+260195
+
+[Supporting California State Assembly Bill No. 1974 (Stefani) - Firearms:
+Voluntary Firearm Storage Program]
+Sponsors: Sherrill; Dorsey
+Resolution supporting California State Assembly Bill No. 1974, introduced by Assembly
+Member Catherine Stefani, which will authorize law enforcement agencies to create
+voluntary firearm storage programs; authorize law enforcement agencies to ensure the
+firearm has not been previously reported lost, stolen, or involved in a crime; and require law
+enforcement agencies to destroy a firearm that was not retrieved.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 17
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+50.
+
+260196
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Recognizing Edgewood’s 175th Anniversary - Edgewood Day - March 3, 2026]
+Sponsor: Wong
+Resolution recognizing the 175th anniversary of Edgewood and proclaiming March 3, 2026
+as Edgewood Day in the City and County of San Francisco in recognition of Edgewood’s
+historic contributions to youth mental health, family support, and community well-being.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+51.
+
+260197
+
+[Recognizing Children’s Dental Health Month - February 2026]
+Sponsors: Wong; Fielder
+Resolution recognizing the month of February 2026 as Children’s Dental Health Month in
+the City and County of San Francisco.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+52.
+
+260198
+
+[Supporting California State Assembly Bill Nos. 1818 and 1831 - California
+State University: Fairness for Workers and Students]
+Sponsor: Wong
+Resolution supporting California State Assembly Bill Nos. 1818 and 1831, introduced by
+Assembly Members Liz Ortega and Patrick Ahrens, to advance fairness and accountability
+at the California State University by ensuring negotiated raises and step increases are
+honored, and by placing reasonable limits on certain non-represented management
+compensation practices.
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+City and County of San Francisco
+
+Page 18
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+53.
+
+260206
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Approval of a 270-Day Extension for Planning Commission Review of
+Planning Code - Formula Retail (File No. 250816)]
+Sponsor: Melgar
+Resolution extending by 270 days the prescribed time within which the Planning
+Commission may render its decision on an Ordinance (File No. 250816) amending the
+Planning Code to reduce restrictions on Formula Retail Uses by 1) modifying the definition
+of a Formula Retail Use; 2) eliminating the Conditional Use Authorization requirement for
+Formula Retail Accessory Uses, Formula Retail Temporary Uses, and certain changes of
+use for Formula Retail Uses; 3) eliminating the prohibition on changes of use for
+non-conforming Formula Retail Uses; 4) eliminating the requirement for an economic
+impact study for specified large Formula Retail Uses; 5) eliminating the restrictions
+regarding Formula Retail Use concentration in the Upper Market Street Neighborhood
+Commercial District; 6) allowing one or more Formula Retail Restaurants or Limited
+Restaurants inside a General Grocery store under a single Conditional Use authorization;
+and 7) principally permitting Formula Retail Uses in spaces larger than 10,000 square feet
+in the RC (Residential-Commercial) and RTO (Residential Transit Oriented) Districts;
+affirming the Planning Department’s determination under the California Environmental
+Quality Act; making findings of consistency with the General Plan, and the eight priority
+policies of Planning Code, Section 101.1; and making findings of public necessity,
+convenience, and welfare pursuant to Planning Code, Section 302.
+02/25/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Resolution be ADOPTED?
+
+54.
+
+260169
+
+[Appointment, Park, Recreation, and Open Space Advisory Committee Lindsay Kaufman]
+Motion appointing Lindsay Kaufman, term ending February 1, 2027, to the Park,
+Recreation and Open Space Advisory Committee (District 4). (Clerk of the Board)
+02/23/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Motion be APPROVED?
+
+55.
+
+260200
+
+[Preparation of Proponent/Opponent Ballot Arguments and Rebuttal Ballot
+Arguments - June 2, 2026]
+Motion authorizing preparation of written Proponent and Opponent ballot arguments and
+rebuttal ballot arguments for submittal to the voters for the June 2, 2026, Statewide Direct
+Primary Election. (Clerk of the Board)
+02/24/2026; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD
+MEETING.
+
+Question: Shall this Motion be APPROVED?
+
+City and County of San Francisco
+
+Page 19
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+56.
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+IMPERATIVE AGENDA
+Resolution(s), if any, to be adopted within limits imposed by the Sunshine Ordinance and the Ralph M.
+Brown Act, introduced today, not on the printed agenda. For such resolutions to be considered, the
+Board must first adopt the Serious Injury Finding or the Purely Commendatory Finding and the Brown
+Act Finding. Each motion requires eight (8) votes or a unanimous six (6) or seven (7). A unanimous
+vote is required for the resolution(s).
+[Serious Injury Finding]
+Motion that the Board find that for the resolution(s) being considered at this time "the need to take
+action is so imperative as to threaten serious injury to the public interest if action is deferred to a
+later meeting."
+[Purely Commendatory Finding]
+Motion that the Board find that the resolution(s) being considered at this time are purely
+commendatory.
+[Brown Act Finding]
+Motion that the Board find by roll call vote that, for the resolution(s) being considered at this time,
+there is a need to take immediate action. The need to take action came to the attention of the City
+and County of San Francisco after the agenda was posted.
+(PUBLIC COMMENT WILL BE TAKEN on any Imperative Agenda item introduced.)
+
+LEGISLATION INTRODUCED AT ROLL CALL
+Introduced by a Supervisor or the Mayor
+Pursuant to Charter, Section 2.105, an Ordinance or Resolution may be introduced before the Board
+of Supervisors by a Member of the Board, a Committee of the Board, or the Mayor and shall be
+referred to and reported upon by an appropriate Committee of the Board.
+
+Legislation Introduced will appear on the Final Minutes for this meeting. Once the
+Legislation Introduced is approved, it will be available on
+http://www.sfbos.org/legislation_introduced.
+
+City and County of San Francisco
+
+Page 20
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+Introduced at the Request of a Department
+Pursuant to Rules of Order of the Board of Supervisors, Section 2.7.1, Department Heads may
+submit proposed legislation to the Clerk of the Board, in which case titles of the legislation will be
+printed at the rear of the next available agenda of the Board.
+
+PROPOSED RESOLUTIONS
+260170
+
+[Contract Amendment - San Francisco AIDS Foundation - Health Access Point
+and Capacity Building Services - Not to Exceed $23,832,933]
+Resolution approving Amendment No. 2 to the agreement between the City and County of
+San Francisco, acting by and through the Department of Public Health (DPH), and the San
+Francisco AIDS Foundation, to operate a health access point and provide capacity building
+services, to extend the term by four years from June 30, 2026, for a new term of January 1,
+2023, through June 30, 2030, and to increase the amount by $11,946,338 for a new total
+not to exceed amount of $23,832,933; and to authorize DPH to enter into amendments or
+modifications to the agreement that do not materially increase the obligations or liabilities
+to the City and are necessary to effectuate the purposes of the agreement or this
+Resolution. (Public Health Department)
+02/17/2026; RECEIVED FROM DEPARTMENT.
+03/03/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260171
+
+[Accept and Expend Gift - Retroactive - Whilt Living Trust - Animal Care and
+Control Welfare Fund - $100,000.25]
+Resolution retroactively authorizing Animal Care and Control to accept and expend a gift
+valued in the amount of $100,000.25 from the Whilt Living Trust in support of various
+Animal Care and Control operational needs, effective September 30, 2025. (Animal Care
+and Control)
+02/17/2026; RECEIVED FROM DEPARTMENT.
+03/03/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260172
+
+[Real Property Lease Amendment - KLW Investments, LLC - 3119, 3125, and
+3127 Mission Street - Annual Base Rent of $410,145]
+Resolution approving and authorizing the Director of Property, on behalf of the City and
+County of San Francisco, to execute the second amendment to the lease of 11,085
+square feet of office space at 3119, 3125, and 3127 Mission Street, from KLW
+Investments, LLC, a California limited liability corporation; extending the term by four years
+and six months from March 31, 2026, for a total term from, July 1, 2015, through
+September 30, 2030, and granting a five year option to renew the lease, at an annual base
+rent of $410,145 for continuing use by the Human Services Agency; and authorizing the
+Director of Property to enter into any additions, amendments or other modifications to the
+lease that do not otherwise materially increase the obligation or liabilities of the City to
+effectuate the purposes of the lease and this Resolution. (Real Estate Department)
+02/19/2026; RECEIVED FROM DEPARTMENT.
+03/03/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+City and County of San Francisco
+
+Page 21
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+260173
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Real Property Lease Amendment - KLW Investments, LLC - 3120 Mission
+Street - Annual Base Rent of $1,237,642]
+Resolution approving and authorizing the Director of Property, on behalf of the City and
+County of San Francisco, to execute the second amendment to the lease of 39,251
+square feet of office space at 3120 Mission Street, from KLW Investments, LLC, a
+California limited liability corporation; extending the term by four years and six months
+from March 31, 2026, for a total term from July 1, 2015, through September 30, 2030, and
+granting a five year option to renew the lease, at an annual base rent of $ 1,237,642 for
+continuing use by the Human Services Agency; and authorizing the Director of Property to
+enter into any additions, amendments or other modifications to the lease that do not
+otherwise materially increase the obligation or liabilities of the City to effectuate the
+purposes of the lease and this Resolution. (Real Estate Department)
+02/19/2026; RECEIVED FROM DEPARTMENT.
+03/03/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+260174
+
+[Contract Amendment - Rafiki Coalition for Health & Wellness - Health Access
+Point Services - Not to Exceed $20,083,870]
+Resolution approving Amendment No. 2 to the agreement between the City and County of
+San Francisco, acting by and through the Department of Public Health (DPH), and Rafiki
+Coalition for Health & Wellness, to provide health access point services; to extend the
+term by three years from June 30, 2027, for a new term of January 1, 2023, through June
+30, 2030; to increase the amount by $10,670,270 for a new total not to exceed amount of
+$20,083,870; and to authorize DPH to enter into amendments or modifications to the
+agreement that do not materially increase the obligations or liabilities to the City and are
+necessary to effectuate the purposes of the agreement or this Resolution. (Public Health
+Department)
+02/23/2026; RECEIVED FROM DEPARTMENT.
+03/03/2026; RECEIVED AND ASSIGNED to the Budget and Finance Committee.
+
+City and County of San Francisco
+
+Page 22
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+260188
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+[Petitions and Communications]
+Petitions and Communications received from February 19, 2026, through February 26,
+2026, for reference by the President to Committee considering related matters, or to be
+ordered filed by the Clerk on March 3, 2026.
+Personal information that is provided in communications to the Board of Supervisors is
+subject to disclosure under the California Public Records Act and the San Francisco
+Sunshine Ordinance. Personal information will not be redacted.
+From the Office of the Mayor (MYR), submitting the State Legislation Committee’s
+approval of positions on legislation before the California State Legislature; and January 21,
+2026, meeting minutes. Copy: Each Supervisor. (1)
+From the Office of the Mayor, making the following (re)appointments to the Redevelopment
+Successor Agency Oversight Board. Copy: Each Supervisor. (2)
+· Reappointing Anna Van Degna - term ending January 24, 2030
+· Appointing Lisa Chen - term ending January 24, 2030
+From the Office of the Treasurer and Tax Collector (TTX), pursuant to San Francisco
+Business and Tax Regulations Code, Section 608, submitting Annual Reports of parking
+revenue information related to the Special School Parking Event Permits for Calendar
+Years (CY) 2020-2025. 6 Reports. Copy: Each Supervisor. (3)
+From the Office of Civic Engagement and Immigrant Affairs (OCEIA), pursuant to San
+Francisco Administrative Code, Section 91, submitting notice that Vietnamese has met
+the Substantial Number of Limited English Proficient (LEP) Persons threshold and has
+become eligible for certification as a required language under the Language Access
+Ordinance. Copy: Each Supervisor. (4)
+From the San Francisco Police Department (SFPD), pursuant to Ordinance No. 205-22,
+submitting a Q3-Q4 Live Monitoring Report summarizing live monitoring requests and
+operations from July to December of 2025. File No. 220606. Copy: Each Supervisor. (5)
+From the Office of Civic Engagement and Immigrant Affairs (OCEIA), pursuant to the
+Language Access Ordinance, submitting a Quarterly Department Complaint Report for the
+period of October to December of 2025. Copy: Each Supervisor. (6)
+From the Building Inspection Commission (BIC), regarding BIC’s official recommendation
+on Fee Legislation, Commission Secretary Position, and Code Enforcement Grants
+included in Department of Building Inspection’s (DBI) proposed budget. Copy: Each
+Supervisor. (7)
+From the Recreation and Park Department (RPD), pursuant to Resolution No. 115-25,
+submitting a Report on the Embarcadero Plaza and Sue Bierman Park Behested
+Payments Waiver for the period of March 21, 2025, through September 21, 2025. File No.
+250105. Copy: Each Supervisor. (8)
+From the California Fish and Game Commission, submitting notice of availability of a draft
+environmental document regarding migratory game bird hunting. Copy: Each Supervisor.
+(9)
+From members of the public, regarding the proposed Ordinance repealing the existing San
+Francisco Fire Code in its entirety and enacting a new San Francisco Fire Code consisting
+of the 2025 California Fire Code and portions of the 2024 International Fire Code, together
+with amendments specific to San Francisco, including provisions for fees for permits,
+
+City and County of San Francisco
+
+Page 23
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+inspections, and various City services, with an operative date of January 1, 2026. File No.
+251247. 165 Letters. Copy: Each Supervisor. (10)
+From Mark Baker, regarding The Bay Lights 360. 2 Letters. Copy: Each Supervisor. (11)
+From members of the public, regarding the Hearing on the San Francisco Environment
+Department's (ENV) budget for Fiscal Year (FY) 2026-2027; and requesting the
+Environment Department and the Mayor's office to report.. File No. 260148. 2 Letters.
+Copy: Each Supervisor. (12)
+From Erik Greenfrost, regarding the Hearing of persons interested in or objecting to the
+decision of Public Works, dated November 7, 2025, approving a Tentative Parcel Map for a
+three-lot vertical subdivision, five residential and 10 commercial mixed-use condominium
+project at 3333 Mission Street and 190 Coleridge Street, Assessor’s Parcel Block No.
+5615, Lot Nos. 099, 100, 101. (District 9) (Appellant: Don Lucchesi) (Filed: November 17,
+2025). File No. 251138. Copy: Each Supervisor. (13)
+From the Coalition on Homelessness, regarding the Resolution approving and authorizing
+the City and County of San Francisco acting through the Sheriff’s Office to enter into a
+Professional Services Contract with ConnectionsCA, LLC for operating the Rapid
+Enforcement Support Evaluation and Triage (RESET) Center, a safe alternative to
+incarceration for individuals brought in by law enforcement for public intoxication or drug
+use, submitted under Chapter 21B of the Administrative Code as a Core Initiative Contract,
+for a total not to exceed amount of $14,537,426 with an initial term of two years and two
+months, commencing on February 1, 2026, through March 31, 2028, with an option to
+extend for one additional year; authorizing the Sheriff to execute any amendments, make
+certain modifications and take certain actions that do not materially increase the
+obligations or liabilities to the City, and are necessary or advisable to effectuate the
+purposes of the contract; and affirming the Planning Department’s determination under the
+California Environmental Quality Act. Resolution No. 063-26; File No. 260028. Copy: Each
+Supervisor. (14)
+From Lisa-Anice Sutphen, regarding building code concerns at 745 Filmore Street. Copy:
+Each Supervisor. (15)
+From Positive Resource Center, regarding the reopening of the Fostel House transitional
+residential treatment program. Copy: Each Supervisor. (16)
+From members of the public, regarding the Commission Streamlining Task Force. 37
+Letters. Copy: Each Supervisor. (17)
+From members of the public, regarding transfer tax reform. 64 Letters. Copy: Each
+Supervisor. (18)
+From Heather Peterson, regarding the Formula 1 Red Bull Showrun. Copy: Each
+Supervisor. (19)
+From members of the public, regarding banning plastic cigarette filters. 7 Letters. Copy:
+Each Supervisor. (20)
+From Kimberly N. Simmons, regarding Alcatraz Island. Copy: Each Supervisor. (21)
+From members of the public, regarding a proposed housing development at 15 Marina
+Boulevard. 2 Letters. Copy: Each Supervisor. (22)
+From Denis M. Dickerman, regarding the State Legislation Committee’s meeting on
+February 25, 2026. Copy: Each Supervisor. (23)
+City and County of San Francisco
+
+Page 24
+
+Printed at 9:55 pm on 2/26/26
+
+Board of Supervisors
+
+Meeting Agenda
+
+Tuesday, March 3, 2026
+
+From Helena Hawk, regarding an interaction at the San Francisco Human Services
+Agency (HSA). Copy: Each Supervisor (24)
+
+ADJOURNMENT
+
+City and County of San Francisco
+
+Page 25
+
+Printed at 9:55 pm on 2/26/26
+
+
