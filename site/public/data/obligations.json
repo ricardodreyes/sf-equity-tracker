@@ -23,7 +23,7 @@
    "cadence": "biennial, refreshed within 60 days of each Point-in-Time Count release",
    "status": "filed",
    "discoverability": "buried",
-   "why_it_matters": "HSH filed this. It is also invisible: it has no page on sf.gov, no catalogue record, and does not appear on HSH's own reporting and compliance page. It exists as one line in the Petitions and Communications section of a Board agenda. Both Chapter 124 deliverables now behave the same way, filed and then unfindable, which is the pattern this ledger exists to measure. The Fair Share Rule in 124.2(b) still has no public input, because a document nobody can locate cannot be used to check a siting decision.",
+   "why_it_matters": "HSH filed this. The Board agenda gives a receipt window rather than a date, and the deadline falls inside that window, so we do not know whether it was early or late and do not claim either. What is certain is that it is invisible. It has no page on sf.gov, no catalogue record, and no entry on HSH's own reporting and compliance page. It exists as one line in the Petitions and Communications section of a Board agenda. Both Chapter 124 deliverables behave this way. The Fair Share Rule in 124.2(b) still has no public input, because a document nobody can locate cannot be used to check a siting decision.",
    "checked": [
     {
      "method": "Board of Supervisors agenda for 2026-01-27, Petitions and Communications, read directly",
@@ -80,6 +80,11 @@
    "correction": {
     "date": "2026-08-25",
     "text": "This row read MISSING and said no Shelter Equity Analysis had been published anywhere, at 221 days overdue. That was false, and it was this site's headline claim against two named departments. HSH submitted the analysis to the Board of Supervisors in January 2026, within the receipt window that brackets the deadline. Board of Supervisors agendas are published as PDFs at a predictable path and every departmental filing is listed in their Petitions and Communications section. That venue was not checked when this row was first published, which is why the row was wrong. The row now reads filed and buried, which is what the evidence actually supports."
+   },
+   "filed_window": {
+    "from": "2026-01-08",
+    "to": "2026-01-22",
+    "note": "The Board agenda records only the window in which the Clerk received a filing, not the date. The deadline of 2026-01-16 falls inside it, so whether this arrived early or late cannot be determined from the public record."
    }
   },
   {

@@ -33,6 +33,11 @@ export function daysSince(iso) {
 
 export function timeliness(row) {
   if (!row.due) return row.status === "repealed" ? "repealed" : "no deadline";
+  // Some filings are recorded as a receipt window rather than a date. When the deadline
+  // falls inside that window the filing may have been early or late, and the public record
+  // cannot say which, so neither do we.
+  const w = row.filed_window;
+  if (w && w.from <= row.due && row.due <= w.to) return "timing unknown";
   // ISO dates compare correctly as strings, which keeps this readable
   if (row.filed_on) return row.filed_on <= row.due ? "on time" : "late";
   return daysSince(row.due) > 0 ? "overdue" : "not yet due";
@@ -40,6 +45,7 @@ export function timeliness(row) {
 
 /** Days between filing and deadline. Positive means it arrived late. */
 export function daysLate(row) {
+  if (row.filed_window) return 0;
   if (!row.due || !row.filed_on) return 0;
   return Math.max(0, daysBetween(row.due, row.filed_on));
 }

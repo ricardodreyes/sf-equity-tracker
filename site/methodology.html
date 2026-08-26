@@ -26,12 +26,12 @@
   <main class="page">
     <h2>What this site is</h2>
     <p>San Francisco writes reporting deadlines into its own ordinances. This tracks whether the
-      documents actually appear. It covers homelessness, behavioral health and drug policy. It is
-      built entirely from public records, it names no residents, and it makes no claim about whether
-      any policy is good. It only records whether the city did the thing its own law requires, by the
-      date its own law sets.</p>
+      documents actually appear, across homelessness, behavioral health and drug policy. Everything
+      here comes from public records. No residents are named, and nothing on this site argues that
+      any policy is good or bad. It records one thing: whether the city did what its own law
+      requires, by the date its own law sets.</p>
 
-    <h2>Two things are measured, not one</h2>
+    <h2>We score two things</h2>
     <p>A document can be filed and still be impossible to find. Those are different failures, so the
       ledger scores them separately.</p>
     <ul>
@@ -73,16 +73,14 @@
     </ol>
     <p>The language is deliberate. We never write that a department did not produce a report. We
       write that no published copy was found at these specific places at this specific time.</p>
-    <p>Three of these claims have already been wrong, and every one was caught by deliberate
-      adversarial review rather than by a reader. Two failed the same way: the document existed in a
-      venue we had not thought to check. One failed on timing, by about an hour.</p>
-    <p>Draw the right lesson from that. It is not that the method works, though it did catch all
-      three. It is that an absence claim is the most fragile thing a site like this can publish. It
-      is true only at the instant it was made, only across the venues actually searched, and it fails
-      silently rather than loudly. Everything else here, a filed report that cannot be found, a
-      repealed duty, a deadline that cannot be computed from the enacted text, is a claim about a
-      document that exists. Those do not rot. We now treat absence as the exception on this site
-      rather than its purpose.</p>
+    <p>Three of these claims have already been wrong. Adversarial review caught all three before a
+      reader did. Two failed the same way, with the document sitting in a venue we had not thought to
+      check. The third failed on timing, by about an hour.</p>
+    <p>An absence claim is the most fragile thing a site like this can publish. It holds only at the
+      instant it was made, and only across the venues actually searched. When it fails it fails
+      quietly. Everything else here is a claim about a document that exists: a filed report nobody
+      can find, a repealed duty, a deadline the enacted text does not let you compute. Those keep.
+      Absence is now the exception on this site.</p>
 
     <h2>Traps we had to design around</h2>
     <ul>
@@ -92,8 +90,8 @@
         longer exists. Repeals are therefore tracked from ordinances, by hand.</li>
       <li><strong>Board filings are the hardest thing to see.</strong> The legislative system's
         public interface is effectively unusable programmatically, and sf.gov carries no Board
-        meeting pages, so a document can be formally public and practically invisible. That is not a
-        theory. It is how the 124.4 report behaves.</li>
+        meeting pages, so a document can be formally public and practically invisible. The 124.4
+        report behaves exactly that way.</li>
       <li><strong>Some duties cannot be computed.</strong> The annual donations report under
         Administrative Code 21B.4 has no ascertainable deadline because the enacted sentence stops
         mid-clause. The ledger records it as undeterminable rather than counting it as a failure.</li>
@@ -109,8 +107,9 @@
       <h3>2026-08-25, the Shelter Equity Analysis, and what it revealed</h3>
       <p>This site led with a claim that the Shelter Equity Analysis required by Administrative Code
         124.2(a) had never been published, 221 days overdue, against two named departments. That was
-        false. HSH submitted it to the Board of Supervisors in January 2026, inside the receipt window
-        that brackets the deadline.</p>
+        false. HSH submitted it to the Board of Supervisors in January 2026. The agenda records a
+        receipt window rather than a date, and the deadline falls inside that window, so we cannot
+        say whether it arrived early or late, and do not.</p>
       <p>The cause was a hole in the venue list. Departments file to the Board, and every filing is
         listed in the Petitions and Communications section of a Board meeting agenda. Those agendas
         are ordinary PDFs at a predictable address. We had reasoned that because the Board's
@@ -141,9 +140,9 @@
       <p>An earlier draft of this project listed the Administrative Code 124.4 semiannual report as
         missing. That was wrong. Two independent adversarial checks located it in the Board of
         Supervisors agenda for July 28 2026, and it was then confirmed by hand in the agenda PDF. The
-        row now reads filed, late, and buried. The error is recorded here on purpose, because it is
-        exactly the failure this site's method exists to prevent, and it was caught by the method
-        rather than by a reader.</p>
+        row now reads filed, late, and buried. We record the error here on purpose. It is the exact
+        failure this site's method exists to prevent, and the method caught it before a reader
+        did.</p>
     </div>
     <p>If you can show that anything listed as missing does exist, that is the correction we most
       want. We will publish it as prominently as the claim it corrects.</p>
@@ -161,10 +160,10 @@
 
     <h2>Sources</h2>
     <p>Every obligation cites the ordinance that creates it, and every deadline shows how it was
-      derived. Primary sources are the San Francisco Municipal Code, ordinance PDFs published by the
+      derived. The primary sources are the San Francisco Municipal Code, ordinance PDFs from the
       Clerk of the Board, the sf.gov content API, department websites, commission agenda archives,
-      and the California Penal Code for Civil Grand Jury response clocks. Full research notes,
-      including the dead ends, are kept in the project repository.</p>
+      and the California Penal Code for the Civil Grand Jury response clocks. The project repository
+      holds the full research notes, dead ends included.</p>
 
     <div class="footnote">This site is independent and is not affiliated with the City and County of
       San Francisco.</div>
