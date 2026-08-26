@@ -7,23 +7,6 @@ export async function j(path) {
 export const fmt = (n) => (n == null ? "–" : n.toLocaleString("en-US"));
 export const pct = (n) => (n == null ? "–" : `${n}%`);
 
-const NAV = [
-  ["/", "Ledger", "ledger"],
-  ["/evidence.html", "Evidence", "evidence"],
-  ["/methodology.html", "Methodology", "methodology"],
-];
-
-export function header(active) {
-  const el = document.createElement("header");
-  el.className = "site";
-  el.innerHTML = `
-    <h1><a href="/" style="text-decoration:none">SF Accountability Ledger</a></h1>
-    <nav>${NAV.map(([href, label, key]) =>
-      `<a href="${href}"${key === active ? " aria-current='page'" : ""}>${label}</a>`
-    ).join("")}</nav>`;
-  document.body.prepend(el);
-}
-
 /** Today's calendar date in San Francisco, as YYYY-MM-DD.
     A statutory deadline set by a San Francisco ordinance has one correct answer, and it
     is not the one in the reader's timezone. en-CA formats as ISO. */

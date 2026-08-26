@@ -1,8 +1,17 @@
-import { header, j, daysOverdue, daysLate, timeliness, lastVerified, daysStale } from "./common.js";
+import { j, daysOverdue, daysLate, timeliness, lastVerified, daysStale } from "./common.js";
 
-header("ledger");
-
-const { obligations, enforcement_note } = await j("/data/obligations.json");
+let data;
+try {
+  data = await j("/data/obligations.json");
+} catch (e) {
+  document.getElementById("hero-figure").textContent = "";
+  for (const id of ["ledger", "foot"]) document.getElementById(id).hidden = true;
+  document.getElementById("hero-caption").innerHTML =
+    `Could not load the ledger (${e.message}). <a href="">Reload the page</a>, or read the
+     <a href="/methodology.html">methodology</a> while the record is unavailable.`;
+  throw e;
+}
+const { obligations, enforcement_note } = data;
 
 // Colour does one job here: marking failure. Everything else is a neutral mark
 // plus a word, because four status hues cannot be told apart under CVD.
