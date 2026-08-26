@@ -49,3 +49,16 @@ export function daysOverdue(row) {
   if (!row.due || row.filed_on) return 0;
   return Math.max(0, daysSince(row.due));
 }
+
+/** The most recent moment any row was actually checked. The page must date itself
+    from evidence, never from the clock: stamping today onto an old sweep turns a
+    stale claim into a false one. */
+export function lastVerified(obligations) {
+  const stamps = obligations.flatMap((r) => (r.checked ?? []).map((c) => c.at)).filter(Boolean);
+  return stamps.sort().at(-1) ?? null;
+}
+
+export function daysStale(obligations) {
+  const last = lastVerified(obligations);
+  return last ? daysSince(last.slice(0, 10)) : Infinity;
+}

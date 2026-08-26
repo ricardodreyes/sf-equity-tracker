@@ -46,8 +46,8 @@ if (!r) {
        <pre class="draft" id="draft">${r.request.draft.replace(/</g, "&lt;")}</pre>
        ${r.requests?.length
           ? `<p class="note">Filed: ${r.requests.map((x) => `${x.agency} #${x.id}, ${x.status}`).join("; ")}</p>`
-          : `<p class="note">Not yet filed. Once a request is filed its public tracking number appears here,
-             along with the city's own response clock.</p>`}`
+          : `<p class="note">Not yet filed. Once we file one, its public tracking number appears here and
+             the city's own response clock starts running against it.</p>`}`
     : "";
 
   root.innerHTML = `
@@ -75,16 +75,17 @@ if (!r) {
         .filter(([, u]) => u).map(([k, u]) => `<a href="${u}">${k}</a>`).join(" &middot; ")}</p>`)}
 
     ${section("Why it matters", `<p>${r.why_it_matters}</p>${r.caveat ? `<p class="note">${r.caveat}</p>` : ""}`)}
-    ${section("Where we looked", audit)}
+    ${section("Where we looked", audit + (r.search_boundary
+      ? `<p class="note" style="margin-top:0.9rem">${r.search_boundary}</p>` : ""))}
     ${section("Considered and rejected", rejected)}
     ${r.open_lead ? section("Open lead", `<p class="note">${r.open_lead}</p>`) : ""}
-    ${section("Force it into daylight", req)}
+    ${section("Request the document", req)}
     ${r.we_built_instead ? section("What we built instead",
         `<p>${r.we_built_instead.label}: <a href="${r.we_built_instead.href}">see the evidence</a>.</p>`) : ""}
 
     <div class="footnote">Every URL above was fetched on the date shown. If you can show that a document
-      listed as missing does exist, that is a correction we want: it will be published here, dated, with
-      the original claim left visible.</div>`;
+      listed as missing does exist, that is a correction we want. We publish it here, dated, beside
+      the claim it corrects.</div>`;
 
   document.getElementById("copy")?.addEventListener("click", async (e) => {
     await navigator.clipboard.writeText(r.request.draft);

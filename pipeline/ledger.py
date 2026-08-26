@@ -54,6 +54,13 @@ def validate(doc):
             for field in ("url", "method", "result", "at"):
                 if not c.get(field):
                     problems.append(f"{rid}: audit entry missing {field}")
+            # A date-only stamp cannot defend a row against a document uploaded later the
+            # same day. That is exactly how the CGJ row went false, so new checks need a time.
+            at = c.get("at", "")
+            if len(at) == 10 and not c.get("date_precision_only"):
+                problems.append(
+                    f"{rid}: audit entry {at} has date precision only. Record a timestamp, "
+                    f"or set date_precision_only if the exact time is genuinely unknown.")
 
         if r.get("status") in ("filed", "partial") and not r.get("filed_on"):
             problems.append(f"{rid}: status {r['status']} but no filed_on")

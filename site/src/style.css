@@ -114,8 +114,9 @@ strong { font-weight: 600; }
 .standfirst .caption a { color: var(--ink); }
 .dateline {
   font-family: var(--sans); font-size: var(--s--1); color: var(--ink-3);
-  letter-spacing: 0.05em; margin-top: 1.1rem;
+  letter-spacing: 0.05em; margin-top: 1.1rem; max-width: 40rem;
 }
+.dateline.stale { color: var(--ink-2); border-left: 2px solid var(--signal); padding-left: 0.8rem; }
 
 /* ledger ---------------------------------------------------------------- */
 table.ledger { width: 100%; border-collapse: collapse; font-family: var(--sans); }

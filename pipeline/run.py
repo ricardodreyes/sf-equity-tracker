@@ -1,4 +1,4 @@
-"""End to end: fetch -> normalize -> assign -> rollup -> fairshare -> choropleth -> ledger.
+"""End to end: fetch -> normalize -> assign -> rollup -> fairshare -> choropleth -> ledger -> monitor.
 
 `--no-fetch` reuses the raw snapshots already on disk.
 """
@@ -10,6 +10,7 @@ import choropleth
 import fairshare
 import fetch
 import ledger
+import monitor
 import normalize
 import rollup
 
@@ -23,6 +24,7 @@ def main():
     fairshare.build()
     choropleth.build()
     ledger.main()
+    monitor.main()
     print("done")
 
 

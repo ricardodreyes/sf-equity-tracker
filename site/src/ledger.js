@@ -1,4 +1,4 @@
-import { header, j, daysOverdue, daysLate, timeliness } from "./common.js";
+import { header, j, daysOverdue, daysLate, timeliness, lastVerified, daysStale } from "./common.js";
 
 header("ledger");
 
@@ -36,8 +36,20 @@ document.getElementById("hero-caption").innerHTML = worst
   ? `late, and counting, on the <a href="/obligation.html?id=${worst.id}">${worst.title}</a> that
      ${worst.law.citation} requires. ${overdue.length} of ${rows.length} tracked obligations are unmet.`
   : "Every tracked obligation is currently met.";
-document.getElementById("dateline").textContent =
-  `Computed in your browser on ${new Date().toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" })}.`;
+// Date the page from the evidence, not from today's clock.
+const verified = lastVerified(obligations);
+const stale = daysStale(obligations);
+const STALE_AFTER = 14;
+const dl = document.getElementById("dateline");
+dl.textContent = verified
+  ? `Every row last checked ${new Date(verified).toLocaleString("en-US", { day: "numeric", month: "long", year: "numeric" })}.`
+  : "No verification date recorded.";
+if (stale > STALE_AFTER) {
+  dl.innerHTML += ` <strong>This page has not been re-checked in ${stale} days.</strong>
+    Day counts below are arithmetic against each deadline, not evidence that anything is still
+    outstanding. Treat every status as of the date above, not as of today.`;
+  dl.classList.add("stale");
+}
 
 const tbody = document.querySelector("#ledger tbody");
 for (const r of rows) {

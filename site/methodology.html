@@ -38,7 +38,7 @@
       like this to get wrong.</p>
     <ol>
       <li><strong>We enumerate, we do not search.</strong> The sf.gov content API matches all terms
-        rather than any, so a zero result for a multi-word phrase proves very little: it only means
+        rather than any, so a zero result for a multi-word phrase proves very little. It only means
         no document contains every word. Instead we list the entire document store and the entire
         report page type, then filter every title and description ourselves.</li>
       <li><strong>We publish the log.</strong> Every row records each place checked, what was
@@ -53,7 +53,12 @@
         is attested by the department rather than asserted by us.</li>
     </ol>
     <p>The language is deliberate. We never write that a department did not produce a report. We
-      write that no published copy was found at these specific places on this specific date.</p>
+      write that no published copy was found at these specific places at this specific time.</p>
+    <p>Two of these claims have already been wrong, and both were caught by deliberate adversarial
+      review rather than by a reader. That is the method working, and it is also the strongest
+      argument against trusting any single sweep. An absence claim is true only at the instant it was
+      made. A page that keeps asserting one without re-checking is not reporting, it is guessing with
+      a timestamp on it.</p>
 
     <h2>Traps we had to design around</h2>
     <ul>
@@ -64,20 +69,35 @@
       <li><strong>Board filings are the hardest thing to see.</strong> The legislative system's
         public interface is effectively unusable programmatically, and sf.gov carries no Board
         meeting pages, so a document can be formally public and practically invisible. That is not a
-        theory: it is how the 124.4 report behaves.</li>
+        theory. It is how the 124.4 report behaves.</li>
       <li><strong>Some duties cannot be computed.</strong> The annual donations report under
         Administrative Code 21B.4 has no ascertainable deadline because the enacted sentence stops
-        mid-clause. It is listed as undeterminable rather than counted as a failure.</li>
+        mid-clause. The ledger records it as undeterminable rather than counting it as a failure.</li>
       <li><strong>Silence is not always breach.</strong> The Chapter 21B quarterly reports are only
         owed by a department that actually signed a covered contract. We can see that one department
         files and nine do not, but not which of the nine owed anything, so the row reads partial.</li>
     </ul>
 
     <h2>Corrections</h2>
-    <p>Corrections are published in place, dated, with the original claim left visible. Nothing is
-      silently edited.</p>
+    <p>We publish corrections in place, dated, with the original claim still visible. We never edit
+      silently.</p>
     <div class="callout">
-      <h3>2026-08-25</h3>
+      <h3>2026-08-25, Civil Grand Jury responses</h3>
+      <p>This site published a row saying the Mayor and the City Attorney had not filed their
+        60 day responses to the Civil Grand Jury report. That was false. Both had filed: the City
+        Attorney on August 17, a week early, and the Mayor on August 24, the deadline itself. The
+        sweep behind the claim ran on the morning of August 25 and was accurate at that moment. The
+        documents entered the sf.gov catalogue at 11:03 and 11:15 the same morning, about an hour
+        later. Because the evidence log recorded dates and not times, the row could not show that its
+        own check predated the filing.</p>
+      <p>Three things changed as a result. Every check now records a timestamp, and the data file
+        refuses to publish a new one without it. The page dates itself from the newest check in the
+        evidence rather than from today's clock, and says so plainly when that check is more than two
+        weeks old. And every row claiming a document is missing now states the boundary of its own
+        search, including what it cannot see.</p>
+    </div>
+    <div class="callout">
+      <h3>2026-08-25, Administrative Code 124.4</h3>
       <p>An earlier draft of this project listed the Administrative Code 124.4 semiannual report as
         missing. That was wrong. Two independent adversarial checks located it in the Board of
         Supervisors agenda for July 28 2026, and it was then confirmed by hand in the agenda PDF. The
@@ -86,14 +106,14 @@
         rather than by a reader.</p>
     </div>
     <p>If you can show that anything listed as missing does exist, that is the correction we most
-      want. It will be published with the same prominence as the original claim.</p>
+      want. We will publish it as prominently as the claim it corrects.</p>
 
     <h2>What this site does not claim</h2>
     <ul>
       <li>That a late or missing report means anyone acted in bad faith. Departments are under real
         resource pressure and some of these duties were created recently.</li>
-      <li>That filing a records request is a remedy. Enforcement of the Sunshine Ordinance is weak:
-        the Task Force averaged 138 days to hear complaints in 2025 against a 45 day statutory limit,
+      <li>That filing a records request is a remedy. Enforcement of the Sunshine Ordinance is weak.
+        The Task Force averaged 138 days to hear complaints in 2025 against a 45 day statutory limit,
         and its own annual report records zero orders with confirmed compliance.</li>
       <li>That the facility data on the evidence pages is complete. It is not, and the gap is stated
         next to the numbers.</li>
