@@ -71,7 +71,7 @@ Run as a district-level proxy against our own bed data, only **D3 and D6** are o
 blocked. D5 reads as *under*-served (22.4% of unsheltered people, 9.4% of beds), which is
 counterintuitive and a direct consequence of the Tenderloin spanning D3, D5 and D6. Geography
 changes the answer, the statute uses Neighborhood, and our bed denominator covers 3,020 of a
-citywide 5,148. Details and caveats: `research/raw/fair-share-feasibility.md`.
+citywide 5,148. The proxy and its caveats are on the site's evidence page.
 
 ## The thesis this research produced
 
