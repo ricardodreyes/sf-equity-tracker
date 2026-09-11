@@ -91,7 +91,7 @@ if (!r) {
 
     <div class="footnote">Every URL above was fetched on the date shown. If you can show that a document
       listed as missing does exist, that is a correction we want. We publish it here, dated, beside
-      the claim it corrects.</div>`;
+      the claim it corrects. Source code and data: <a href="https://github.com/ricardodreyes/sf-equity-tracker">github.com/ricardodreyes/sf-equity-tracker</a>.</div>`;
 
   document.getElementById("copy")?.addEventListener("click", async (e) => {
     const btn = e.currentTarget;

@@ -87,4 +87,4 @@ document.getElementById("legend").innerHTML = [
 ].map(([m, text]) => `<span class="legend-item">${mark(m)}<span>${text}</span></span>`).join("");
 
 document.getElementById("foot").innerHTML =
-  `${enforcement_note}<br><br>Method, near misses and corrections: <a href="/methodology.html">methodology</a>.`;
+  `${enforcement_note}<br><br>Method, near misses and corrections: <a href="/methodology.html">methodology</a>. Source code and data: <a href="https://github.com/ricardodreyes/sf-equity-tracker">github.com/ricardodreyes/sf-equity-tracker</a>.`;

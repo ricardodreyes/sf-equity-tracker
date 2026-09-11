@@ -104,7 +104,7 @@ From `SOURCE_CITATIONS` in `pipeline/config.py`:
 
 The Mission Local list supplies shelter addresses and coordinates only. Capacities come from the HSH report. Mission Local publishes the list without a reuse license, so the raw copy is gitignored (`data/raw/ml_facilities/`) and the pipeline fetches it from their Datawrapper chart on a first run.
 
-Obligations, deadlines and evidence live in `data/manual/obligations.json`, with the research behind them in `research/`. Ordinance PDFs come from the Clerk of the Board, code text from amlegal, and the Civil Grand Jury response clocks from the California Penal Code.
+Obligations, deadlines and evidence live in `data/manual/obligations.json`, with the research behind them in `research/`. `research/deadline-findings.md` is the research snapshot from 2026-08-25, written before two of the corrections above, so where it disagrees with the ledger the ledger wins. Ordinance PDFs come from the Clerk of the Board, code text from amlegal, and the Civil Grand Jury response clocks from the California Penal Code.
 
 ## Affiliation
 

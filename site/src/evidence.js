@@ -107,4 +107,4 @@ document.getElementById("sources").innerHTML =
   `Generated ${meta.generated_at.slice(0, 10)}. Population: ACS 5-year estimates ending ${meta.population_acs_end_year}. ` +
   `Citywide context from the 2026 Housing Inventory Count: ${fmt(meta.context.hic_2026_shelter_th_beds)} shelter and transitional beds, ` +
   `${fmt(meta.context.hic_2026_psh_oph_beds)} permanent supportive and other permanent housing beds. ` +
-  `Sources and definitions on the <a href="/methodology.html">methodology page</a>.`;
+  `Sources and definitions on the <a href="/methodology.html">methodology page</a>. Source code and data: <a href="https://github.com/ricardodreyes/sf-equity-tracker">github.com/ricardodreyes/sf-equity-tracker</a>.`;
