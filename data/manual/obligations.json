@@ -30,23 +30,21 @@
      "url": "https://sfbos.archive.sf.gov/sites/default/files/bag012726_agenda.pdf",
      "result": "FOUND. 'From the Department of Homelessness and Supportive Housing (HSH), pursuant to Ordinance No. 172-25, submitting a January 2026 Shelter Equity Analysis. File No. 250487.' The agenda's receipt window is 2026-01-08 through 2026-01-22, which brackets the 2026-01-16 deadline.",
      "http": 200,
-     "at": "2026-08-25T19:05:00Z"
+     "at": "2026-09-12T17:55:05Z"
     },
     {
      "method": "sf.gov content catalogue, enumerated in full",
      "url": "https://api.sf.gov/api/v2/documents/?order=-id&limit=1000",
-     "result": "absent from all 58,905 documents and all 5,547 report pages. The filing exists but was never published to sf.gov.",
+     "result": "absent from all 59,565 documents and all 5,567 report pages. The filing exists but was never published to sf.gov.",
      "http": 200,
-     "at": "2026-08-25T17:00:00Z",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:05Z"
     },
     {
      "method": "HSH Additional Reporting and Compliance collection, where HSH lists its filings against their mandating authority",
      "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
      "result": "no Chapter 124 entry, despite HSH having filed",
      "http": 200,
-     "at": "2026-08-25T17:00:00Z",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:05Z"
     }
    ],
    "considered_rejected": [
@@ -114,33 +112,31 @@
    "checked": [
     {
      "method": "Department of Emergency Management website, full document listing",
-     "url": "https://www.sf.gov/departments--emergency-management",
+     "url": "https://www.sf.gov/departments--department-emergency-management",
      "result": "exactly one PDF on the entire site, a 2021 security camera policy",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:05Z"
     },
     {
      "method": "sf.gov CMS enumeration and search for street teams reporting",
      "url": "https://api.sf.gov/api/v2/documents/?search=street+teams",
      "result": "no report responsive to Sec. 20.11-2",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:05Z"
     },
     {
      "method": "Health Commission document set, searched for any Street Teams filing that might satisfy the section",
      "url": "https://api.sf.gov/api/v2/documents/?search=street+teams",
      "result": "one DPH presentation from 2026-07-06 about a contract transfer, listed as considered and rejected below",
      "http": 200,
-     "at": "2026-08-25T18:35:00Z"
+     "at": "2026-09-12T17:55:06Z"
     },
     {
      "method": "Board of Supervisors agenda for 2025-09-02, Petitions and Communications",
      "url": "https://sfbos.archive.sf.gov/sites/default/files/bag090225_agenda.pdf",
      "result": "'From the Department of Emergency Management (DEM), pursuant to Administrative Code, Chapter 20, submitting request for extension for annual Street Teams Report.' Received in the 2025-07-24 to 2025-08-28 window, before the 2025-09-26 deadline. Whether the Board granted it is not established.",
      "http": 200,
-     "at": "2026-08-25T19:05:00Z"
+     "at": "2026-09-12T17:55:06Z"
     }
    ],
    "considered_rejected": [
@@ -196,31 +192,34 @@
    "why_it_matters": "This is the one absence claim on the site that has survived a search of the venue that falsified the others. It is also the only duty the Homelessness Oversight Commission owes on a clock: Charter Sec. 4.133, which created the Commission, sets no reporting cadence at all.",
    "checked": [
     {
-     "method": "Read the agenda of every Homelessness Oversight Commission meeting from January 2025 through August 2026",
-     "url": "https://www.sf.gov/homelessness-oversight-commission",
-     "result": "no Rapid Rehousing implementation hearing on any agenda in the span; only routine contract approvals",
+     "method": "Read the agenda of every Homelessness Oversight Commission meeting from January 2025 through September 2026",
+     "url": "https://www.sf.gov/departments--homelessness-oversight-commission",
+     "result": "no Rapid Rehousing implementation hearing on any agenda in the span. The August 6 2026 agenda carries three Rapid Re-housing contract approvals, listed under considered and rejected; the September 3 2026 agenda has no Rapid Rehousing item.",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:07Z"
     },
     {
      "method": "Meeting cancellations checked against the deadline window",
-     "url": "https://www.sf.gov/homelessness-oversight-commission",
+     "url": "https://www.sf.gov/departments--homelessness-oversight-commission",
      "result": "the Commission cancelled its October 2, November 6, December 4 and January 1 meetings, which spans the December 1 deadline",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:07Z"
     },
     {
-     "method": "Every Board of Supervisors agenda published between 2025-07-01 and 2026-08-31, 43 in total, searched in full text",
+     "method": "Every Board of Supervisors agenda published between 2025-07-01 and 2026-09-12, 45 in total, searched in full text",
      "url": "https://sfbos.archive.sf.gov/sites/default/files/",
      "result": "zero mentions of Rapid Rehousing or Sec. 20.21-4 in any agenda, including the Petitions and Communications sections where departmental filings to the Board are listed",
      "http": 200,
-     "at": "2026-08-25T19:15:00Z"
+     "at": "2026-09-12T17:55:07Z"
     }
    ],
-   "considered_rejected": [],
-   "no_near_miss_reason": "Nothing resembling this deliverable was found in 43 Board agendas, in the Commission's own agendas across 20 months, or in the sf.gov catalogue. There is genuinely nothing to rule out, which is itself worth stating plainly rather than leaving the section empty.",
+   "considered_rejected": [
+    {
+     "title": "Homelessness Oversight Commission agenda, August 6 2026, items F to H: three Rapid Re-housing contract and grant agreements",
+     "url": "https://www.sf.gov/meeting--august-2026-homelessness-oversight-commission-meeting",
+     "why_not": "Procurement approvals for Family and Transitional Age Youth Rapid Re-housing providers (Homeless Prenatal Program, Larkin Street Youth Services, Unity Care Group). Sec. 20.21-4 requires a hearing on implementation and an issued report on households served, average subsidy and outcomes. Approving new contracts is neither, and the September 3 2026 agenda has no Rapid Rehousing item."
+    }
+   ],
    "watch_terms": [
     "rapid re-?housing"
    ],
@@ -266,21 +265,21 @@
      "url": "https://www.sf.gov/resource--2026--civil-grand-jury-reports-2025-2026/",
      "result": "FOUND. Both responses are linked from this page.",
      "http": 200,
-     "at": "2026-08-25T18:20:00Z"
+     "at": "2026-09-12T17:55:07Z"
     },
     {
      "method": "Office of the City Attorney response, read in full",
      "url": "https://api.sf.gov/documents/62494/At_Scale_At_Risk_Report_Response_CAT_081726.pdf",
      "result": "Letter to the Presiding Judge dated 2026-08-17, citing Penal Code 933 and 933.05, answering Finding 4 and Recommendation 4.1. Entered the sf.gov catalogue 2026-08-25T11:03:43 local.",
      "http": 200,
-     "at": "2026-08-25T18:20:00Z"
+     "at": "2026-09-12T17:55:08Z"
     },
     {
      "method": "Mayor's consolidated response, read in full",
      "url": "https://api.sf.gov/documents/62502/At_Scale_At_Risk_Report_Responses_MYR_082426_kEG3pjC.pdf",
      "result": "15 page findings and recommendations response table dated 2026-08-24. Entered the sf.gov catalogue 2026-08-25T11:15:44 local.",
      "http": 200,
-     "at": "2026-08-25T18:20:00Z"
+     "at": "2026-09-12T17:55:08Z"
     },
     {
      "method": "Earlier sweep, retained because it is what produced the error",
@@ -347,8 +346,7 @@
      "url": "https://www.sf.gov/resource--2026--civil-grand-jury-reports-2025-2026/",
      "result": "not yet filed, not yet due",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:08Z"
     }
    ],
    "considered_rejected": [],
@@ -389,32 +387,28 @@
      "url": "https://www.sf.gov/documents/61026/bag072826_agenda.pdf",
      "result": "FOUND. 'From the Office of the City Administrator (ADM), pursuant to Administrative Code, Section 124.4, submitting the June 2026 Shelter Equity Analysis Report. Copy: Each Supervisor.'",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:08Z"
     },
     {
      "method": "Legistar file and packet attachment",
      "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=15713416&GUID=A7773291-2433-4D63-860D-DB659FD6FAEA",
      "result": "Board File 260866, report reproduced in full in the 2026-07-28 board packet",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:09Z"
     },
     {
      "method": "sf.gov CMS, checked for any standalone record of this report",
      "url": "https://api.sf.gov/api/v2/documents/?search=covered+facilities",
      "result": "no CMS document record exists for it",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:29Z"
     },
     {
      "method": "Real Estate Division and City Administrator department pages",
      "url": "https://www.sf.gov/departments--city-administrator",
      "result": "not published on either",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:29Z"
     }
    ],
    "considered_rejected": [],
@@ -458,8 +452,7 @@
      "url": "https://media.api.sf.gov/documents/2025_Homelessness_Needs_Assessment.pdf",
      "result": "FOUND, dated 2025-12-10, states it fulfils BTRC 2810(e)(2)(B)",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:30Z"
     }
    ],
    "considered_rejected": [],
@@ -494,11 +487,10 @@
    "checked": [
     {
      "method": "Located the June 2026 recommendations memo and checked its addressees against the statute",
-     "url": "https://www.sf.gov/our-city-our-home-oversight-committee",
+     "url": "https://www.sf.gov/departments--our-city-our-home-oversight-committee",
      "result": "FOUND, 2026-06-01 memo covering FY26-27 and FY27-28, to the Mayor and Board, copied to the Health Commission and the Homelessness Oversight Commission",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:30Z"
     }
    ],
    "considered_rejected": [],
@@ -536,15 +528,14 @@
      "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
      "result": "FOUND, FY2024-25 report posted 2025-10-02",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:30Z"
     },
     {
      "method": "Board of Supervisors agenda 2026-07-21, digest of Ordinance 250630 (later Ordinance 137-26)",
-     "url": "https://sfbos.archive.sf.gov/sites/default/files/bag072126_agenda.pdf",
+     "url": "https://media.api.sf.gov/documents/bag072126_agenda.pdf",
      "result": "Item 57 of the ordinance's own digest is 'the Homeward Bound Program', confirming this section was amended. We could not retrieve the enacted text: media.api.sf.gov returns 403 and the archive host 404 for o0137-26.pdf, so the new deadline, owner and recipients are unverified.",
      "http": 200,
-     "at": "2026-08-25T19:40:00Z"
+     "at": "2026-09-12T17:55:30Z"
     }
    ],
    "considered_rejected": [],
@@ -583,34 +574,39 @@
    "status": "partial",
    "discoverability": "published",
    "filed_on": "2026-07-22",
-   "why_it_matters": "HSH is plainly complying and has filed four reports. The other nine Designated Departments named in Sec. 21B.2 have nothing published. That is not automatically a breach, because the duty only attaches to a department that actually executed a Core Initiative contract, and we cannot see which did. This row is marked partial rather than missing for exactly that reason.",
+   "why_it_matters": "HSH is plainly complying and has filed four reports. The Sheriff's Office files too: its Chapter 21B Quarterly Report for FY2025-26 reached the Board between 2026-07-23 and 2026-08-27 and appears only as an item in the 2026-09-01 agenda, with no record on sf.gov. The other eight Designated Departments named in Sec. 21B.2 have nothing published. That is not automatically a breach, because the duty only attaches to a department that actually executed a Core Initiative contract, and we cannot see which did. This row is marked partial rather than missing for exactly that reason.",
    "checked": [
     {
      "method": "HSH Additional Reporting and Compliance collection, all four filings downloaded and confirmed as real PDFs",
      "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
      "result": "FOUND four: 2025-07-31, 2025-10-31, 2026-01-28, and 2026-07-17 covering through 2026-06-30",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:30Z"
     },
     {
      "method": "Searched the CMS for equivalent filings from the other nine Designated Departments",
      "url": "https://api.sf.gov/api/v2/documents/?search=core+initiative",
      "result": "none found from any department other than HSH",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:30Z"
     },
     {
-     "method": "Board of Supervisors agendas 2025-07 to 2026-08, searched for Chapter 21B filings from any department",
+     "method": "Board of Supervisors agendas 2025-07 to 2026-09, searched for Chapter 21B filings from any department",
      "url": "https://sfbos.archive.sf.gov/sites/default/files/bag011326_agenda.pdf",
-     "result": "Other departments do file under Chapter 21B. The Sheriff's Office submitted waiver notifications on 2026-01-13, and an agenda of 2026-01-06 records 10 notifications from various departments. These are waiver notifications rather than the 21B.6(b) quarterly contract report, so they do not discharge this duty, but they do show the other departments are not silent under the chapter.",
+     "result": "Other departments do file under Chapter 21B. The Sheriff's Office submitted waiver notifications on 2026-01-13, and an agenda of 2026-01-06 records 10 notifications from various departments. These are waiver notifications rather than the 21B.6(b) quarterly contract report, so they do not discharge this duty, but they do show the other departments are not silent under the chapter. A re-check on 2026-09-12 found the Sheriff's Office had gone further: its Chapter 21B Quarterly Report for FY2025-26 is listed in the 2026-09-01 agenda, recorded in the next entry.",
      "http": 200,
-     "at": "2026-08-25T19:15:00Z"
+     "at": "2026-09-12T17:58:05Z"
+    },
+    {
+     "method": "Board of Supervisors agenda for 2026-09-01, Petitions and Communications, item (25), read directly",
+     "url": "https://media.api.sf.gov/documents/bag090126_agenda.pdf",
+     "result": "FOUND. 'From the Office of the Sheriff (SHF), pursuant to Administrative Code, Chapter 21B.3 and Ordinance No. 10-25, submitting Chapter 21B Quarterly Report for Fiscal Year (FY) 2025-2026. Copy: Each Supervisor.' Received in the 2026-07-23 to 2026-08-27 window. It has no page on sf.gov and no catalogue record; the Board agenda is the only public trace of it.",
+     "http": 200,
+     "at": "2026-09-12T17:58:05Z"
     }
    ],
    "considered_rejected": [],
-   "caveat": "HSH combines Q3 and Q4 into a single July filing in both fiscal years, so the cadence is closer to three filings a year than to every three months. An earlier version of this row said the other nine Designated Departments had filed nothing. That was too strong: they file waiver notifications under the same chapter. What is absent is the quarterly contract report specifically, and only from departments that may not owe one.",
+   "caveat": "HSH combines Q3 and Q4 into a single July filing in both fiscal years, so the cadence is closer to three filings a year than to every three months. An earlier version of this row said the other nine Designated Departments had filed nothing. That was too strong: they file waiver notifications under the same chapter, and a re-check on 2026-09-12 found the Sheriff's Office had filed the quarterly report itself, to the Board rather than to sf.gov. What is absent is the quarterly contract report from the other eight, which may not owe one.",
    "watch_terms": [
     "\\bch\\.? ?21b\\b",
     "chapter 21b",
@@ -645,16 +641,14 @@
      "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-71811",
      "result": "sentence truncated mid-clause, publisher note 'So in Ord. 10-25'",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:31Z"
     },
     {
      "method": "Text extraction across all four HSH Chapter 21B filings",
      "url": "https://www.sf.gov/resource--2024--additional-reporting-and-compliance",
      "result": "no mention of donations or gifts in any of them",
      "http": 200,
-     "at": "2026-08-25",
-     "date_precision_only": true
+     "at": "2026-09-12T17:55:41Z"
     }
    ],
    "considered_rejected": [],
@@ -705,10 +699,10 @@
     },
     {
      "method": "Cross-check of the item number cited for this repeal",
-     "url": "https://sfbos.archive.sf.gov/sites/default/files/bag072126_agenda.pdf",
+     "url": "https://media.api.sf.gov/documents/bag072126_agenda.pdf",
      "result": "The item number shifted between the agenda digest and the enacted text because other sections were inserted ahead of it. The repeal itself is not in doubt; the ordinal is, so it is no longer cited.",
      "http": 200,
-     "at": "2026-08-25T19:40:00Z"
+     "at": "2026-09-12T17:55:42Z"
     }
    ],
    "considered_rejected": [],
