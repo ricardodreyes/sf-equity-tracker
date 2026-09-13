@@ -1,10 +1,12 @@
 # SF Accountability Ledger
 
+![The ledger, as the site shows it](docs/ledger.png)
+
 San Francisco writes reporting deadlines into its own ordinances. This tracks whether the documents actually show up, across homelessness, behavioral health and drug policy. Every row cites the law that creates the duty, the date the law sets, and the full list of places we looked.
 
 Live at https://site-slpwlk.vercel.app.
 
-The thesis: filed is not findable. A department can submit a report to the Board of Supervisors and it still has no page on sf.gov, no catalogue record, and nothing on the department's own site. It exists as one line in the Petitions and Communications section of a meeting agenda PDF. That's a different failure from not filing, so the ledger scores the two separately.
+The thesis is that filed is not findable. A department can submit a report to the Board of Supervisors and it still has no page on sf.gov, no catalogue record, and nothing on the department's own site. It exists as one line in the Petitions and Communications section of a meeting agenda PDF. That's a different failure from not filing, so the ledger scores the two separately.
 
 ## The ledger
 
@@ -25,7 +27,7 @@ The data is `data/manual/obligations.json`. It's hand curated and the site reads
 
 Status asks whether the duty was discharged: missing, filed, partial, undeterminable, or repealed. A filed row also reads "filed late" when the filing date on the record is after the deadline.
 
-Findability asks whether a member of the public could locate the document: published (it has its own page or catalogue record), buried (it exists only inside a meeting packet or attachment), or not found.
+Findability asks whether a member of the public could locate the document: published (it has its own page or catalogue record), buried (it exists only inside a meeting packet/attachment), or not found.
 
 ## Two findings
 
@@ -39,15 +41,15 @@ Two rows still read missing. The Rapid Rehousing hearing and report (Admin Code 
 
 ## How absence is verified
 
-We enumerate, we don't search. `https://api.sf.gov/api/v2/` is a public, unauthenticated Wagtail API over roughly 94k pages and 59k documents. `documents/?order=-id&limit=1000&fields=title,created_at` walks the whole store. We listed all 58,905 documents and all 5,547 `sf.Report` pages and filtered the titles ourselves.
+Absence is proven by enumerating, never by searching. `https://api.sf.gov/api/v2/` is a public, unauthenticated Wagtail API over roughly 94k pages and 59k documents. `documents/?order=-id&limit=1000&fields=title,created_at` walks the whole store. We listed all 58,905 documents and all 5,547 `sf.Report` pages and filtered the titles ourselves.
 
 Board filings never enter that store. Every department filing is listed under Petitions and Communications in a Board of Supervisors agenda, and those agendas are plain PDFs at a predictable address, `https://media.api.sf.gov/documents/bag{MMDDYY}_agenda.pdf`, with `https://sfbos.archive.sf.gov/sites/default/files/bag{MMDDYY}_agenda.pdf` as the fallback. `pipeline/board_agendas.py` pulls every agenda since July 2025 and searches the full text on every run. Skipping that venue is what produced the three false absence claims.
 
-Every check records the URL, the HTTP status, the result and the date, and new checks need a full timestamp or the data file refuses them. Every missing row lists the near misses it considered and rejected, and states the boundary of its own search.
+Every check records the URL, HTTP status, result and date, and a new check needs a full timestamp or the data file refuses it. Every missing row lists the near misses it considered and rejected, and states the boundary of its own search.
 
 ## What doesn't work
 
-Written down so nobody repeats it.
+Written down so it doesn't get repeated.
 
 - The codified Municipal Code on amlegal lags the ordinances. It still showed Admin Code 106.5(d) in force months after Ordinance 137-26 struck it. Never scrape the code to detect repeals. Track them from the ordinances, by hand.
 - sf.gov CMS search matches all terms (AND semantics). Zero results for a multi-word phrase proves almost nothing.
